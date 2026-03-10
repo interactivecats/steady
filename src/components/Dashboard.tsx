@@ -6,7 +6,7 @@ interface DashboardProps {
   lang: 'en' | 'he';
   onStartSession: () => void;
   onToggleLang: () => void;
-  onToggleDark: () => void;
+  onShowTerms: () => void;
 }
 
 const labels = {
@@ -26,6 +26,7 @@ const labels = {
     days: 'days',
     today: 'Today',
     tipTitle: 'Tip of the Day',
+    terms: 'Terms & Disclaimer',
     tips: [
       'Focus on pausing between sentences. Even a half-second pause makes a big difference.',
       'Try to breathe between phrases. It naturally slows your pace.',
@@ -51,6 +52,7 @@ const labels = {
     days: 'ימים',
     today: 'היום',
     tipTitle: 'טיפ היום',
+    terms: 'תנאים והצהרת אחריות',
     tips: [
       'התמקדו בהפסקות בין משפטים. אפילו הפסקה של חצי שנייה עושה הבדל גדול.',
       'נסו לנשום בין ביטויים. זה מאט את הקצב באופן טבעי.',
@@ -62,7 +64,7 @@ const labels = {
   },
 };
 
-export function Dashboard({ progress, lang, onStartSession, onToggleLang, onToggleDark }: DashboardProps) {
+export function Dashboard({ progress, lang, onStartSession, onToggleLang, onShowTerms }: DashboardProps) {
   const l = labels[lang];
   const dir = lang === 'he' ? 'rtl' : 'ltr';
   const isFirstTime = progress.totalSessions === 0;
@@ -84,17 +86,18 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
   return (
     <div className="min-h-dvh px-4 py-8 max-w-lg mx-auto" dir={dir}>
       {/* Header */}
-      <div className="flex items-center justify-between mb-8">
+      <header className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-3xl md:text-4xl" style={{ fontFamily: 'var(--font-display)' }}>
             {isFirstTime ? l.firstTime : l.welcome}
           </h1>
-          <p className="text-sm opacity-50 mt-1">{l.subtitle}</p>
+          <p className="text-sm mt-1" style={{ color: 'var(--color-text-muted)' }}>{l.subtitle}</p>
         </div>
         <div className="flex items-center gap-2">
           <button
             onClick={onToggleLang}
-            className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-medium transition-all hover:scale-110 active:scale-95 cursor-pointer"
+            aria-label={lang === 'en' ? 'Switch to Hebrew' : 'עבור לאנגלית'}
+            className="w-11 h-11 rounded-full flex items-center justify-center text-sm font-medium transition-all hover:scale-110 active:scale-95 cursor-pointer"
             style={{
               background: 'var(--bg-card, white)',
               border: '1px solid var(--border-color, #E8E0D8)',
@@ -102,18 +105,10 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
           >
             {lang === 'en' ? 'עב' : 'EN'}
           </button>
-          <button
-            onClick={onToggleDark}
-            className="w-9 h-9 rounded-full flex items-center justify-center text-sm transition-all hover:scale-110 active:scale-95 cursor-pointer"
-            style={{
-              background: 'var(--bg-card, white)',
-              border: '1px solid var(--border-color, #E8E0D8)',
-            }}
-          >
-            {progress.darkMode ? '☀️' : '🌙'}
-          </button>
         </div>
-      </div>
+      </header>
+
+      <main>
 
       {/* Streak + Stats */}
       {!isFirstTime && (
@@ -126,6 +121,7 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
             <div
               key={stat.label}
               className="rounded-2xl p-4 text-center"
+              aria-label={`${stat.value} ${stat.unit} ${stat.label}`}
               style={{
                 background: 'var(--bg-card, white)',
                 border: '1px solid var(--border-color, #E8E0D8)',
@@ -134,8 +130,8 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
               <div className="text-2xl font-semibold" style={{ color: stat.color, fontFamily: 'var(--font-display)' }}>
                 {stat.value}
               </div>
-              {stat.unit && <div className="text-[10px] uppercase tracking-wider opacity-40">{stat.unit}</div>}
-              <div className="text-xs opacity-50 mt-1">{stat.label}</div>
+              {stat.unit && <div className="text-[10px] uppercase tracking-wider" style={{ color: 'var(--color-text-muted)' }}>{stat.unit}</div>}
+              <div className="text-xs mt-1" style={{ color: 'var(--color-text-muted)' }}>{stat.label}</div>
             </div>
           ))}
         </div>
@@ -147,11 +143,11 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
         className="w-full py-4 rounded-2xl text-white text-lg font-medium transition-all hover:scale-[1.02] active:scale-[0.98] mb-6 cursor-pointer"
         style={{
           background: todayDone
-            ? 'linear-gradient(135deg, var(--color-terra-300), var(--color-terra-400))'
-            : 'linear-gradient(135deg, var(--color-sage-400), var(--color-sage-600))',
+            ? 'var(--color-terra-400)'
+            : 'var(--color-sage-500)',
           boxShadow: todayDone
-            ? '0 4px 20px rgba(212, 137, 106, 0.3)'
-            : '0 4px 20px rgba(94, 138, 106, 0.3)',
+            ? '0 4px 20px rgba(212, 137, 106, 0.25)'
+            : '0 4px 20px rgba(94, 138, 106, 0.25)',
         }}
       >
         {todayDone ? l.startAnother : l.start}
@@ -171,7 +167,7 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
           border: '1px solid var(--border-color, #E8E0D8)',
         }}
       >
-        <div className="text-xs uppercase tracking-wider opacity-40 mb-2">{l.tipTitle}</div>
+        <div className="text-xs uppercase tracking-wider mb-2" style={{ color: 'var(--color-text-muted)' }}>{l.tipTitle}</div>
         <p className="text-sm leading-relaxed" style={{ fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}>
           {tip}
         </p>
@@ -186,8 +182,8 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
             border: '1px solid var(--border-color, #E8E0D8)',
           }}
         >
-          <div className="text-xs uppercase tracking-wider opacity-40 mb-4">{l.recentTitle}</div>
-          <div className="flex items-end gap-2 h-24">
+          <div className="text-xs uppercase tracking-wider mb-4" style={{ color: 'var(--color-text-muted)' }}>{l.recentTitle}</div>
+          <div className="flex items-end gap-2 min-h-24" role="img" aria-label={lang === 'en' ? 'Recent session pace chart' : 'תרשים קצב אימונים אחרונים'}>
             {recentSessions.map((s, i) => {
               const maxWPM = 220;
               const height = Math.max((s.avgWPM / maxWPM) * 100, 10);
@@ -195,7 +191,7 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
               const isOk = s.avgWPM <= 180;
               return (
                 <div key={i} className="flex-1 flex flex-col items-center gap-1">
-                  <div className="text-[10px] opacity-40 tabular-nums">{s.avgWPM}</div>
+                  <div className="text-xs tabular-nums" style={{ color: 'var(--color-text-muted)' }}>{s.avgWPM}</div>
                   <div
                     className="w-full rounded-t-md transition-all"
                     style={{
@@ -204,7 +200,7 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
                       opacity: i === 0 ? 1 : 0.5 + i * 0.05,
                     }}
                   />
-                  <div className="text-[9px] opacity-30">
+                  <div className="text-[11px]" style={{ color: 'var(--color-text-faint)' }}>
                     {i === 0 ? l.today : s.date.slice(5)}
                   </div>
                 </div>
@@ -214,17 +210,29 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onTogg
           {/* Target line label */}
           <div className="flex items-center gap-2 mt-3">
             <div className="flex-1 h-px" style={{ background: 'var(--color-sage-400)', opacity: 0.3 }} />
-            <span className="text-[10px] opacity-40">150 {l.wpm} target</span>
+            <span className="text-xs" style={{ color: 'var(--color-text-muted)' }}>150 {l.wpm} target</span>
             <div className="flex-1 h-px" style={{ background: 'var(--color-sage-400)', opacity: 0.3 }} />
           </div>
         </div>
       )}
 
       {isFirstTime && (
-        <div className="text-center text-sm opacity-40 mt-6">
+        <div className="text-center text-sm mt-6" style={{ color: 'var(--color-text-muted)' }}>
           {l.noSessions}
         </div>
       )}
+
+      {/* Terms link */}
+      <div className="text-center mt-8 mb-2">
+        <button
+          onClick={onShowTerms}
+          className="text-xs hover:text-[var(--color-text-muted)] transition-colors cursor-pointer"
+          style={{ color: 'var(--color-text-faint)' }}
+        >
+          {l.terms}
+        </button>
+      </div>
+      </main>
     </div>
   );
 }

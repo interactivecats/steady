@@ -50,7 +50,7 @@ export function ExerciseResult({ type, wpm, targetWPM, duration, lang, onContinu
 
   return (
     <div className="flex flex-col items-center min-h-[60vh] gap-6 animate-slide-up px-4 py-8" dir={dir}>
-      <div className="text-4xl animate-float">{icon}</div>
+      <div className="text-4xl"><span aria-hidden="true">{icon}</span></div>
 
       <h2 className="text-2xl md:text-3xl" style={{ fontFamily: 'var(--font-display)' }}>
         {title}
@@ -67,7 +67,7 @@ export function ExerciseResult({ type, wpm, targetWPM, duration, lang, onContinu
         <div className="text-5xl font-semibold" style={{ color, fontFamily: 'var(--font-display)' }}>
           {wpm}
         </div>
-        <div className="text-xs uppercase tracking-wider opacity-40 mt-1">{l.wpm}</div>
+        <div className="text-xs uppercase tracking-wider mt-1" style={{ color: 'var(--color-text-muted)' }}>{l.wpm}</div>
 
         {/* Progress bar */}
         <div className="flex items-center gap-2 mt-4">
@@ -81,7 +81,7 @@ export function ExerciseResult({ type, wpm, targetWPM, duration, lang, onContinu
             />
           </div>
         </div>
-        <div className="flex justify-between mt-2 text-[10px] opacity-40">
+        <div className="flex justify-between mt-2 text-xs" style={{ color: 'var(--color-text-muted)' }}>
           <span>{l.target}: {targetWPM} {l.wpm}</span>
           <span>{Math.round(duration)}{l.sec}</span>
         </div>
@@ -94,7 +94,7 @@ export function ExerciseResult({ type, wpm, targetWPM, duration, lang, onContinu
 
       <button
         onClick={onContinue}
-        className="px-8 py-3 rounded-full text-white font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer mt-2"
+        className="w-full sm:w-auto px-8 py-3 rounded-full text-white font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer mt-2"
         style={{ background: 'var(--color-sage-500)' }}
       >
         {l.continue}

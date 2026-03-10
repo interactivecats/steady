@@ -169,9 +169,10 @@ export const freePrompts: Prompt[] = [
 ];
 
 import { allPassages } from './allPassages';
+import { newPassages } from './passages/index';
 
-// Combine original short passages with the large collection
-const allAvailablePassages = [...passages, ...allPassages];
+// Combine original short passages with all collections
+const allAvailablePassages = [...passages, ...allPassages, ...newPassages];
 
 export function getTodayExercises(lang: 'en' | 'he', targetWordCount?: number) {
   // Use a hash of the full date to get better distribution across passages

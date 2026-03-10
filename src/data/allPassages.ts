@@ -2476,449 +2476,437 @@ She sells seashells by the seashore, but geese sell fear wherever they waddle. I
 },
 {
   id: 'timed-short-1',
-  title: { en: 'Saturday Morning', he: 'שבת בבוקר' },
+  title: { en: 'The Pancake Catastrophe', he: 'אסון הפנקייק' },
   text: {
-    en: `Saturday morning is my favorite time of the week. There is no alarm clock, no rush to get dressed, no traffic to worry about. I wake up slowly and listen to the birds outside my window. The sunlight comes through the curtains and fills the room with a warm glow. I stretch, take a deep breath, and smile. In the kitchen, I make coffee and toast. I sit at the table and look out at the garden. The flowers are blooming. A cat walks along the fence. Everything feels calm and unhurried. I read a few pages of my book and enjoy the silence. There is nowhere I need to be. This is peace.`,
-    he: `שבת בבוקר הוא הזמן האהוב עליי בשבוע. אין שעון מעורר, אין מרוץ להתלבש, אין תנועה לדאוג לגביה. אני מתעורר לאט ומקשיב לציפורים מחוץ לחלון. אור השמש חודר דרך הווילונות וממלא את החדר בזוהר חם. אני מתמתח, נושם עמוק, ומחייך. במטבח, אני מכין קפה וטוסט. אני יושב ליד השולחן ומסתכל החוצה על הגינה. הפרחים פורחים. חתול הולך לאורך הגדר. הכל מרגיש רגוע ולא ממהר. אני קורא כמה עמודים מהספר שלי ונהנה מהשקט. אין מקום שאני צריך להיות בו. זה שלווה.`
+    en: `I tried to make pancakes for my kids last Sunday. Simple, right? I have made pancakes before. I am a grown adult. But Betty Botter bought some butter, and I bought the wrong flour. I grabbed self-rising instead of regular, and the batter exploded out of the bowl like a science experiment gone wrong. It puffed up, oozed over the counter, and dripped onto the floor. My dog ran in, slipped on the batter, and slid across the kitchen into the fridge. My daughter filmed the whole thing. My son rated my cooking a two out of ten, which felt generous. I ordered pizza for breakfast. Nobody complained. Sometimes defeat tastes like pepperoni, and honestly, that is fine with me.`,
+    he: `ניסיתי להכין פנקייקים לילדים שלי ביום ראשון שעבר. פשוט, נכון? הכנתי פנקייקים קודם. אני מבוגר. אבל שרה שרה שיר שמח, ואני שרתי שיר עצוב במטבח כי קניתי קמח לא נכון. תפסתי קמח תופח במקום רגיל, והבלילה התפוצצה מהקערה כמו ניסוי מדעי שהשתבש. היא תפחה, גלשה על השיש, וטפטפה על הרצפה. הכלב שלי רץ פנימה, החליק על הבלילה, והחליק על המטבח לתוך המקרר. הבת שלי צילמה הכל. הבן שלי דירג את הבישול שלי שתיים מתוך עשר, מה שהרגיש נדיב. הזמנתי פיצה לארוחת בוקר. אף אחד לא התלונן. לפעמים תבוסה טעמה כמו פפרוני, ובכנות, זה בסדר מבחינתי.`
   },
   difficulty: 'easy' as const,
   targetWPM: 90,
-  wordCount: 114,
+  wordCount: 120,
 },
 {
   id: 'timed-short-2',
-  title: { en: 'The Bus Ride', he: 'נסיעה באוטובוס' },
+  title: { en: 'My Smart Speaker Hates Me', he: 'הרמקול החכם שונא אותי' },
   text: {
-    en: `I take the bus to work every day. The ride is about twenty minutes, and I have grown to enjoy it. I always sit by the window on the right side. From there, I can see the park, the bakery on the corner, and the school where children play during recess. The bus driver knows most of the regular passengers by name. He says good morning to each one. Some people read on their phones. Others close their eyes and rest. An older woman near the front always knits something colorful. I like watching the city go by through the glass. Each stop brings new faces and small stories. The bus is its own little world, moving quietly through the streets.`,
-    he: `אני נוסע באוטובוס לעבודה כל יום. הנסיעה לוקחת בערך עשרים דקות, והתחלתי ליהנות ממנה. אני תמיד יושב ליד החלון בצד ימין. משם אני יכול לראות את הפארק, את המאפייה בפינה, ואת בית הספר שבו ילדים משחקים בהפסקה. נהג האוטובוס מכיר את רוב הנוסעים הקבועים בשם. הוא אומר בוקר טוב לכל אחד. חלק מהאנשים קוראים בטלפון. אחרים עוצמים עיניים ונחים. אישה מבוגרת ליד החלק הקדמי תמיד סורגת משהו צבעוני. אני אוהב לצפות בעיר חולפת דרך הזכוכית. כל תחנה מביאה פנים חדשות וסיפורים קטנים. האוטובוס הוא עולם קטן משלו, נע בשקט ברחובות.`
+    en: `My smart speaker has decided that I am its enemy. I say "play jazz music," and it plays a podcast about cheese. I say "set a timer for ten minutes," and it orders batteries from the internet. Yesterday, I asked it for the weather, and it started reading me a recipe for soup. My wife thinks it is hilarious. She has no problems with it. She speaks to it like a normal person and gets normal results. I scream, you scream, we all scream for ice cream, but when I scream at the speaker, it just tells me it did not understand. I have tried whispering. I have tried a British accent. Nothing works. I am convinced it recognizes my voice specifically and chooses chaos on purpose. It sits on the counter, glowing blue, silently judging me.`,
+    he: `הרמקול החכם שלי החליט שאני האויב שלו. אני אומר "תנגן ג'אז," והוא מנגן פודקאסט על גבינות. אני אומר "תכוון טיימר לעשר דקות," והוא מזמין סוללות מהאינטרנט. אתמול ביקשתי ממנו את מזג האוויר, והוא התחיל להקריא לי מתכון למרק. אשתי חושבת שזה מצחיק. לה אין בעיות איתו. היא מדברת אליו כמו בן אדם רגיל ומקבלת תוצאות רגילות. נחש נשך נחש, ואני נושך את השפתיים כשהרמקול אומר שהוא לא הבין. ניסיתי ללחוש. ניסיתי מבטא אנגלי. שום דבר לא עובד. אני משוכנע שהוא מזהה את הקול שלי ספציפית ובוחר כאוס בכוונה. הוא יושב על השיש, זוהר בכחול, שופט אותי בשקט.`
   },
   difficulty: 'medium' as const,
   targetWPM: 100,
-  wordCount: 121,
+  wordCount: 127,
 },
 {
   id: 'timed-short-3',
-  title: { en: 'Rain on the Roof', he: 'גשם על הגג' },
+  title: { en: 'The Elevator Incident', he: 'תקרית המעלית' },
   text: {
-    en: `There is something wonderful about rain on the roof. It starts with a few quiet taps, almost shy, like someone knocking gently on a door. Then it grows louder and steadier until the whole house hums with it. I sit on the couch with a blanket over my legs and a warm cup of tea in my hands. The windows are streaked with water. The trees outside bend and sway in the wind. I do not turn on the television or play any music. The rain is enough. It fills every corner of the room with a soft, steady sound that calms the mind. I close my eyes and just listen. Each drop is part of a larger rhythm, a song the sky sings to the earth below.`,
-    he: `יש משהו נפלא בגשם על הגג. זה מתחיל עם כמה נקישות שקטות, כמעט ביישניות, כמו מישהו שדופק בעדינות על דלת. אז זה נעשה חזק ויציב יותר עד שכל הבית מזמזם איתו. אני יושב על הספה עם שמיכה על הרגליים וכוס תה חמה בידיים. החלונות מפוספסים במים. העצים בחוץ מתכופפים ומתנדנדים ברוח. אני לא מדליק את הטלוויזיה ולא משמיע מוזיקה. הגשם מספיק. הוא ממלא כל פינה בחדר בצליל רך ויציב שמרגיע את הנפש. אני עוצם עיניים ופשוט מקשיב. כל טיפה היא חלק ממקצב גדול יותר, שיר שהשמיים שרים לאדמה למטה.`
+    en: `I got stuck in an elevator with my boss yesterday. It stopped between the third and fourth floors and made a sound like a dying robot. We stood there in silence for about ten seconds, which felt like ten years. She asked if I had called maintenance. I said yes, but I had actually called my mother by mistake because my hands were shaking. My mother, hearing the panic in my voice, thought I was being kidnapped and called the police. Toy boat, toy boat, toy boat. Try saying that when you are trapped in a metal box with the person who decides your salary. The fire department arrived before maintenance did. Six firefighters. For two people in a stuck elevator. My boss now calls me "nine one one" in meetings. I pretend to laugh.`,
+    he: `נתקעתי במעלית עם הבוסית שלי אתמול. היא נעצרה בין הקומה השלישית לרביעית והשמיעה צליל כמו רובוט גוסס. עמדנו שם בשקט בערך עשר שניות, שהרגישו כמו עשר שנים. היא שאלה אם התקשרתי לתחזוקה. אמרתי כן, אבל בעצם התקשרתי לאמא שלי בטעות כי הידיים שלי רעדו. אמא שלי, ששמעה את הפאניקה בקול, חשבה שחוטפים אותי והתקשרה למשטרה. גנן גידל דגן בגן, גנן גדול גידל דגן גדול בגן. נסו לומר את זה כשאתם לכודים בקופסת מתכת עם האדם שמחליט על המשכורת שלכם. מחלקת הכיבוי הגיעה לפני התחזוקה. שישה כבאים. בשביל שני אנשים במעלית תקועה. הבוסית שלי עכשיו קוראת לי "מוקד חירום" בישיבות. אני מעמיד פנים שאני צוחק.`
   },
   difficulty: 'hard' as const,
   targetWPM: 110,
-  wordCount: 128,
+  wordCount: 125,
 },
 {
   id: 'timed-medshort-1',
-  title: { en: 'The Neighborhood Baker', he: 'האופה של השכונה' },
+  title: { en: 'The Furniture Assembly Disaster', he: 'אסון הרכבת הרהיטים' },
   text: {
-    en: `There is a small bakery at the end of our street that has been there for as long as anyone can remember. The owner is a quiet man named David who arrives every morning at four o'clock to start the ovens. By the time the rest of the neighborhood wakes up, the smell of fresh bread has already drifted through the streets like a warm invitation.
+    en: `I bought a bookshelf online last month. It arrived in a flat box with a picture of a happy family standing next to it, looking proud and accomplished. The instructions said "easy assembly, thirty minutes." That was a lie. That was the biggest lie since someone decided to put the word "fun" in "fundraiser."
 
-David makes everything by hand. He mixes the dough slowly, shapes each loaf with care, and watches the timer with the patience of someone who knows that good things cannot be rushed. His bread has a golden crust and a soft center that pulls apart in thick, satisfying pieces.
+I opened the box and found approximately nine hundred wooden pieces, four bags of screws in different sizes, and a tiny wrench that seemed designed for a squirrel. The instruction manual had no words, only pictures of a faceless cartoon person building the shelf with apparent ease. Step one looked simple enough. Step two made no sense. By step three, I was holding two panels that did not fit together and questioning every decision I had ever made.
 
-People come from all over the area to buy from him. Some want the sourdough, others prefer the whole wheat rolls. Children press their faces against the glass display case, pointing at the pastries filled with chocolate or cheese. David always gives them a small cookie for free. He says it is good business, but I think he just likes making people smile.
+How much wood would a woodchuck chuck if a woodchuck could chuck wood? I do not know, but I can tell you how much wood I threw across my living room in frustration. Three panels. Three panels sailed through the air before my wife walked in and asked if I needed help. I said no. That was my second mistake.
 
-On Friday afternoons, there is always a line out the door. Families buy challah for the weekend. The bakery fills with conversation and laughter. David works steadily behind the counter, handing each loaf over with a nod and a quiet word. He does not say much, but his bread speaks for him.`,
-    he: `יש מאפייה קטנה בסוף הרחוב שלנו שנמצאת שם כמה שכולם זוכרים. הבעלים הוא גבר שקט בשם דוד שמגיע כל בוקר בארבע כדי להדליק את התנורים. עד שאר השכונה מתעוררת, הריח של לחם טרי כבר נודף ברחובות כמו הזמנה חמה.
+Four hours later, the bookshelf was standing. It was leaning slightly to the left, and I had seven extra screws that apparently belonged somewhere, but it was standing. I put one book on it to test the weight. The shelf held. I put a second book on it. The shelf made a sound. I put a third book on it, and the whole thing collapsed in slow motion, like a building being demolished on television. The happy family on the box stared up at me from the floor. They did not look so happy anymore.`,
+    he: `קניתי כוננית באינטרנט בחודש שעבר. היא הגיעה בקופסה שטוחה עם תמונה של משפחה מאושרת עומדת לידה, נראים גאים ומרוצים. ההוראות אמרו "הרכבה קלה, שלושים דקות." זה היה שקר. זה היה השקר הכי גדול מאז שמישהו החליט לשים את המילה "כיף" ב"כיף הרכבה."
 
-דוד מכין הכל ביד. הוא מערבב את הבצק לאט, מעצב כל כיכר בקפידה, ומסתכל על הטיימר עם הסבלנות של מישהו שיודע שדברים טובים לא ממהרים. ללחם שלו יש קרום זהוב ופנים רכים שנקרעים לחתיכות עבות ומספקות.
+פתחתי את הקופסה ומצאתי בערך תשע מאות חלקי עץ, ארבע שקיות ברגים בגדלים שונים, ומפתח ברגים זעיר שנראה מעוצב לסנאי. חוברת ההוראות לא הכילה מילים, רק תמונות של דמות מצוירת ללא פנים שבונה את הכוננית בקלות ברורה. שלב ראשון נראה פשוט. שלב שני לא היה הגיוני. עד שלב שלוש, החזקתי שני לוחות שלא התחברו יחד והטלתי ספק בכל החלטה שקיבלתי אי פעם.
 
-אנשים באים מכל האזור לקנות ממנו. חלקם רוצים את לחם המחמצת, אחרים מעדיפים את הלחמניות מקמח מלא. ילדים לוחצים את הפנים על ויטרינת התצוגה, מצביעים על המאפים המלאים בשוקולד או גבינה. דוד תמיד נותן להם עוגייה קטנה בחינם. הוא אומר שזה עסק טוב, אבל אני חושב שהוא פשוט אוהב לגרום לאנשים לחייך.
+גנן גידל דגן בגן, גנן גדול גידל דגן גדול בגן. אני לא יודע כמה עץ חולדת עצים הייתה זורקת, אבל אני יכול לספר לכם כמה עץ זרקתי ברחבי הסלון בתסכול. שלושה לוחות. שלושה לוחות עפו באוויר לפני שאשתי נכנסה ושאלה אם אני צריך עזרה. אמרתי לא. זו הייתה הטעות השנייה שלי.
 
-בימי שישי אחר הצהריים, תמיד יש תור עד הדלת. משפחות קונות חלה לסוף השבוע. המאפייה מתמלאת בשיחות וצחוק. דוד עובד בקצב יציב מאחורי הדלפק, מגיש כל כיכר עם הנהון ומילה שקטה. הוא לא אומר הרבה, אבל הלחם שלו מדבר בשבילו.`
+ארבע שעות אחר כך, הכוננית עמדה. היא נטתה קצת שמאלה, והיו לי שבעה ברגים מיותרים שכנראה שייכים למקום כלשהו, אבל היא עמדה. שמתי ספר אחד לבדוק את המשקל. הכוננית החזיקה. שמתי ספר שני. הכוננית השמיעה צליל. שמתי ספר שלישי, והכל קרס בהילוך איטי, כמו בניין שנהרס בטלוויזיה. המשפחה המאושרת על הקופסה בהתה בי מהרצפה. הם לא נראו כל כך מאושרים יותר.`
   },
   difficulty: 'easy' as const,
   targetWPM: 90,
-  wordCount: 230,
+  wordCount: 252,
 },
 {
   id: 'timed-medshort-2',
-  title: { en: 'Learning to Swim', he: 'ללמוד לשחות' },
+  title: { en: 'The Family Road Trip', he: 'הטיול המשפחתי' },
   text: {
-    en: `I did not learn to swim until I was twenty-five years old. Most people find this surprising. They assume everyone learns as a child, splashing around in pools and lakes during summer vacations. But I grew up in a place without a public pool, and my family never went to the beach. Water was something that came from a tap, not something you jumped into.
+    en: `My family decided to take a road trip last summer. Four people, one car, and six hours of highway. What could possibly go wrong? Everything. Everything could go wrong, and it did.
 
-When I finally signed up for swimming lessons, I was the only adult in the class. The instructor was a patient woman named Rachel who treated me no differently than the younger students. She showed me how to float on my back, how to breathe while turning my head, and how to move my arms in a steady rhythm. It felt strange at first. My body wanted to fight the water instead of working with it.
+It started before we even left the driveway. My wife asked if I had packed the snacks. I said yes. She asked if I had packed the good snacks. I had packed celery sticks and hummus. Apparently, celery sticks and hummus are not good snacks. They are, and I quote, "a punishment." My daughter agreed. My son was already crying about something unrelated. We had not moved the car one inch.
 
-The hardest part was learning to trust that the water would hold me. Every time I tried to float, my legs would sink and I would panic. Rachel kept saying the same thing. Relax. Let the water do the work. Stop trying so hard. It took weeks before I believed her, but one day something clicked. I leaned back, spread my arms, and stayed on the surface. The ceiling lights above me blurred into soft circles. The sound of the pool filled my ears. I was floating. It felt like flying.
+Red lorry, yellow lorry, red lorry, yellow lorry. That is what my kids chanted from the back seat for the first forty minutes of the drive, because my wife had taught them that tongue twister to keep them entertained. It worked for exactly forty minutes. Then it became the most annoying sound in the history of human civilization. I asked them politely to stop. They did not stop. They got louder.
 
-Now I swim three times a week. The pool is my quiet place. I count my laps and let my thoughts drift. Each stroke is calm and measured. The water that once scared me now feels like a friend.`,
-    he: `לא למדתי לשחות עד גיל עשרים וחמש. רוב האנשים מופתעים מזה. הם מניחים שכולם לומדים כילדים, מתיזים בבריכות ואגמים בחופשות הקיץ. אבל גדלתי במקום בלי בריכה ציבורית, והמשפחה שלי מעולם לא נסעה לים. מים היו משהו שמגיע מהברז, לא משהו שקופצים לתוכו.
+By hour two, the car smelled like the banana my son had hidden under his seat three days earlier. By hour three, the GPS had taken us down a road that was not actually a road. It was more of a suggestion. A dirt path through a field that ended at a fence with a goat standing behind it. The goat stared at us. We stared at the goat. My wife said, "I told you we should have flown." She was right. She is always right. I turned the car around and drove back to the highway in silence. The goat watched us leave with an expression I can only describe as smug.`,
+    he: `המשפחה שלי החליטה לצאת לטיול בכביש בקיץ שעבר. ארבעה אנשים, מכונית אחת, ושש שעות כביש מהיר. מה יכול להשתבש? הכל. הכל יכול להשתבש, והכל השתבש.
 
-כשסוף סוף נרשמתי לשיעורי שחייה, הייתי המבוגר היחיד בכיתה. המדריכה הייתה אישה סבלנית בשם רחל שהתייחסה אליי בדיוק כמו לתלמידים הצעירים. היא הראתה לי איך לצוף על הגב, איך לנשום תוך כדי סיבוב הראש, ואיך להזיז את הזרועות בקצב יציב. זה הרגיש מוזר בהתחלה. הגוף שלי רצה להילחם במים במקום לעבוד איתם.
+זה התחיל לפני שבכלל יצאנו מהחנייה. אשתי שאלה אם ארזתי חטיפים. אמרתי כן. היא שאלה אם ארזתי חטיפים טובים. ארזתי מקלות סלרי וחומוס. כנראה שמקלות סלרי וחומוס הם לא חטיפים טובים. הם, ואני מצטט, "עונש." הבת שלי הסכימה. הבן שלי כבר בכה על משהו לא קשור. לא הזזנו את המכונית סנטימטר.
 
-החלק הכי קשה היה ללמוד לסמוך שהמים יחזיקו אותי. כל פעם שניסיתי לצוף, הרגליים שלי שקעו ונכנסתי לפאניקה. רחל המשיכה לומר את אותו דבר. תירגע. תן למים לעשות את העבודה. תפסיק לנסות כל כך חזק. עברו שבועות לפני שהאמנתי לה, אבל יום אחד משהו נדלק. נשענתי לאחור, פרשתי את הזרועות, ונשארתי על פני המים. האורות מעליי נמרחו לעיגולים רכים. צליל הבריכה מילא את האוזניים. צפתי. זה הרגיש כמו לעוף.
+שרה שרה שיר שמח, שרה שרה שיר שמח. זה מה שהילדים שלי שרו מהמושב האחורי בארבעים הדקות הראשונות של הנסיעה, כי אשתי לימדה אותם את שובר הלשון הזה כדי לבדר אותם. זה עבד בדיוק ארבעים דקות. אז זה הפך לצליל הכי מעצבן בהיסטוריה של הציוויליזציה האנושית. ביקשתי מהם בנימוס להפסיק. הם לא הפסיקו. הם רק הגבירו.
 
-עכשיו אני שוחה שלוש פעמים בשבוע. הבריכה היא המקום השקט שלי. אני סופר אורכים ונותן למחשבות לנדוד. כל תנועה רגועה ומדודה. המים שפעם הפחידו אותי עכשיו מרגישים כמו חבר.`
+עד שעה שתיים, המכונית הריחה כמו הבננה שהבן שלי החביא מתחת למושב שלושה ימים קודם. עד שעה שלוש, ה-GPS לקח אותנו בדרך שלא הייתה ממש דרך. זה היה יותר כמו הצעה. שביל עפר דרך שדה שהסתיים בגדר עם עז שעמדה מאחוריה. העז בהתה בנו. אנחנו בהינו בעז. אשתי אמרה, "אמרתי לך שהיינו צריכים לטוס." היא צדקה. היא תמיד צודקת. סובבתי את המכונית וחזרתי לכביש המהיר בשקט. העז צפתה בנו עוזבים עם הבעה שאני יכול לתאר רק כמרוצה מעצמה.`
   },
   difficulty: 'medium' as const,
   targetWPM: 100,
-  wordCount: 271,
+  wordCount: 270,
 },
 {
   id: 'timed-medshort-3',
-  title: { en: 'The Night Market', he: 'שוק הלילה' },
+  title: { en: 'My Dog Versus the Mailman', he: 'הכלב שלי נגד הדוור' },
   text: {
-    en: `Every Thursday evening, the parking lot behind the community center transforms into a night market. Strings of warm lights hang between the lampposts. Vendors set up their tables with colorful cloths and arrange their goods with pride. The air fills with the smell of grilled corn, roasted nuts, and fresh herbs.
+    en: `My dog, Biscuit, has a nemesis. His name is Gary, and he delivers our mail. Every single day, without fail, Gary walks up to our mailbox, and Biscuit loses his mind. I mean truly, deeply, spiritually loses his mind. He barks like the house is on fire. He throws himself at the window. He spins in circles so fast he becomes a blur of fur and rage.
 
-I like to arrive early, just as the sellers are finishing their setup. There is an energy in those first moments, a sense of possibility before the crowds arrive. The flower vendor arranges buckets of sunflowers and roses. The woman who sells homemade soap lines up her bars in neat rows, each one wrapped in brown paper and tied with string. A man with a gray beard sets out jars of honey from his own bees.
+The funny thing is, Biscuit loves everyone else. The neighbors, the pizza delivery person, random strangers on the street. He greets them all with tail wags and face licks. But Gary? Gary is the enemy. Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair, but Biscuit has plenty of hair, and he leaves it on every surface in the house while plotting Gary's downfall.
 
-As the evening goes on, the market fills with people. Families walk together, stopping to taste samples of cheese or olive oil. Musicians play near the fountain, their songs mixing with the chatter and laughter all around. Children run between the stalls, pointing at everything with wide eyes. Teenagers sit on the low wall eating street food and talking loudly.
+I have tried everything to fix this. I introduced them formally in the front yard. Gary brought treats. Biscuit ate the treats and then barked at Gary anyway, with crumbs still on his face. I tried keeping Biscuit in the back room during delivery time. He chewed through the door. Not the door handle. The actual door. There is now a Biscuit-shaped hole in my laundry room door that I have covered with a poster because I am too embarrassed to explain it to a carpenter.
 
-I always buy the same things. A loaf of bread from the sourdough stand, a bag of roasted almonds, and whatever fruit is in season. Sometimes I find something unexpected, a jar of pickled peppers or a small wooden cutting board made by a local carpenter. These small discoveries are what keep me coming back.
+Gary, to his credit, takes it all in stride. He waves at Biscuit through the window every day and says, "See you tomorrow, buddy." Biscuit barks back. It is the most committed rivalry I have ever witnessed. I have started leaving apology cookies in the mailbox for Gary. He leaves thank-you notes. We have developed an entire friendship based on my dog's irrational hatred. Biscuit does not approve of this friendship. He has made that very clear.`,
+    he: `לכלב שלי, ביסקוויט, יש אויב. שמו גרי, והוא מחלק את הדואר שלנו. כל יום, בלי יוצא מן הכלל, גרי הולך לתיבת הדואר שלנו, וביסקוויט מאבד את השפיות. אני מתכוון באמת, לעומק, רוחנית מאבד את השפיות. הוא נובח כאילו הבית בוער. הוא זורק את עצמו על החלון. הוא מסתובב בעיגולים כל כך מהר שהוא הופך לטשטוש של פרווה וזעם.
 
-By nine o'clock, the vendors start to pack up. The lights come down. The parking lot returns to its ordinary self. But for a few hours every Thursday, it is something more. It is a place where neighbors meet, where small businesses grow, and where the simple act of buying and selling becomes something warm and human.`,
-    he: `כל יום חמישי בערב, החניון מאחורי המרכז הקהילתי הופך לשוק לילה. שרשראות אורות חמים תלויות בין עמודי התאורה. מוכרים מסדרים את השולחנות שלהם עם מפות צבעוניות ומארגנים את הסחורה בגאווה. האוויר מתמלא בריח תירס צלוי, אגוזים קלויים, ועשבי תיבול טריים.
+הדבר המצחיק הוא שביסקוויט אוהב את כולם. השכנים, שליח הפיצה, זרים אקראיים ברחוב. הוא מקבל את כולם עם כישכושי זנב וליקוקי פנים. אבל גרי? גרי הוא האויב. נחש נשך נחש כי נחש נחש שנחש נשך נחש. וביסקוויט נושך כל דבר בבית תוך כדי תכנון הנפילה של גרי.
 
-אני אוהב להגיע מוקדם, בדיוק כשהמוכרים מסיימים את ההכנות. יש אנרגיה ברגעים הראשונים האלה, תחושה של אפשרות לפני שההמונים מגיעים. מוכרת הפרחים מסדרת דליים של חמניות וורדים. האישה שמוכרת סבון ביתי מסדרת את החתיכות בשורות מסודרות, כל אחת עטופה בנייר חום וקשורה בחוט. גבר עם זקן אפור מציב צנצנות דבש מהדבורים שלו.
+ניסיתי הכל כדי לתקן את זה. הצגתי אותם רשמית בחצר הקדמית. גרי הביא חטיפים. ביסקוויט אכל את החטיפים ואז נבח על גרי בכל זאת, עם פירורים עדיין על הפנים. ניסיתי להחזיק את ביסקוויט בחדר האחורי בזמן החלוקה. הוא כרסם דרך הדלת. לא את ידית הדלת. את הדלת עצמה. יש עכשיו חור בצורת ביסקוויט בדלת חדר הכביסה שלי שכיסיתי עם פוסטר כי אני מתבייש מדי להסביר את זה לנגר.
 
-ככל שהערב מתקדם, השוק מתמלא באנשים. משפחות הולכות יחד, עוצרות לטעום דוגמאות של גבינה או שמן זית. מוזיקאים מנגנים ליד המזרקה, השירים שלהם מתערבבים עם הפטפוט והצחוק מסביב. ילדים רצים בין הדוכנים, מצביעים על הכל בעיניים רחבות. בני נוער יושבים על הקיר הנמוך אוכלים אוכל רחוב ומדברים בקול רם.
-
-אני תמיד קונה את אותם דברים. כיכר לחם מדוכן המחמצת, שקית שקדים קלויים, ואיזה פרי שבעונה. לפעמים אני מוצא משהו בלתי צפוי, צנצנת פלפלים כבושים או קרש חיתוך קטן מעץ שנגר מקומי עשה. התגליות הקטנות האלה הן מה שמחזיר אותי.
-
-עד תשע בערב, המוכרים מתחילים לארוז. האורות יורדים. החניון חוזר להיות רגיל. אבל לכמה שעות כל יום חמישי, הוא משהו יותר. הוא מקום שבו שכנים נפגשים, עסקים קטנים גדלים, ושם הפעולה הפשוטה של קנייה ומכירה הופכת למשהו חם ואנושי.`
+גרי, לזכותו, לוקח הכל בשלווה. הוא מנופף לביסקוויט דרך החלון כל יום ואומר, "נתראה מחר, חבר." ביסקוויט נובח חזרה. זו היריבות הכי מחויבת שראיתי אי פעם. התחלתי להשאיר עוגיות התנצלות בתיבת הדואר לגרי. הוא משאיר פתקי תודה. פיתחנו חברות שלמה מבוססת על השנאה הלא רציונלית של הכלב שלי. ביסקוויט לא מאשר את החברות הזו. הוא הבהיר את זה מאוד.`
   },
   difficulty: 'hard' as const,
   targetWPM: 110,
-  wordCount: 299,
+  wordCount: 285,
 },
 {
   id: 'timed-medium-1',
-  title: { en: 'The Garden Project', he: 'פרויקט הגינה' },
+  title: { en: 'The Cooking Class From Hell', he: 'שיעור הבישול מהגיהנום' },
   text: {
-    en: `Last spring, my neighbor suggested we start a community garden in the empty lot between our buildings. The lot had been sitting unused for years, covered in weeds and old furniture that someone had dumped there. It did not look like much, but she saw potential where I saw only a mess.
+    en: `My wife signed us up for a couples cooking class as a birthday gift. She said it would be romantic. She said we would learn to make fresh pasta together while sipping wine and laughing. She had clearly never seen me in a kitchen.
 
-We started small. A group of eight neighbors met on a Saturday morning with shovels, rakes, and bags of soil. We cleared the lot in a single weekend, filling two dumpsters with junk and pulling weeds until our backs ached. The ground underneath was surprisingly good. Dark, rich soil that had been waiting quietly for someone to use it.
+The class was held at a fancy studio downtown with stainless steel counters and professional equipment. There were six couples, and we were each given a station with ingredients laid out in little bowls. The instructor was a tall Italian woman named Francesca who spoke with the kind of authority that suggested she had never burned anything in her life. I had burned toast that very morning.
 
-Each family claimed a small plot. Some planted tomatoes and peppers. Others chose herbs like basil, mint, and rosemary. One couple planted nothing but sunflowers, which seemed impractical until they bloomed in August and the whole lot looked like a painting. I chose to grow cucumbers and lettuce, because I wanted things I could eat in a salad without too much effort.
+Peter Piper picked a peck of pickled peppers, but I picked up the wrong ingredient within the first thirty seconds. Francesca said to grab the semolina flour. I grabbed the powdered sugar. I did not realize my mistake until I had already mixed it into the dough. Francesca looked at my bowl, closed her eyes, and took a deep breath. She told me to start over. My wife was already on step four.
 
-The first few weeks were hard. I had never gardened before, and I watered my plants either too much or too little. Two of my cucumber plants died almost immediately. I felt like a failure. But my neighbor showed me how to check the soil moisture with my finger, how to spot early signs of disease on the leaves, and when to add fertilizer. She had been gardening her whole life and knew things that no book could teach.
+The second attempt went better, at least until the rolling stage. We were supposed to roll the pasta thin using a hand-crank machine. I fed the dough in too fast and it wrapped around the roller, jamming the entire machine. The crunching sound it made was unforgettable. Francesca appeared at my station for the second time and said nothing. She just unplugged the machine and handed me a regular rolling pin with the expression of someone lowering their expectations in real time.
 
-By midsummer, the garden was thriving. Tomatoes hung heavy on their vines. Herbs filled the air with scent whenever you brushed past them. The sunflowers stood taller than any of us. Children from the building would come to help with watering, and they loved pulling carrots out of the ground and seeing how big they had grown.
+I rolled the pasta by hand. It came out thick. Very thick. My wife said it looked like a yoga mat. The couple next to us had produced beautiful, delicate sheets of pasta that you could practically see through. Mine looked like something you would use to patch a hole in a wall. But I pressed on. I cut it into strips. They were uneven. Some were the width of a belt. Others were as thin as shoelaces. I boiled them anyway.
 
-Something else happened too, something I did not expect. We became a community. Before the garden, I barely knew the names of the people in my building. Now we shared meals, traded vegetables, and sat together on summer evenings watching the sun go down behind the city rooftops. A retired teacher started giving the children lessons about plants and insects. A young couple brought chairs and a small table so people could sit and talk.
+Somehow, against all odds, the final dish did not taste terrible. The sauce saved it. Francesca had made the sauce herself, and it was incredible. She sells seashells by the seashore, but Francesca sells salvation by the saucepan. My thick, lumpy pasta drowned in her beautiful sauce was actually edible. My wife said it was "interesting," which is the polite word people use when they do not want to say "bad."
 
-The empty lot that had been an eyesore became the heart of our block. All it took was some soil, some seeds, and a few neighbors willing to get their hands dirty. I have learned that gardens grow more than vegetables. They grow friendships, patience, and a sense of belonging that is hard to find anywhere else.`,
-    he: `באביב שעבר, השכנה שלי הציעה שנקים גינה קהילתית במגרש הריק בין הבניינים שלנו. המגרש עמד ללא שימוש שנים, מכוסה עשבים שוטים ורהיטים ישנים שמישהו זרק שם. זה לא נראה כמו הרבה, אבל היא ראתה פוטנציאל איפה שאני ראיתי רק בלגן.
+At the end of the class, Francesca gave everyone a certificate. Mine said "Participant." Everyone else's said "Graduate." I framed it anyway. It hangs in my kitchen as a reminder that love is patient, love is kind, and love sometimes involves eating pasta that could double as a doorstop.`,
+    he: `אשתי רשמה אותנו לשיעור בישול זוגי כמתנת יום הולדת. היא אמרה שזה יהיה רומנטי. היא אמרה שנלמד להכין פסטה טרייה ביחד תוך כדי שתיית יין וצחוקים. היא ברור מעולם לא ראתה אותי במטבח.
 
-התחלנו בקטן. קבוצה של שמונה שכנים נפגשה בשבת בבוקר עם אתים, מגרפות ושקיות אדמה. פינינו את המגרש בסוף שבוע אחד, מילאנו שני מכולות בזבל ועקרנו עשבים עד שהגב כאב. האדמה מתחת הייתה טובה להפתיע. אדמה כהה ועשירה שחיכתה בשקט שמישהו ישתמש בה.
+השיעור התקיים בסטודיו מפואר במרכז העיר עם משטחי נירוסטה וציוד מקצועי. היו שישה זוגות, ולכל אחד ניתנה עמדה עם מרכיבים מסודרים בקעריות קטנות. המדריכה הייתה אישה איטלקייה גבוהה בשם פרנצ'סקה שדיברה עם סוג של סמכות שהעיד שמעולם לא שרפה שום דבר בחיים. אני שרפתי טוסט באותו בוקר.
 
-כל משפחה תפסה חלקה קטנה. חלקם שתלו עגבניות ופלפלים. אחרים בחרו עשבי תיבול כמו בזיליקום, נענע ורוזמרין. זוג אחד שתל רק חמניות, שנראה לא מעשי עד שהן פרחו באוגוסט וכל המגרש נראה כמו ציור. אני בחרתי לגדל מלפפונים וחסה, כי רציתי דברים שאוכל לאכול בסלט בלי יותר מדי מאמץ.
+גנן גידל דגן בגן, אבל אני גידלתי בלגן במטבח כי תפסתי את המרכיב הלא נכון תוך שלושים השניות הראשונות. פרנצ'סקה אמרה לקחת קמח סמולינה. לקחתי אבקת סוכר. לא הבנתי את הטעות שלי עד שכבר ערבבתי את זה לתוך הבצק. פרנצ'סקה הסתכלה על הקערה שלי, עצמה עיניים, ולקחה נשימה עמוקה. היא אמרה לי להתחיל מחדש. אשתי כבר הייתה בשלב ארבע.
 
-השבועות הראשונים היו קשים. מעולם לא גידלתי גינה, והשקיתי את הצמחים יותר מדי או פחות מדי. שניים מצמחי המלפפון שלי מתו כמעט מיד. הרגשתי כישלון. אבל השכנה שלי הראתה לי איך לבדוק לחות אדמה עם האצבע, איך לזהות סימנים מוקדמים של מחלה בעלים, ומתי להוסיף דשן. היא גידלה גינה כל חייה וידעה דברים שאף ספר לא יכול ללמד.
+הניסיון השני הלך יותר טוב, לפחות עד שלב הגלגול. היינו צריכים לגלגל את הפסטה דק עם מכונת גלגול ידנית. הכנסתי את הבצק מהר מדי והוא נכרך סביב הגליל, חסם את כל המכונה. צליל הטחינה שהיא השמיעה היה בלתי נשכח. פרנצ'סקה הופיעה בעמדה שלי בפעם השנייה ולא אמרה כלום. היא פשוט ניתקה את המכונה ונתנה לי מערוך רגיל עם ההבעה של מישהי שמורידה ציפיות בזמן אמת.
 
-באמצע הקיץ, הגינה שגשגה. עגבניות היו כבדות על הגפנים. עשבי תיבול מילאו את האוויר בניחוח כשעברת לידם. החמניות עמדו גבוהות מכולנו. ילדים מהבניין באו לעזור בהשקיה, והם אהבו למשוך גזרים מהאדמה ולראות כמה הם גדלו.
+גלגלתי את הפסטה ביד. היא יצאה עבה. מאוד עבה. אשתי אמרה שזה נראה כמו מזרן יוגה. הזוג שלידנו ייצר יריעות פסטה יפות ועדינות שכמעט אפשר לראות דרכן. שלי נראתה כמו משהו שמשתמשים בו לתקן חור בקיר. אבל המשכתי. חתכתי אותה לרצועות. הן היו לא אחידות. חלקן היו ברוחב חגורה. אחרות היו דקות כמו שרוכי נעליים. בישלתי אותן בכל זאת.
 
-משהו אחר קרה גם, משהו שלא ציפיתי לו. הפכנו לקהילה. לפני הגינה, בקושי ידעתי את השמות של אנשים בבניין שלי. עכשיו שיתפנו ארוחות, החלפנו ירקות, וישבנו יחד בערבי קיץ לצפות בשקיעה מעבר לגגות העיר. מורה בפנסיה התחיל לתת לילדים שיעורים על צמחים וחרקים. זוג צעיר הביא כיסאות ושולחן קטן כדי שאנשים יוכלו לשבת ולדבר.
+איכשהו, נגד כל הסיכויים, המנה הסופית לא הייתה נוראית. הרוטב הציל את זה. פרנצ'סקה הכינה את הרוטב בעצמה, והוא היה מדהים. שרה שרה שיר שמח, אבל פרנצ'סקה שרה שיר של הצלה עם הסיר שלה. הפסטה העבה והמגושמת שלי טבועה ברוטב היפה שלה הייתה בעצם אכילה. אשתי אמרה שזה "מעניין," שזו המילה המנומסת שאנשים משתמשים בה כשהם לא רוצים לומר "רע."
 
-המגרש הריק שהיה מכוער הפך ללב של הבלוק שלנו. כל מה שנדרש היה קצת אדמה, כמה זרעים, וכמה שכנים שמוכנים ללכלך את הידיים. למדתי שגינות מגדלות יותר מירקות. הן מגדלות חברויות, סבלנות, ותחושת שייכות שקשה למצוא במקום אחר.`
+בסוף השיעור, פרנצ'סקה נתנה לכולם תעודה. שלי כתוב עליה "משתתף." של כולם כתוב "בוגר." מסגרתי אותה בכל זאת. היא תלויה במטבח שלי כתזכורת שאהבה סבלנית, אהבה טובה, ואהבה לפעמים כוללת אכילת פסטה שיכולה לשמש כמעצור לדלת.`
   },
   difficulty: 'easy' as const,
   targetWPM: 90,
-  wordCount: 441,
+  wordCount: 436,
 },
 {
   id: 'timed-medium-2',
-  title: { en: 'Moving Day', he: 'יום המעבר' },
+  title: { en: 'The Gym Membership I Regret', he: 'המנוי לחדר כושר שאני מתחרט עליו' },
   text: {
-    en: `Moving to a new apartment is one of those experiences that sounds exciting in theory but feels exhausting in practice. I have moved three times in the last five years, and each time I swear it will be the last. It never is.
+    en: `In January, like every other person on the planet, I decided to get in shape. I walked into a gym with confidence and walked out with a two-year membership, a protein shake I did not ask for, and the sinking feeling that I had made a terrible mistake.
 
-The most recent move happened in October. I had found a place on the third floor of an old building with high ceilings and large windows that let in the afternoon light. It was perfect, except for one small detail. There was no elevator. Every box, every piece of furniture, every lamp and plate and winter coat had to go up three flights of narrow stairs.
+My first day was a Monday. I wore brand new sneakers and a shirt that said "No Pain No Gain," which I bought specifically for the occasion. I looked like someone who exercises. I was not someone who exercises. These are very different things. I walked past the treadmills and the weight machines and found myself in a room full of equipment I had never seen before. There were ropes hanging from the ceiling, balls the size of small cars, and a contraption that looked like a medieval torture device but turned out to be something called a rowing machine.
 
-I started packing two weeks early, convinced that planning ahead would make everything smoother. I labeled every box with its contents and destination room. Kitchen items in blue tape, bedroom in green, living room in red. I made spreadsheets. I created a timeline. I felt organized and calm and completely in control.
+A big black bug bit a big black bear, but a big heavy kettlebell nearly bit my foot when I tried to swing it like the man next to me was doing. He made it look easy. He swung it back and forth with one hand while looking at his phone with the other. I swung it once, lost my grip, and it sailed across the gym floor, narrowly missing a woman doing yoga. She did not flinch. She just opened one eye, looked at me, and closed it again. That kind of calm only comes from years of practice, or from being completely done with people like me.
 
-That feeling lasted until moving day.
+I moved to the treadmill, which seemed safer. It was not safer. I set the speed too high, stumbled, grabbed the handrail, and my water bottle flew off and rolled under someone's bench press. I had to do the walk of shame across the entire gym to retrieve it while a teenager watched me with an expression that could only be described as pity mixed with amusement.
 
-The truck arrived an hour late because the driver got lost. Two of my friends who had promised to help called in sick. The couch did not fit through the stairwell, and we had to take the legs off and tilt it at an angle that seemed to defy gravity. The box labeled "fragile, kitchen glasses" was dropped by someone whose name I will not mention. Half the glasses survived. The other half did not.
+The worst part was the locker room afterward. I could not remember my locker combination. I tried every number I knew. My birthday. My phone password. My childhood address. Nothing worked. I stood there in a towel for fifteen minutes, dripping wet, until a staff member came to help. She opened it on the first try. The combination was on the key tag I was holding in my hand the entire time.
 
-By noon, I was covered in sweat and dust. My back hurt. My hands were raw from carrying boxes. The apartment looked like a warehouse, with stacks of cardboard reaching halfway to those beautiful high ceilings. I sat on the floor in the middle of it all and ate cold pizza straight from the box.
+I went back three more times that month. Each visit produced a new humiliation. Unique New York, unique New York. That is what the city felt like when I realized everyone at the gym recognized me as "the kettlebell guy." I still pay for the membership. I have not been back since February. The gym sends me motivational emails every week. They are not working.`,
+    he: `בינואר, כמו כל אדם אחר על פני כדור הארץ, החלטתי להיכנס לכושר. נכנסתי לחדר כושר עם ביטחון ויצאתי עם מנוי לשנתיים, שייק חלבון שלא ביקשתי, וההרגשה השוקעת שעשיתי טעות נוראית.
 
-But something shifted in the late afternoon. The last box came through the door. I stood at the window and looked out over the rooftops. The October sky was orange and purple, and the air that came through the open window was cool and fresh. I plugged in a lamp, and the room glowed warm and golden. It was beginning to feel like mine.
+היום הראשון שלי היה יום שני. לבשתי נעלי ספורט חדשות לגמרי וחולצה שכתוב עליה "בלי כאב אין רווח," שקניתי ספציפית לאירוע. נראיתי כמו מישהו שמתאמן. לא הייתי מישהו שמתאמן. אלה דברים מאוד שונים. עברתי ליד המסלולים ומכונות המשקולות ומצאתי את עצמי בחדר מלא בציוד שמעולם לא ראיתי. היו חבלים תלויים מהתקרה, כדורים בגודל מכוניות קטנות, ומתקן שנראה כמו מכשיר עינויים מימי הביניים אבל התברר שהוא משהו שנקרא מכונת חתירה.
 
-Over the next few days, I unpacked slowly. I put books on the shelves and hung pictures on the walls. I arranged the kitchen the way I wanted, with the mugs on the left and the plates on the right. I found spots for everything, even the things that did not seem to fit at first.
+נחש נשך נחש, אבל קטלבל כבד כמעט נשך לי את הרגל כשניסיתי לנדנד אותו כמו שהגבר שלידי עשה. הוא גרם לזה להיראות קל. הוא נדנד אותו הלוך ושוב עם יד אחת בזמן שהסתכל בטלפון עם השנייה. נדנדתי פעם אחת, איבדתי את האחיזה, והוא שט על רצפת חדר הכושר, כמעט פגע באישה שעשתה יוגה. היא לא הזדעזעה. היא פשוט פתחה עין אחת, הסתכלה עליי, וסגרה אותה חזרה. הסוג הזה של שלווה בא רק משנים של תרגול, או מלהיות לגמרי סיימת עם אנשים כמוני.
 
-A home is not just a place. It is something you build, box by box, shelf by shelf, until the space stops being a stranger and starts feeling like it has always been yours. That takes time. But it is worth the wait, and it is worth every flight of stairs.`,
-    he: `מעבר דירה הוא מהחוויות שנשמעות מרגשות בתיאוריה אבל מרגישות מתישות בפועל. עברתי דירה שלוש פעמים בחמש השנים האחרונות, ובכל פעם אני נשבע שזו האחרונה. זה אף פעם לא קורה.
+עברתי למסלול ריצה, שנראה יותר בטוח. הוא לא היה יותר בטוח. הגדרתי את המהירות גבוה מדי, מעדתי, נתפסתי במעקה, ובקבוק המים שלי עף והתגלגל מתחת לספסל לחיצת חזה של מישהו. הייתי צריך לעשות את הליכת הבושה דרך כל חדר הכושר כדי לאסוף אותו בזמן שנער צפה בי עם הבעה שאפשר לתאר רק כרחמים מעורבים בהנאה.
 
-המעבר האחרון היה באוקטובר. מצאתי דירה בקומה השלישית של בניין ישן עם תקרות גבוהות וחלונות גדולים שמכניסים את אור אחר הצהריים. היה מושלם, חוץ מפרט קטן אחד. לא היה מעלית. כל קופסה, כל רהיט, כל מנורה וצלחת ומעיל חורף היה צריך לעלות שלוש קומות במדרגות צרות.
+החלק הגרוע ביותר היה חדר ההלבשה אחר כך. לא זכרתי את הקוד של הלוקר. ניסיתי כל מספר שידעתי. יום ההולדת. סיסמת הטלפון. הכתובת מהילדות. שום דבר לא עבד. עמדתי שם עם מגבת חמש עשרה דקות, רטוב לגמרי, עד שעובדת צוות באה לעזור. היא פתחה בניסיון הראשון. הקוד היה על תג המפתח שהחזקתי ביד כל הזמן.
 
-התחלתי לארוז שבועיים מוקדם, משוכנע שתכנון מראש יחליק הכל. סימנתי כל קופסה עם התוכן וחדר היעד. פריטי מטבח בסרט כחול, חדר שינה בירוק, סלון באדום. עשיתי גיליונות אלקטרוניים. יצרתי לוח זמנים. הרגשתי מאורגן ורגוע ובשליטה מלאה.
-
-ההרגשה הזו החזיקה עד יום המעבר.
-
-המשאית הגיעה שעה מאוחר כי הנהג הלך לאיבוד. שניים מהחברים שהבטיחו לעזור התקשרו חולים. הספה לא עברה דרך חדר המדרגות, והיינו צריכים להוריד את הרגליים ולהטות אותה בזווית שנראתה מתריסה כנגד הכבידה. הקופסה שסומנה "שביר, כוסות מטבח" נפלה ממישהו ששמו לא אזכיר. חצי מהכוסות שרדו. החצי השני לא.
-
-עד הצהריים, הייתי מכוסה זיעה ואבק. הגב כאב. הידיים היו גולמיות מנשיאת קופסאות. הדירה נראתה כמו מחסן, עם ערימות קרטון שהגיעו עד חצי הדרך לתקרות הגבוהות והיפות. ישבתי על הרצפה באמצע הכל ואכלתי פיצה קרה ישר מהקופסה.
-
-אבל משהו השתנה אחר הצהריים המאוחרים. הקופסה האחרונה נכנסה דרך הדלת. עמדתי ליד החלון והסתכלתי על הגגות. שמי אוקטובר היו כתומים וסגולים, והאוויר שנכנס דרך החלון הפתוח היה קריר ורענן. חיברתי מנורה, והחדר זהר בחום. זה התחיל להרגיש שלי.
-
-במהלך הימים הבאים, פרקתי לאט. שמתי ספרים על המדפים ותליתי תמונות על הקירות. סידרתי את המטבח כמו שרציתי, עם הספלים משמאל והצלחות מימין. מצאתי מקום לכל דבר, גם לדברים שלא נראה שהתאימו בהתחלה.
-
-בית הוא לא רק מקום. הוא משהו שבונים, קופסה אחרי קופסה, מדף אחרי מדף, עד שהמרחב מפסיק להיות זר ומתחיל להרגיש כאילו תמיד היה שלך. זה לוקח זמן. אבל שווה לחכות, ושווה כל קומת מדרגות.`
+חזרתי עוד שלוש פעמים באותו חודש. כל ביקור ייצר השפלה חדשה. שרה שרה שיר שמח, שרה שרה שיר שמח. ככה הרגשתי כשהבנתי שכולם בחדר הכושר מזהים אותי כ"הבחור עם הקטלבל." אני עדיין משלם על המנוי. לא חזרתי מאז פברואר. חדר הכושר שולח לי מיילים מוטיבציוניים כל שבוע. הם לא עובדים.`
   },
   difficulty: 'medium' as const,
   targetWPM: 100,
-  wordCount: 468,
+  wordCount: 455,
 },
 {
   id: 'timed-medium-3',
-  title: { en: 'The Photography Hobby', he: 'תחביב הצילום' },
+  title: { en: 'The School Talent Show', he: 'מופע הכישרונות של בית הספר' },
   text: {
-    en: `I bought my first camera three years ago, on a whim, after seeing a photograph in a magazine that stopped me in my tracks. It was a simple image. A woman sitting on a park bench, reading a book, with autumn leaves falling around her. Nothing extraordinary. But the light was perfect, and the way the photographer had framed the scene made something ordinary look almost sacred. I wanted to learn how to see the world that way.
+    en: `My daughter asked me to perform with her at her school talent show. She is nine years old and plays the ukulele. She wanted me to sing while she played. I should have said no. Every reasonable voice in my head said no. But she looked at me with those big brown eyes, and I said yes, because I am a fool who cannot say no to his child.
 
-The camera I bought was not expensive. It was a basic model with a kit lens, the kind that experienced photographers might look down on. But it was mine, and I carried it everywhere. At first, I took pictures of everything. My coffee cup. The crack in the sidewalk. A bird on a wire. My cat sleeping in a patch of sunlight. Most of the photos were terrible. Blurry, poorly lit, badly composed. But every now and then, one would come out right, and that feeling was enough to keep me going.
+We practiced for two weeks. The song was a simple folk tune that she had learned from her music teacher. She played it perfectly every time. I, on the other hand, could not hold a tune if it had handles. My wife sat through our rehearsals with a frozen smile that said "I support you" while her eyes said "this is going to be a disaster."
 
-I started watching tutorials online and reading about composition, exposure, and color. I learned about the rule of thirds, about leading lines, about the golden hour when the sun sits low and paints everything in warm tones. I practiced shooting in manual mode, adjusting the settings myself instead of letting the camera decide. There were many mistakes. Entire outings where every single photo was overexposed or out of focus. But each mistake taught me something.
+The night of the show, the auditorium was packed. Every parent in the school was there with a phone raised, ready to film. I stood backstage, sweating through my shirt, watching other kids perform magic tricks and dance routines. A six-year-old did a gymnastics routine that would have earned a standing ovation at the Olympics. I was about to follow that with my off-key singing. The universe has a cruel sense of humor.
 
-The biggest lesson photography taught me was patience. A good photograph rarely happens by accident. You have to wait for the right moment, the right light, the right expression on a face. You have to slow down and really look at what is in front of you. In a world that moves fast and rewards speed, the camera taught me the value of standing still.
+I scream, you scream, we all scream for ice cream, and the audience nearly screamed when I hit the first note. It was not good. My daughter, bless her heart, did not flinch. She kept strumming her ukulele like the tiny professional she is, smiling at the crowd, completely unbothered by the fact that her father was producing sounds that could be classified as a public disturbance.
 
-I started going on walks with no purpose other than to look. I noticed things I had walked past a hundred times without seeing. The pattern of shadows on a brick wall. The way rain collects in the petals of a flower. The expression on a stranger's face as they wait for a bus, lost in thought. Photography did not just change how I take pictures. It changed how I see.
+Halfway through the song, I forgot the words. Just completely lost them. My brain went blank. So I hummed. Loudly. My daughter glanced at me, then leaned into her microphone and sang the lyrics herself, covering for me with the grace of someone who had clearly anticipated this exact scenario. The audience loved her. A few people in the front row were wiping tears from their eyes, though I suspect those tears were from laughing at me rather than being moved by the performance.
 
-Now my walls are covered with prints from my favorite shots. The coffee cup from my first week. A sunset over the old bridge near my house. My daughter laughing in a field of tall grass. They are not perfect photographs, but they hold moments that I would have otherwise forgotten. That is what a camera really does. It does not capture light. It captures time.`,
-    he: `קניתי את המצלמה הראשונה שלי לפני שלוש שנים, בהחלטה ספונטנית, אחרי שראיתי תצלום במגזין שעצר אותי במקום. זה היה תמונה פשוטה. אישה יושבת על ספסל בפארק, קוראת ספר, עם עלי סתיו נושרים סביבה. שום דבר יוצא דופן. אבל האור היה מושלם, והדרך שהצלם מסגר את הסצנה גרמה למשהו רגיל להיראות כמעט קדוש. רציתי ללמוד לראות את העולם ככה.
+When we finished, the applause was enormous. My daughter took a bow like she had been performing her whole life. I stood next to her, red-faced and relieved it was over. She grabbed my hand, looked up at me, and whispered, "You did great, Dad." She was lying. She knows it. I know it. Everyone in that auditorium knows it. But it was the kindest lie anyone has ever told me, and I will remember it forever. She wants to do it again next year. I said yes. Because I am still a fool, and she still has those big brown eyes.`,
+    he: `הבת שלי ביקשה ממני להופיע איתה במופע הכישרונות של בית הספר. היא בת תשע ומנגנת על יוקללה. היא רצתה שאשיר בזמן שהיא מנגנת. הייתי צריך לומר לא. כל קול סביר בראש שלי אמר לא. אבל היא הסתכלה עליי עם העיניים החומות הגדולות האלה, ואמרתי כן, כי אני טיפש שלא יכול לומר לא לילדה שלו.
 
-המצלמה שקניתי לא הייתה יקרה. היא הייתה דגם בסיסי עם עדשת קיט, מהסוג שצלמים מנוסים עשויים לזלזל בו. אבל היא הייתה שלי, ונשאתי אותה לכל מקום. בהתחלה צילמתי הכל. כוס הקפה שלי. הסדק במדרכה. ציפור על חוט. החתול שלי ישן בכתם של אור שמש. רוב התמונות היו נוראיות. מטושטשות, עם תאורה גרועה, קומפוזיציה רעה. אבל מדי פעם, אחת יצאה טוב, וההרגשה הזו הספיקה כדי להמשיך.
+תרגלנו שבועיים. השיר היה מנגינת פולק פשוטה שהיא למדה ממורה המוזיקה שלה. היא ניגנה אותו מושלם כל פעם. אני, מצד שני, לא הצלחתי להחזיק מנגינה אפילו אם היו לה ידיות. אשתי ישבה לאורך החזרות עם חיוך קפוא שאמר "אני תומכת בך" בזמן שהעיניים שלה אמרו "זה הולך להיות אסון."
 
-התחלתי לצפות בהדרכות ברשת ולקרוא על קומפוזיציה, חשיפה וצבע. למדתי על כלל השלישים, על קווים מובילים, על שעת הזהב כשהשמש יושבת נמוך וצובעת הכל בגוונים חמים. תרגלתי צילום במצב ידני, מכוון את ההגדרות בעצמי במקום לתת למצלמה להחליט. היו הרבה טעויות. טיולים שלמים שבהם כל תמונה הייתה חשופה יתר או מחוץ לפוקוס. אבל כל טעות לימדה אותי משהו.
+בלילה של המופע, האולם היה מלא. כל הורה בבית הספר היה שם עם טלפון מורם, מוכן לצלם. עמדתי מאחורי הקלעים, מזיע דרך החולצה, צופה בילדים אחרים מבצעים קסמים וריקודים. ילדה בת שש עשתה מופע התעמלות שהיה מקבל מחיאות כפיים סוערות באולימפיאדה. אני עמדתי להמשיך אחריה עם השירה המזויפת שלי. ליקום יש חוש הומור אכזרי.
 
-השיעור הגדול ביותר שצילום לימד אותי היה סבלנות. תמונה טובה לעיתים רחוקות קורית במקרה. צריך לחכות לרגע הנכון, לאור הנכון, להבעה הנכונה על פנים. צריך להאט ובאמת להסתכל על מה שלפניך. בעולם שנע מהר ומתגמל מהירות, המצלמה לימדה אותי את הערך של לעמוד במקום.
+גנן גידל דגן בגן, גנן גדול גידל דגן גדול, והקהל כמעט גידל כאב ראש כששרתי את התו הראשון. זה לא היה טוב. הבת שלי, יברכו את ליבה, לא הזדעזעה. היא המשיכה לנגן על היוקללה שלה כמו המקצוענית הזעירה שהיא, מחייכת לקהל, לגמרי לא מוטרדת מהעובדה שאביה מפיק צלילים שניתן לסווג כהפרעה ציבורית.
 
-התחלתי לצאת להליכות בלי שום מטרה חוץ מלהסתכל. שמתי לב לדברים שעברתי לידם מאה פעמים בלי לראות. דפוס הצללים על קיר לבנים. הדרך שגשם מתאסף בכותרות של פרח. ההבעה על פניו של זר שמחכה לאוטובוס, שקוע במחשבות. צילום לא רק שינה איך אני מצלם. הוא שינה איך אני רואה.
+באמצע השיר, שכחתי את המילים. פשוט לגמרי איבדתי אותן. המוח שלי התרוקן. אז זמזמתי. בקול רם. הבת שלי הציצה בי, ואז התכופפה למיקרופון ושרה את המילים בעצמה, מכסה עליי בחן של מישהי שברור שציפתה לתרחיש הזה בדיוק. הקהל אהב אותה. כמה אנשים בשורה הראשונה ניגבו דמעות מהעיניים, אם כי אני חושד שהדמעות היו מצחוק עליי ולא מהתרגשות מההופעה.
 
-עכשיו הקירות שלי מכוסים בהדפסים מהצילומים האהובים עליי. כוס הקפה מהשבוע הראשון. שקיעה מעל הגשר הישן ליד הבית. הבת שלי צוחקת בשדה של דשא גבוה. הם לא צילומים מושלמים, אבל הם מחזיקים רגעים שאחרת הייתי שוכח. זה מה שמצלמה באמת עושה. היא לא לוכדת אור. היא לוכדת זמן.`
+כשסיימנו, המחיאות היו אדירות. הבת שלי השתחוותה כאילו הופיעה כל חייה. עמדתי לידה, אדום ומוקל שזה נגמר. היא תפסה את היד שלי, הסתכלה למעלה, ולחשה, "היית מעולה, אבא." היא שיקרה. היא יודעת את זה. אני יודע את זה. כל אחד באולם יודע את זה. אבל זה היה השקר הכי חביב שמישהו אמר לי אי פעם, ואני אזכור אותו לנצח. היא רוצה לעשות את זה שוב בשנה הבאה. אמרתי כן. כי אני עדיין טיפש, ולה עדיין יש את העיניים החומות הגדולות.`
   },
   difficulty: 'hard' as const,
   targetWPM: 110,
-  wordCount: 447,
+  wordCount: 460,
 },
 {
   id: 'timed-medlong-1',
-  title: { en: 'My Grandfather\'s Workshop', he: 'הסדנה של סבא' },
+  title: { en: 'The Disastrous Dinner Party', he: 'ארוחת הערב הקטסטרופלית' },
   text: {
-    en: `My grandfather had a workshop in the basement of his house. It was a small room with concrete walls and a single bare lightbulb hanging from the ceiling. The floor was always covered in a thin layer of sawdust, and the air smelled like pine and machine oil. Along one wall stood a wooden workbench that he had built himself, scarred with cuts and stained with decades of use. Above it hung his tools, each one in its place on a pegboard, arranged by size and type with a precision that bordered on obsession.
+    en: `I decided to host a dinner party for eight people last month, because apparently I enjoy suffering. I am not a good cook. I know this about myself. My specialty is cereal, and even that sometimes goes wrong when I pour too much milk. But my wife suggested we host our friends, and I, in a moment of temporary insanity, said I would handle the food. All of it. By myself. For eight adults.
 
-He was a carpenter by trade, though by the time I was old enough to remember, he had long since retired. But retirement did not stop him from going down to the workshop every morning after breakfast. He would descend the creaking stairs with his coffee mug in one hand, flip on the lightbulb, and spend hours shaping wood into things both useful and beautiful.
+I spent three days planning the menu. I watched cooking videos online until two in the morning. I made a shopping list that was four pages long. I went to the grocery store twice because I forgot the garlic the first time and the butter the second time. Betty Botter bought some butter, but the butter Betty Botter bought was bitter, and the butter I bought was salted when the recipe called for unsalted, which I did not discover until I was already mixing it into the cake.
 
-I started visiting the workshop when I was about seven years old. At first, I just watched. I would sit on an overturned bucket in the corner and observe as he measured, marked, and cut with careful, unhurried movements. He rarely spoke while he worked. The sounds of the workshop were enough. The hiss of the handsaw, the tap of the mallet, the low hum he made in the back of his throat when he was concentrating.
+The day of the dinner, I started cooking at noon. By two o'clock, I had already set off the smoke alarm once. The chicken was in the oven, the salad was in the fridge, and the sauce was on the stove doing something suspicious. It was supposed to be a smooth red wine reduction. It looked like a science experiment. It had lumps. Sauces should not have lumps. I stirred faster. The lumps remained. I stirred so fast that the spoon slipped out of my hand and flicked sauce across the white kitchen wall. It looked like a crime scene.
 
-When I was nine, he let me help for the first time. He was building a birdhouse, a simple one with four walls and a sloped roof. He handed me a piece of sandpaper and showed me how to smooth the edges of a board, moving in long, even strokes, always going with the grain. It seemed like a small task, but he treated it as though it mattered. "A thing worth building is worth finishing properly," he said. It was one of his favorite phrases.
+By four o'clock, I was covered in flour, my hair smelled like onions, and I had burned my hand on a pan twice. The dessert, a chocolate mousse that was supposed to set in the fridge for four hours, had not set at all. It was liquid. Very fancy, very chocolatey liquid. I put it in the freezer in a panic and hoped for the best.
 
-Over the years, I helped with many projects. A shelf for my grandmother's kitchen. A small table for the porch. A wooden box with a hinged lid that he gave to my mother on her birthday. Each project taught me something new. How to read a measurement twice before cutting. How to join two pieces of wood at a right angle using a simple clamp and glue. How to recognize the difference between oak, maple, and walnut by the color and texture of the grain.
+The guests arrived at seven. I greeted them at the door looking like I had just survived something. My shirt had a sauce stain. My smile was the kind you see on people who are holding everything together by a single thread. I offered them drinks and retreated to the kitchen, where the chicken was now making a sound I can only describe as angry.
 
-But the real lessons were not about woodworking. They were about patience, attention, and the satisfaction of making something with your hands. In the workshop, there was no rushing. If a joint did not fit, you did not force it. You took it apart, figured out where it went wrong, and tried again. If a board split, you did not get angry. You set it aside and chose another one. The wood had its own nature, and a good carpenter learned to work with it rather than against it.
+The salad came out fine because even I cannot ruin lettuce. The chicken was overcooked on the outside and somehow undercooked in the middle, which I did not think was physically possible. I cut it into very thin slices and covered everything in the lumpy sauce, which I had strained three times and was now merely slightly lumpy. One guest said the sauce was "rustic." I appreciated the generous word choice.
 
-My grandfather passed away when I was twenty-two. The house was sold, and the workshop was cleared out. My aunt offered me his tools, and I took them. They sit in my own small workshop now, in the garage of my apartment building. The workbench is different, the lightbulb is an LED, and the floor is clean. But when I pick up his old handsaw and feel the smooth wooden handle in my grip, I am back in that basement. I can smell the sawdust. I can hear the low hum in his throat. I can feel his hand guiding mine along the grain.
+The mousse had frozen solid. It was not mousse. It was a chocolate brick. I served it anyway, claiming it was "frozen chocolate terrine," a dish I invented on the spot. One friend actually believed me and asked for the recipe. I said it was a family secret. It will remain a secret forever, because the recipe is "make mousse badly and then panic."
 
-I am not as skilled as he was. I probably never will be. But every time I shape a piece of wood into something new, I carry a small part of him with me. The workshop taught me that the things we build with our hands outlast us. Not because they are perfect, but because they hold the care and attention of the person who made them. That is what craftsmanship really means. It is not about the finished product. It is about the love you put into the process.`,
-    he: `לסבא שלי הייתה סדנה במרתף של הבית. זה היה חדר קטן עם קירות בטון ונורה חשופה אחת תלויה מהתקרה. הרצפה תמיד הייתה מכוסה בשכבה דקה של נסורת, והאוויר הריח כמו אורן ושמן מכונות. לאורך קיר אחד עמד שולחן עבודה מעץ שהוא בנה בעצמו, מלא בחתכים ובכתמים של עשרות שנות שימוש. מעליו תלו הכלים שלו, כל אחד במקומו על לוח תליה, מסודרים לפי גודל וסוג ברמת דיוק שגבלה באובססיה.
+Despite everything, the evening was wonderful. Everyone laughed at my disasters. My wife told the story of the sauce on the wall, which got a standing ovation. A friend brought extra bread, which became the real hero of the meal. We sat around the table until midnight, talking and drinking wine and eating bread with frozen chocolate on top.
 
-הוא היה נגר במקצוע, אם כי עד שהייתי מספיק גדול לזכור, הוא כבר מזמן היה בפנסיה. אבל פנסיה לא עצרה אותו מלרדת לסדנה כל בוקר אחרי ארוחת הבוקר. הוא היה יורד במדרגות החורקות עם ספל הקפה ביד אחת, מדליק את הנורה, ומבלה שעות בעיצוב עץ לדברים שימושיים ויפים כאחד.
+I learned something that night. A dinner party is not about the food. It is about the people. Nobody remembers a perfect meal, but everyone remembers the night the host set off the smoke alarm, served a chocolate brick, and laughed about it until his cheeks hurt. I am already planning the next one. My wife has offered to help. I said no. Some things a man must face alone.`,
+    he: `החלטתי לארח ארוחת ערב לשמונה אנשים בחודש שעבר, כי כנראה אני נהנה לסבול. אני לא טבח טוב. אני יודע את זה על עצמי. ההתמחות שלי היא דגני בוקר, וגם זה לפעמים משתבש כשאני שופך יותר מדי חלב. אבל אשתי הציעה שנארח את החברים, ואני, ברגע של שיגעון זמני, אמרתי שאני אטפל באוכל. כל האוכל. לבד. לשמונה מבוגרים.
 
-התחלתי לבקר בסדנה כשהייתי בערך בן שבע. בהתחלה רק צפיתי. הייתי יושב על דלי הפוך בפינה ומתבונן בו מודד, מסמן וחותך בתנועות זהירות ולא ממהרות. הוא לעיתים רחוקות דיבר בזמן שעבד. הצלילים של הסדנה הספיקו. השישה של המסור, הנקישה של הפטיש, הזמזום הנמוך שהוציא מהגרון כשהתרכז.
+ביליתי שלושה ימים בתכנון התפריט. צפיתי בסרטוני בישול ברשת עד שתיים בלילה. הכנתי רשימת קניות שהייתה ארבעה עמודים. נסעתי לסופר פעמיים כי שכחתי את השום בפעם הראשונה ואת החמאה בפעם השנייה. שרה שרה שיר שמח, אבל אני לא שרתי שיר שמח כי החמאה שקניתי הייתה מלוחה כשהמתכון דרש לא מלוחה, מה שלא גיליתי עד שכבר ערבבתי אותה לתוך העוגה.
 
-כשהייתי בן תשע, הוא נתן לי לעזור בפעם הראשונה. הוא בנה בית ציפורים, פשוט עם ארבעה קירות וגג משופע. הוא הושיט לי פיסת נייר זכוכית והראה לי איך להחליק את הקצוות של קרש, בתנועות ארוכות ואחידות, תמיד בכיוון הסיב. זה נראה כמו משימה קטנה, אבל הוא התייחס אליה כאילו היא חשובה. "דבר ששווה לבנות, שווה לסיים כמו שצריך," הוא אמר. זה היה אחד המשפטים האהובים עליו.
+ביום הארוחה, התחלתי לבשל בצהריים. עד שתיים, כבר הפעלתי את אזעקת העשן פעם אחת. העוף היה בתנור, הסלט היה במקרר, והרוטב היה על הכיריים עושה משהו חשוד. הוא אמור היה להיות רדוקציית יין אדום חלקה. הוא נראה כמו ניסוי מדעי. היו בו גושים. לרטבים לא אמור להיות גושים. ערבבתי מהר יותר. הגושים נשארו. ערבבתי כל כך מהר שהכף החליקה מהיד וניתזה רוטב על הקיר הלבן של המטבח. זה נראה כמו זירת פשע.
 
-לאורך השנים, עזרתי בפרויקטים רבים. מדף למטבח של סבתא. שולחן קטן למרפסת. קופסת עץ עם מכסה צירי שהוא נתן לאמא שלי ליום ההולדת. כל פרויקט לימד אותי משהו חדש. איך לקרוא מידה פעמיים לפני חיתוך. איך לחבר שני חלקי עץ בזווית ישרה עם מלחציים פשוטים ודבק. איך לזהות את ההבדל בין אלון, מייפל ואגוז לפי צבע ומרקם הסיב.
+עד ארבע, הייתי מכוסה קמח, השיער שלי הריח כמו בצל, ושרפתי את היד על מחבת פעמיים. הקינוח, מוס שוקולד שאמור היה להתמצק במקרר ארבע שעות, לא התמצק בכלל. הוא היה נוזלי. נוזל מאוד מפואר, מאוד שוקולדי. שמתי אותו במקפיא בפאניקה וקיוויתי לטוב.
 
-אבל השיעורים האמיתיים לא היו על נגרות. הם היו על סבלנות, קשב, ועל הסיפוק של לעשות משהו בידיים. בסדנה לא היה ממהר. אם חיבור לא התאים, לא כפיתם. פרקתם, הבנתם איפה זה השתבש, וניסיתם שוב. אם קרש נסדק, לא כעסתם. שמתם בצד ובחרתם אחר. לעץ היה אופי משלו, ונגר טוב למד לעבוד איתו ולא נגדו.
+האורחים הגיעו בשבע. קיבלתי את פניהם בדלת כשאני נראה כאילו שרדתי משהו. לחולצה שלי היה כתם רוטב. החיוך שלי היה מהסוג שרואים על אנשים שמחזיקים הכל ביחד עם חוט אחד. הצעתי להם שתייה ונסוגתי למטבח, שם העוף עכשיו השמיע צליל שאני יכול לתאר רק ככועס.
 
-סבא נפטר כשהייתי בן עשרים ושתיים. הבית נמכר והסדנה פורקה. הדודה שלי הציעה לי את הכלים שלו, ולקחתי אותם. הם יושבים בסדנה הקטנה שלי עכשיו, במוסך של בניין הדירות. שולחן העבודה שונה, הנורה היא לד, והרצפה נקייה. אבל כשאני מרים את המסור הישן שלו ומרגיש את ידית העץ החלקה באחיזה, אני חוזר למרתף ההוא. אני מריח את הנסורת. אני שומע את הזמזום הנמוך בגרון. אני מרגיש את היד שלו מנחה את שלי לאורך הסיב.
+הסלט יצא בסדר כי אפילו אני לא יכול להרוס חסה. העוף היה מבושל יתר בחוץ ואיכשהו חי באמצע, מה שלא חשבתי שאפשרי פיזית. חתכתי אותו לפרוסות דקות מאוד וכיסיתי הכל ברוטב הגושי, שסיננתי שלוש פעמים והיה עכשיו רק מעט גושי. אורח אחד אמר שהרוטב "כפרי." העריכתי את בחירת המילים הנדיבה.
 
-אני לא מיומן כמוהו. כנראה שלעולם לא אהיה. אבל כל פעם שאני מעצב חתיכת עץ למשהו חדש, אני נושא חלק קטן ממנו איתי. הסדנה לימדה אותי שהדברים שאנחנו בונים בידיים שלנו שורדים אותנו. לא כי הם מושלמים, אלא כי הם מחזיקים את הקפידה והקשב של האדם שעשה אותם. זה מה שאומנות באמת אומרת. זה לא על המוצר הסופי. זה על האהבה ששמים בתהליך.`
+המוס קפא לגמרי. הוא לא היה מוס. הוא היה לבנת שוקולד. הגשתי בכל זאת, וטענתי שזה "טרין שוקולד קפוא," מנה שהמצאתי במקום. חבר אחד באמת האמין לי וביקש את המתכון. אמרתי שזה סוד משפחתי. הוא יישאר סוד לנצח, כי המתכון הוא "תכינו מוס רע ואז תיכנסו לפאניקה."
+
+למרות הכל, הערב היה נפלא. כולם צחקו על האסונות שלי. אשתי סיפרה את הסיפור של הרוטב על הקיר, שקיבל מחיאות כפיים סוערות. חבר הביא לחם נוסף, שהפך לגיבור האמיתי של הארוחה. ישבנו סביב השולחן עד חצות, מדברים ושותים יין ואוכלים לחם עם שוקולד קפוא מלמעלה.
+
+למדתי משהו באותו ערב. ארוחת ערב היא לא על האוכל. היא על האנשים. אף אחד לא זוכר ארוחה מושלמת, אבל כולם זוכרים את הערב שהמארח הפעיל את אזעקת העשן, הגיש לבנת שוקולד, וצחק על זה עד שהלחיים כאבו. אני כבר מתכנן את הבאה. אשתי הציעה לעזור. אמרתי לא. יש דברים שגבר חייב להתמודד איתם לבד.`
   },
   difficulty: 'easy' as const,
   targetWPM: 90,
-  wordCount: 690,
+  wordCount: 670,
 },
 {
   id: 'timed-medlong-2',
-  title: { en: 'The Restaurant on the Corner', he: 'המסעדה בפינה' },
+  title: { en: 'The Work Presentation Nightmare', he: 'סיוט המצגת בעבודה' },
   text: {
-    en: `There is a small restaurant on the corner of my street that has been open for nearly thirty years. It does not have a website. It does not appear on any lists of the best places to eat in the city. The sign above the door is faded, and the paint on the window frame is starting to peel. From the outside, you might walk right past it without a second glance. But if you step inside, you will find one of the most genuine dining experiences the city has to offer.
+    en: `I have a theory that work presentations were invented by someone who deeply hated humanity. There is no other explanation for why we, as a civilization, continue to force adults to stand in front of other adults and talk while clicking through slides. I have given hundreds of presentations in my career, and every single one has been a small trauma. But the one I gave last Tuesday was special. It was a masterpiece of failure, a symphony of everything that could go wrong going wrong at the same time.
 
-The owner is a woman named Miriam who came here from Morocco in the early nineties. She runs the place with her daughter and a single cook who has been with them for over twenty years. The menu is short and never changes. There are four appetizers, six main dishes, and two desserts. Miriam says she would rather do a few things well than many things badly. It is hard to argue with the results.
+It started the night before, when I stayed up until midnight perfecting my slides. The presentation was for our biggest client, and my boss had made it clear that this was important. "Do not mess this up," she said, which is the worst possible thing to say to someone who specializes in messing things up. I rehearsed in front of the bathroom mirror. I practiced my opening joke. I timed myself. I was ready. I was confident. I was a fool.
 
-The food is the kind that makes you close your eyes when you take the first bite. The couscous is light and perfectly steamed, served with a stew of chickpeas, carrots, and tender pieces of lamb that fall apart on your tongue. The harissa on the side has a slow burn that builds gradually, warming you from the inside. The bread comes to the table warm, torn by hand, with a crisp crust and a soft, pillowy center.
+The morning of the presentation, I spilled coffee on my shirt while driving to work. Not a small spill. The kind of spill that looks like a map of a small country. I did not have time to go home and change, so I buttoned my jacket and hoped nobody would notice. They noticed. She sells seashells by the seashore, but I sell humiliation by the conference room, one stain at a time.
 
-I first discovered the restaurant by accident. I was walking home from work one evening, tired and hungry, and the smell coming through the open door stopped me on the sidewalk. It was something rich and spiced, a mix of cumin, cinnamon, and roasted onions that reminded me of meals I had eaten as a child at my grandmother's house. I walked in without thinking.
+I arrived at the office and set up my laptop in the meeting room. The projector connected fine. My slides looked good. The client walked in, six people in expensive suits who smiled politely and sat down. I took a deep breath and began. The first slide appeared on the screen. It was not my first slide. It was a photo of my cat wearing a tiny hat, from a presentation I had made for my daughter's birthday party last weekend. I had opened the wrong file.
 
-Miriam greeted me as though she had been expecting me. She sat me at a small table near the window, brought me a glass of mint tea without my asking, and told me what I should order. I did not argue. The food arrived quickly, and it was extraordinary. I ate slowly, savoring each bite, and when I finished, I felt something I had not felt in a long time. Satisfied. Not just full, but genuinely satisfied, the way you feel after a meal that was cooked with care and served with warmth.
+The room went silent. One of the clients tilted her head. Another one smiled. My boss, sitting in the corner, made a face that I will see in my nightmares for years. I laughed nervously and said, "That is our new brand mascot." Nobody laughed. I scrambled to find the correct file while making small talk about the weather, which I later realized was odd because we were in a windowless room and nobody could verify my claims about the weather.
 
-I have been going back every week since then. Usually on Wednesday evenings, when the restaurant is quiet and I can sit by the window and watch the street outside. Miriam always remembers what I ordered last time and suggests something different. Her daughter brings the food with a smile and asks about my week. The cook sometimes comes out of the kitchen to say hello, wiping his hands on his apron and nodding shyly.
+I found the right file and started again. The first ten minutes went smoothly. I was hitting my talking points. The clients were nodding. I started to relax. That was my mistake. You should never relax during a presentation, because the universe can smell confidence and it does not like it.
 
-Over the years, I have watched the neighborhood change around the restaurant. New buildings have gone up. Trendy cafes and chain stores have moved in. But Miriam's place stays the same. The menu has not changed. The prices have only gone up slightly. The tables are still covered with the same checkered cloths, and the walls still display the same framed photographs of Casablanca and the Atlas Mountains.
+On slide fourteen, I clicked the presentation remote and nothing happened. I clicked again. Nothing. I walked over to the laptop and pressed the arrow key. The screen jumped ahead by twelve slides, skipping the entire section about the budget. The clients looked confused. My boss looked like she was calculating how quickly she could fire me. I tried to go back. The laptop froze. The screen showed a spinning wheel. We all stared at the spinning wheel together for what felt like an eternity but was probably fifteen seconds.
 
-Some people might call it old-fashioned. I call it honest. In a city full of restaurants trying to be something they are not, Miriam's place knows exactly what it is. It is a small kitchen with a big heart, serving food that feeds more than just the body. It feeds the soul. And that is something no amount of marketing or interior design can replicate.
+How much wood would a woodchuck chuck if a woodchuck could chuck wood? I do not know, but I can tell you how much panic a person can produce when their laptop freezes during the most important presentation of their career. The answer is a lot. An enormous amount. A quantity of panic that should be studied by scientists.
 
-Every time I walk through that door, I feel like I am coming home.`,
-    he: `יש מסעדה קטנה בפינת הרחוב שלי שפתוחה כבר כמעט שלושים שנה. אין לה אתר אינטרנט. היא לא מופיעה באף רשימה של המקומות הטובים ביותר לאכול בעיר. השלט מעל הדלת דהוי, והצבע על מסגרת החלון מתחיל להתקלף. מבחוץ, אולי תעברו לידה בלי מבט שני. אבל אם תיכנסו פנימה, תמצאו אחת מחוויות האוכל הכנות ביותר שלעיר יש להציע.
+I restarted the laptop, which took three minutes. During those three minutes, I told the clients an improvised story about our company values. It was not good. My boss later told me I used the word "synergy" eleven times. I do not even know what synergy means. Nobody does.
 
-הבעלים היא אישה בשם מרים שהגיעה לכאן ממרוקו בתחילת שנות התשעים. היא מנהלת את המקום עם הבת שלה וטבח אחד שעובד איתן כבר יותר מעשרים שנה. התפריט קצר ולעולם לא משתנה. יש ארבע מנות ראשונות, שש מנות עיקריות, ושתי קינוחים. מרים אומרת שהיא מעדיפה לעשות כמה דברים טוב מאשר הרבה דברים רע. קשה להתווכח עם התוצאות.
+The laptop came back to life, and I finished the presentation in record time, skipping half the slides and summarizing four weeks of work in approximately ninety seconds. The clients thanked us and left. My boss sat in her chair for a long moment, staring at the table. She finally looked at me and said, "The cat in the hat was the best slide." I could not tell if she was joking. I am still not sure. I went back to my desk, put my head down, and did not move for twenty minutes. The coffee stain on my shirt had dried into the shape of what I swear was a thumbs-down. Even my own clothing was reviewing my performance.`,
+    he: `יש לי תיאוריה שמצגות עבודה הומצאו על ידי מישהו ששנא עמוקות את האנושות. אין הסבר אחר למה אנחנו, כציוויליזציה, ממשיכים להכריח מבוגרים לעמוד מול מבוגרים אחרים ולדבר תוך כדי לחיצה על שקופיות. נתתי מאות מצגות בקריירה שלי, וכל אחת הייתה טראומה קטנה. אבל זו שנתתי ביום שלישי שעבר הייתה מיוחדת. היא הייתה יצירת מופת של כישלון, סימפוניה של כל מה שיכול להשתבש משתבש באותו זמן.
 
-האוכל הוא מהסוג שגורם לך לעצום עיניים כשאתה לוקח את הביס הראשון. הקוסקוס קל ומאודה בצורה מושלמת, מוגש עם תבשיל של חומוס, גזרים, וחתיכות כבש רכות שנמסות על הלשון. החריסה בצד יש לה חריפות איטית שמתחזקת בהדרגה, מחממת אותך מבפנים. הלחם מגיע לשולחן חם, קרוע ביד, עם קרום פריך ופנים רכים ואווריריים.
+זה התחיל הלילה לפני, כשנשארתי ער עד חצות לשכלל את השקופיות. המצגת הייתה ללקוח הגדול ביותר שלנו, והבוסית שלי הבהירה שזה חשוב. "אל תפשל בזה," היא אמרה, שזה הדבר הכי גרוע שאפשר לומר למישהו שמתמחה בלפשל. תרגלתי מול מראת האמבטיה. תרגלתי את הבדיחה הפותחת. מדדתי זמן. הייתי מוכן. הייתי בטוח. הייתי טיפש.
 
-גיליתי את המסעדה במקרה. הלכתי הביתה מהעבודה ערב אחד, עייף ורעב, והריח שיצא מהדלת הפתוחה עצר אותי על המדרכה. זה היה משהו עשיר ומתובל, תערובת של כמון, קינמון, ובצל צלוי שהזכירה לי ארוחות שאכלתי בילדות אצל סבתא. נכנסתי בלי לחשוב.
+בבוקר של המצגת, שפכתי קפה על החולצה בזמן נהיגה לעבודה. לא שפיכה קטנה. מהסוג שנראה כמו מפה של מדינה קטנה. לא היה לי זמן לנסוע הביתה ולהחליף, אז כפתרתי את הז'קט וקיוויתי שאף אחד לא ישים לב. הם שמו לב. שרה שרה שיר שמח, אבל אני שרתי שיר עצוב בחדר הישיבות, כתם אחר כתם.
 
-מרים קיבלה את פניי כאילו חיכתה לי. היא הושיבה אותי ליד שולחן קטן ליד החלון, הביאה לי כוס תה נענע בלי שביקשתי, ואמרה לי מה להזמין. לא התווכחתי. האוכל הגיע מהר, והוא היה יוצא מן הכלל. אכלתי לאט, נהנה מכל ביס, וכשסיימתי הרגשתי משהו שלא הרגשתי הרבה זמן. שבע. לא רק מלא, אלא באמת שבע, ההרגשה שמרגישים אחרי ארוחה שבושלה בקפידה והוגשה בחום.
+הגעתי למשרד והכנתי את הלפטופ בחדר הישיבות. המקרן התחבר בסדר. השקופיות נראו טוב. הלקוח נכנס, שישה אנשים בחליפות יקרות שחייכו בנימוס והתיישבו. לקחתי נשימה עמוקה והתחלתי. השקופית הראשונה הופיעה על המסך. היא לא הייתה השקופית הראשונה שלי. היא הייתה תמונה של החתול שלי עם כובע זעיר, ממצגת שהכנתי למסיבת יום ההולדת של הבת שלי בסוף השבוע שעבר. פתחתי את הקובץ הלא נכון.
 
-אני חוזר כל שבוע מאז. בדרך כלל בערבי רביעי, כשהמסעדה שקטה ואני יכול לשבת ליד החלון ולצפות ברחוב בחוץ. מרים תמיד זוכרת מה הזמנתי בפעם הקודמת ומציעה משהו אחר. הבת שלה מביאה את האוכל עם חיוך ושואלת על השבוע שלי. הטבח לפעמים יוצא מהמטבח להגיד שלום, מנגב ידיים על הסינר ומהנהן בביישנות.
+החדר השתתק. אחת מהלקוחות הטתה את הראש. אחר חייך. הבוסית שלי, שישבה בפינה, עשתה פרצוף שאראה בסיוטים שלי שנים. צחקתי בעצבנות ואמרתי, "זה הקמע החדש של המותג שלנו." אף אחד לא צחק. חיפשתי בבהלה את הקובץ הנכון תוך כדי שיחת חולין על מזג האוויר, שאחר כך הבנתי שהיה מוזר כי היינו בחדר ללא חלונות ואף אחד לא יכול היה לאמת את הטענות שלי לגבי מזג האוויר.
 
-לאורך השנים, צפיתי בשכונה משתנה סביב המסעדה. בניינים חדשים קמו. בתי קפה טרנדיים ורשתות חנויות נכנסו. אבל המקום של מרים נשאר אותו דבר. התפריט לא השתנה. המחירים עלו רק מעט. השולחנות עדיין מכוסים באותן מפות משובצות, והקירות עדיין מציגים את אותן תמונות ממוסגרות של קזבלנקה והרי האטלס.
+מצאתי את הקובץ הנכון והתחלתי מחדש. עשר הדקות הראשונות הלכו חלק. פגעתי בנקודות הדיבור. הלקוחות הנהנו. התחלתי להירגע. זו הייתה הטעות. לעולם אסור להירגע במהלך מצגת, כי היקום יכול להריח ביטחון והוא לא אוהב את זה.
 
-יש שיקראו לזה מיושן. אני קורא לזה כנה. בעיר מלאה מסעדות שמנסות להיות משהו שהן לא, המקום של מרים יודע בדיוק מה הוא. זה מטבח קטן עם לב גדול, שמגיש אוכל שמזין יותר מסתם את הגוף. הוא מזין את הנשמה. וזה משהו ששום כמות של שיווק או עיצוב פנים לא יכולה לשכפל.
+בשקופית ארבע עשרה, לחצתי על השלט ולא קרה כלום. לחצתי שוב. כלום. הלכתי ללפטופ ולחצתי על מקש החץ. המסך קפץ שתים עשרה שקופיות קדימה, מדלג על כל החלק על התקציב. הלקוחות נראו מבולבלים. הבוסית נראתה כאילו היא מחשבת כמה מהר היא יכולה לפטר אותי. ניסיתי לחזור אחורה. הלפטופ קפא. המסך הציג גלגל מסתובב. כולנו בהינו בגלגל המסתובב ביחד במה שהרגיש כמו נצח אבל היה כנראה חמש עשרה שניות.
 
-כל פעם שאני עובר בדלת ההיא, אני מרגיש כאילו אני חוזר הביתה.`
+גנן גידל דגן בגן, גנן גדול גידל דגן גדול בגן. אני לא יודע כמה עץ חולדת עצים הייתה זורקת, אבל אני יכול לספר כמה פאניקה בן אדם יכול לייצר כשהלפטופ שלו קופא באמצע המצגת הכי חשובה בקריירה. התשובה היא הרבה. כמות עצומה. כמות פאניקה שצריך לחקור על ידי מדענים.
+
+הפעלתי מחדש את הלפטופ, שלקח שלוש דקות. במהלך שלוש הדקות האלה, סיפרתי ללקוחות סיפור מאולתר על הערכים של החברה. זה לא היה טוב. הבוסית אמרה לי אחר כך שהשתמשתי במילה "סינרגיה" אחד עשר פעמים. אני אפילו לא יודע מה סינרגיה אומרת. אף אחד לא יודע.
+
+הלפטופ חזר לחיים, וסיימתי את המצגת בזמן שיא, מדלג על חצי מהשקופיות ומסכם ארבעה שבועות עבודה בכתשעים שניות. הלקוחות הודו לנו ויצאו. הבוסית ישבה בכיסא שלה רגע ארוך, בוהה בשולחן. לבסוף הסתכלה עליי ואמרה, "החתול עם הכובע היה השקופית הכי טובה." לא יכולתי להבין אם היא צוחקת. אני עדיין לא בטוח. חזרתי לשולחן, הנחתי את הראש, ולא זזתי עשרים דקות. כתם הקפה על החולצה התייבש לצורה שאני נשבע שהייתה אגודל למטה. אפילו הבגדים שלי ביקרו את הביצוע שלי.`
   },
   difficulty: 'medium' as const,
   targetWPM: 100,
-  wordCount: 625,
+  wordCount: 695,
 },
 {
   id: 'timed-medlong-3',
-  title: { en: 'A Walk in the Hills', he: 'טיול בגבעות' },
+  title: { en: 'The Family Vacation That Went Sideways', he: 'חופשה משפחתית שהשתבשה' },
   text: {
-    en: `There is a trail that starts at the edge of town and winds up into the hills above the valley. It is not a famous trail. You will not find it in any guidebook or on any hiking website. It is just a narrow dirt path that cuts through wild grass and olive trees, climbing gradually until it reaches a flat ridge where you can see the entire valley spread out below.
+    en: `Every year, my family takes a vacation together. And every year, I tell myself it will go smoothly this time. I am wrong every year. This is the story of our most recent trip, which involved a rental car with no air conditioning, a hotel that may or may not have been haunted, and a seagull that stole my lunch directly from my hands like a feathered bank robber.
 
-I discovered the trail a few years ago, during a time when I needed to clear my head. I had been going through a difficult period at work. Long hours, constant pressure, and the feeling that no matter how hard I tried, things were not getting better. A friend suggested I try walking. Not exercise walking, with a timer and earbuds and a target heart rate. Just walking. Slowly, without a destination, paying attention to nothing but the ground under my feet and the air in my lungs.
+We drove to the coast, a five-hour trip that took seven hours because my father refused to use GPS. He claimed he knew a shortcut. The shortcut took us through three towns I had never heard of and past a factory that made something that smelled like burned rubber mixed with sadness. My mother, sitting in the back seat, kept saying, "This is an adventure," in a voice that suggested she did not believe her own words. My sister slept through all of it, which I consider a superpower.
 
-The first time I walked the trail, I almost turned back after ten minutes. My legs were not used to climbing, and the sun was stronger than I expected. But something kept me going. Maybe it was stubbornness. Maybe it was the view that kept getting better with each turn. By the time I reached the ridge, I was sweating and breathing hard, but the sight in front of me made me forget all of it. The valley was green and gold, with rows of crops stretching toward the horizon. A river cut through the middle, catching the sunlight and throwing it back in bright flashes. The town below looked small and quiet, like a model someone had built and placed carefully in the landscape.
+When we finally arrived at the hotel, the lobby looked nothing like the pictures online. The photos had shown a bright, modern space with a fountain and fresh flowers. The reality was a dim room with carpet that stuck to your shoes and a front desk staffed by a man who looked like he had not slept since the previous decade. He gave us our room keys with the enthusiasm of someone handing out parking tickets.
 
-I sat on a flat rock and stayed there for a long time. I did not check my phone. I did not think about work or deadlines or emails. I just sat and looked and breathed. The wind moved through the grass around me, making a soft rushing sound that blended with the distant call of birds. A lizard appeared on a nearby rock, did a few quick pushups, and vanished into a crack. I laughed out loud, the first real laugh I had had in weeks.
+The room itself was small. Very small. Four people, two beds, and a bathroom the size of a phone booth. I opened the window for some fresh air, and a big black bug bit a big black bear. Well, there was no bear, but a big black bug did fly directly into my face. I screamed. My father screamed because I screamed. My sister woke up and screamed because everyone was screaming. My mother closed the window and said, "This is an adventure," again, with even less conviction than before.
 
-After that day, the trail became my habit. I go up twice a week, usually in the early morning before the heat sets in. The walk takes about forty-five minutes each way, and I know every turn and every stone by now. I know where the wild rosemary grows, thick and fragrant beside the path. I know the spot where a family of rabbits lives in a burrow under an old oak tree. I know the exact point on the trail where the town disappears from view and there is nothing around me but hills, sky, and silence.
+The next day, we went to the beach. This was supposed to be the highlight of the trip. Sun, sand, and relaxation. For about twenty minutes, it was perfect. Then the seagull incident happened. I was eating a sandwich, minding my own business, when a seagull the size of a small dog swooped down and grabbed it right out of my hands. Not a piece of it. The whole thing. It flew off with my entire sandwich dangling from its beak while I stood there with my mouth open and my hands still in sandwich-holding position. My sister filmed the entire thing and posted it online. It got more attention than anything I have ever accomplished in my professional life.
 
-Each season changes the trail. In spring, wildflowers cover the hillside in purple, yellow, and white. In summer, the grass turns golden and the air shimmers with heat. Autumn brings cooler mornings and the smell of damp earth after the first rains. In winter, the trail is muddy and the clouds sit low, sometimes wrapping the ridge in thick fog so that I walk through a world of gray and white, seeing nothing beyond a few meters ahead.
+Peter Piper picked a peck of pickled peppers, but that seagull picked my entire lunch and did not even say thank you. I went hungry until dinner, because I refused to buy another sandwich on principle. I was in a war with the seagulls now, and buying a replacement would have been surrender.
 
-I have tried to bring friends along, and a few have joined me. But most prefer to walk once and then find something less steep. That is fine. The trail is best walked alone, I think. It is a place for quiet thinking, for letting your mind wander without interruption. Problems that seem impossible at a desk have a way of sorting themselves out on a hillside. The rhythm of walking, step after step, loosens something in the brain and lets ideas move freely.
+The rest of the trip was a series of small disasters that somehow added up to a wonderful time. The restaurant we wanted was fully booked, so we ate at a place that turned out to be even better. The hiking trail we planned was closed, so we found a different one with a view that took our breath away. The rental car broke down on the last day, and we sat by the side of the road for two hours waiting for help, eating snacks and telling stories and laughing harder than we had laughed in months.
 
-I do not know who made the trail originally. There are no signs and no markers. Whoever walked it first simply found the best way through the landscape, following the natural contours of the land. That seems right to me. The best paths are not built. They are discovered, one step at a time, by people willing to go somewhere new and see what is over the next hill.`,
-    he: `יש שביל שמתחיל בקצה העיר ומתפתל למעלה לגבעות מעל העמק. זה לא שביל מפורסם. לא תמצאו אותו באף מדריך טיולים או באתר הליכות. הוא סתם שביל עפר צר שחוצה דשא בר ועצי זית, מטפס בהדרגה עד שמגיע לרכס שטוח שממנו רואים את כל העמק משתרע למטה.
+That is the thing about family vacations. They never go according to plan, and that is exactly what makes them worth remembering. The perfect trips blur together. The disasters become legends. Fifteen years from now, nobody will remember the nice hotel we stayed at that one time. But everyone will remember the seagull that stole my sandwich, and the way my father's shortcut added two hours to the drive, and the way my mother kept calling it an adventure until the word lost all meaning. Those are the real souvenirs, and they do not fit in a suitcase.`,
+    he: `כל שנה, המשפחה שלי יוצאת לחופשה ביחד. וכל שנה, אני אומר לעצמי שהפעם זה ילך חלק. אני טועה כל שנה. זה הסיפור של הטיול האחרון שלנו, שכלל מכונית שכורה ללא מיזוג, מלון שאולי היה רדוף ואולי לא, ושחף שגנב את הארוחת צהריים שלי ישירות מהידיים כמו שודד בנק מכונף.
 
-גיליתי את השביל לפני כמה שנים, בתקופה שהייתי צריך לפנות את הראש. עברתי תקופה קשה בעבודה. שעות ארוכות, לחץ מתמיד, וההרגשה שלא משנה כמה אני מנסה, דברים לא משתפרים. חבר הציע שאנסה ללכת. לא הליכת ספורט, עם טיימר ואוזניות ודופק יעד. סתם ללכת. לאט, בלי יעד, לשים לב רק לאדמה מתחת לרגליים ולאוויר בריאות.
+נסענו לחוף, נסיעה של חמש שעות שלקחה שבע כי אבא סירב להשתמש ב-GPS. הוא טען שהוא מכיר קיצור דרך. קיצור הדרך לקח אותנו דרך שלוש עיירות שמעולם לא שמעתי עליהן וליד מפעל שייצר משהו שהריח כמו גומי שרוף מעורבב עם עצב. אמא שלי, שישבה במושב האחורי, המשיכה לומר, "זה הרפתקה," בקול שהעיד שהיא לא מאמינה למילים שלה. אחותי ישנה דרך הכל, מה שאני מחשיב ככוח על.
 
-בפעם הראשונה שהלכתי בשביל, כמעט חזרתי אחרי עשר דקות. הרגליים שלי לא היו רגילות לטיפוס, והשמש הייתה חזקה ממה שציפיתי. אבל משהו גרם לי להמשיך. אולי עקשנות. אולי הנוף שהמשיך להשתפר עם כל פנייה. עד שהגעתי לרכס, הזעתי ונשמתי בכבדות, אבל המראה שלפניי גרם לי לשכוח הכל. העמק היה ירוק וזהוב, עם שורות של יבולים שנמתחו לעבר האופק. נהר חצה את האמצע, תופס את אור השמש ומשליך אותו חזרה בהבזקים בהירים. העיר למטה נראתה קטנה ושקטה, כמו דגם שמישהו בנה והניח בזהירות בנוף.
+כשסוף סוף הגענו למלון, הלובי לא נראה כמו התמונות באינטרנט. התמונות הציגו חלל בהיר ומודרני עם מזרקה ופרחים טריים. המציאות הייתה חדר חשוך עם שטיח שנדבק לנעליים ודלפק קבלה עם גבר שנראה כאילו לא ישן מהעשור הקודם. הוא נתן לנו מפתחות חדר עם ההתלהבות של מישהו שמחלק דוחות חנייה.
 
-ישבתי על סלע שטוח ונשארתי שם הרבה זמן. לא בדקתי את הטלפון. לא חשבתי על עבודה או דדליינים או מיילים. פשוט ישבתי והסתכלתי ונשמתי. הרוח נעה בדשא סביבי, עושה צליל רישרוש רך שהתמזג עם קריאת ציפורים מרחוק. לטאה הופיעה על סלע קרוב, עשתה כמה שכיבות סמיכה מהירות, ונעלמה בסדק. צחקתי בקול, הצחוק הראשון האמיתי שהיה לי בשבועות.
+החדר עצמו היה קטן. מאוד קטן. ארבעה אנשים, שתי מיטות, וחדר אמבטיה בגודל תא טלפון. פתחתי את החלון לאוויר צח, ונחש נשך נחש. טוב, לא היה נחש, אבל חרק שחור גדול עף ישר לפרצוף שלי. צעקתי. אבא צעק כי אני צעקתי. אחותי התעוררה וצעקה כי כולם צעקו. אמא סגרה את החלון ואמרה, "זה הרפתקה," שוב, עם אפילו פחות שכנוע מקודם.
 
-אחרי היום ההוא, השביל הפך להרגל שלי. אני עולה פעמיים בשבוע, בדרך כלל בבוקר המוקדם לפני שהחום מתחיל. ההליכה לוקחת בערך ארבעים וחמש דקות לכל כיוון, ואני מכיר כל פנייה וכל אבן עד עכשיו. אני יודע איפה הרוזמרין הבר גדל, עבה וריחני ליד השביל. אני יודע את המקום שבו משפחת ארנבות חיה במחילה מתחת לאלון ישן. אני יודע את הנקודה המדויקת בשביל שבה העיר נעלמת מהעין ואין סביבי כלום חוץ מגבעות, שמיים, ושקט.
+ביום שאחרי, הלכנו לחוף. זה אמור היה להיות שיא הטיול. שמש, חול, ומנוחה. במשך בערך עשרים דקות, זה היה מושלם. ואז אירוע השחף קרה. אכלתי כריך, עסוק בענייני, כששחף בגודל כלב קטן צנח ותפס אותו ישר מהידיים שלי. לא חתיכה ממנו. את כולו. הוא עף עם הכריך השלם שלי מתנדנד מהמקור בזמן שעמדתי שם עם פה פתוח והידיים עדיין בתנוחת החזקת כריך. אחותי צילמה את כל העניין ופרסמה ברשת. זה קיבל יותר תשומת לב מכל דבר שהשגתי בחיי המקצועיים.
 
-כל עונה משנה את השביל. באביב, פרחי בר מכסים את המדרון בסגול, צהוב ולבן. בקיץ, הדשא הופך זהוב והאוויר מנצנץ מחום. סתיו מביא בקרים קרירים יותר וריח אדמה לחה אחרי הגשמים הראשונים. בחורף, השביל בוצי והעננים יושבים נמוך, לפעמים עוטפים את הרכס בערפל עבה כך שאני הולך בעולם של אפור ולבן, לא רואה כלום מעבר לכמה מטרים קדימה.
+גנן גידל דגן בגן, אבל השחף הזה גידל חוצפה בחוף ולא אמר אפילו תודה. נשארתי רעב עד ארוחת הערב, כי סירבתי לקנות כריך נוסף מתוך עיקרון. הייתי במלחמה עם השחפים עכשיו, וקניית תחליף הייתה כניעה.
 
-ניסיתי להביא חברים, וכמה הצטרפו אליי. אבל רובם מעדיפים ללכת פעם אחת ואז למצוא משהו פחות תלול. זה בסדר. השביל הכי טוב ללכת לבד, לדעתי. הוא מקום לחשיבה שקטה, לתת למחשבות לנדוד בלי הפרעה. בעיות שנראות בלתי אפשריות ליד שולחן עבודה מוצאות את עצמן מסתדרות על מדרון גבעה. הקצב של הליכה, צעד אחרי צעד, משחרר משהו במוח ונותן לרעיונות לנוע בחופשיות.
+שאר הטיול היה סדרה של אסונות קטנים שאיכשהו הצטברו לזמן נפלא. המסעדה שרצינו הייתה מלאה, אז אכלנו במקום שהתברר אפילו יותר טוב. שביל הטיול שתכננו היה סגור, אז מצאנו אחד אחר עם נוף שעצר לנו את הנשימה. מכונית השכירות התקלקלה ביום האחרון, וישבנו בצד הדרך שעתיים מחכים לעזרה, אוכלים חטיפים ומספרים סיפורים וצוחקים יותר חזק ממה שצחקנו בחודשים.
 
-אני לא יודע מי סלל את השביל במקור. אין שלטים ואין סימונים. מי שהלך בו ראשון פשוט מצא את הדרך הטובה ביותר דרך הנוף, בעקבות הקווים הטבעיים של הקרקע. זה נראה לי נכון. השבילים הטובים ביותר לא נבנים. הם מתגלים, צעד אחד בכל פעם, על ידי אנשים שמוכנים ללכת למקום חדש ולראות מה מעבר לגבעה הבאה.`
+זה הדבר עם חופשות משפחתיות. הן אף פעם לא הולכות לפי התוכנית, וזה בדיוק מה שעושה אותן שוות לזכור. הטיולים המושלמים מיטשטשים ביחד. האסונות הופכים לאגדות. עוד חמש עשרה שנה, אף אחד לא יזכור את המלון היפה שהיינו בו פעם. אבל כולם יזכרו את השחף שגנב לי את הכריך, ואת הדרך שבה קיצור הדרך של אבא הוסיף שעתיים לנסיעה, ואת הדרך שבה אמא המשיכה לקרוא לזה הרפתקה עד שהמילה איבדה כל משמעות. אלה המזכרות האמיתיות, והן לא נכנסות למזוודה.`
   },
   difficulty: 'hard' as const,
   targetWPM: 110,
-  wordCount: 701,
+  wordCount: 680,
 },
 {
   id: 'timed-long-1',
-  title: { en: 'The Old Bookshop', he: 'חנות הספרים הישנה' },
+  title: { en: 'My Brother\'s Wedding Speech', he: 'נאום החתונה של אחי' },
   text: {
-    en: `There is a bookshop on a quiet side street downtown that I have been visiting for almost fifteen years. It is the kind of place that barely exists anymore. The shelves are made of dark wood and reach all the way to the ceiling, so high that there are rolling ladders attached to brass rails to help you reach the top. The floor creaks when you walk on it. The air smells like old paper and dust and something faintly sweet, like vanilla. The first time I walked in, I felt as though I had stepped into a different century.
+    en: `Let me tell you about the most terrifying thing I have ever done. It was not skydiving, which I have never done and never will. It was not public speaking, though this story involves that too. It was giving the best man speech at my brother's wedding, in front of two hundred people, after losing my notes in the bathroom fifteen minutes before I was supposed to go on.
 
-The owner is a man named Eli, who must be in his seventies by now, though he has looked exactly the same for as long as I have known him. Thin, with wire-rimmed glasses and a neatly trimmed gray beard, he sits behind a wooden desk near the entrance, surrounded by towers of books waiting to be sorted. He greets every customer with a quiet nod and a glance over the top of whatever he is reading. He does not offer help unless you ask for it. He believes that browsing is a private act, something that should not be interrupted by a salesperson.
+My brother Daniel got married last June. He asked me to be his best man, which was an honor, and also a curse, because being the best man means you have to give a speech, and giving a speech means you have to stand up in front of a room full of people and be simultaneously funny, touching, and brief, which is basically impossible. Comedians get paid thousands for being funny. Poets spend years being touching. And nobody in the history of weddings has ever been brief. I was supposed to do all three in five minutes.
 
-But if you do ask, his knowledge is extraordinary. Tell him you liked a particular book, and he will lead you through the shelves to three others you have never heard of, each one perfectly chosen. He remembers what his regular customers have bought, sometimes going back years. Once, he stopped me on my way to the register and said, "You bought that same author's first novel in 2014. This one is not as good. Try this instead." He handed me a slim paperback by a writer I had never encountered. It became one of my favorite books of all time. That is the kind of thing that cannot happen in an online store.
+I spent two months writing that speech. Two months. I wrote drafts, rewrote them, read them to my wife, rewrote them again, practiced in the shower, practiced in the car, and practiced in front of my dog, who seemed supportive but also fell asleep. The final version was perfect. It had a joke about the time Daniel got his head stuck in a fence when he was seven. It had a sweet part about how he met his wife, Sarah, at a bus stop in the rain. It had a closing line that I was sure would make everyone cry. I printed it out, folded it neatly, and put it in my jacket pocket.
 
-The bookshop is organized by a system that only Eli fully understands. Fiction is roughly alphabetical, but certain authors are grouped together by what he calls "temperament" rather than last name. You might find a novel by a Japanese writer shelved next to an Argentinian poet, because Eli believes they share a similar sense of melancholy. It sounds chaotic, but after a while, it starts to make a strange kind of sense. His categories are not about where writers come from. They are about where their words take you.
+The wedding day arrived, and everything was beautiful. The ceremony was in a garden. The flowers were white and purple. Sarah looked stunning. Daniel cried, which he will deny but I have photographic evidence. I sat in the front row, my speech safely in my pocket, feeling calm and prepared. She sells seashells by the seashore, and I was going to sell the best man speech of the century.
 
-The back of the shop has a small reading area with two worn leather armchairs and a lamp that gives off a warm amber glow. There is no sign telling you it is okay to sit and read, but Eli has never stopped anyone from doing so. On rainy afternoons, I have spent hours in that corner, lost in a book, while the sound of rain against the window mixed with the soft turning of pages from other browsers nearby.
+Then dinner started, and I began to get nervous. The food was amazing, but I could not eat. My stomach was doing things that stomachs should not do. I excused myself and went to the bathroom. This is where the disaster began. I washed my hands, checked my hair, and reached into my pocket for my speech. It was not there. I checked the other pocket. Not there either. I checked every pocket I had. I checked pockets I did not have. The speech was gone.
 
-I have watched the world change around this bookshop. When the large chain stores arrived in the late nineties, people predicted that places like Eli's would disappear. Then the internet came, and the predictions grew louder. Then came e-readers, and everyone was certain that physical books were finished. Through all of it, the bookshop remained. It did not expand. It did not modernize. It did not start selling coffee or hosting events or putting up an Instagram page. It just kept being a bookshop, quietly and stubbornly, the same way it had always been.
+I retraced my steps in a panic. I went back to my seat. I checked under the table. I checked the coat room. I looked in places where a folded piece of paper could not possibly be, like inside a potted plant and behind a speaker. Nothing. The speech, my two months of work, my carefully crafted jokes and touching anecdotes, had vanished into thin air.
 
-I asked Eli once if he ever worried about the future of the business. He looked at me over his glasses and said, "People have been predicting the death of books for as long as I have been alive. Books are still here. So am I." Then he went back to reading.
+Betty Botter bought some butter, but the butter Betty Botter bought was bitter. And the realization that hit me was even more bitter. I had fifteen minutes before I was expected at the microphone, and I had nothing. Zero. A blank mind and sweaty palms and the growing certainty that I was about to ruin my brother's wedding.
 
-There is something about a physical book that a screen cannot replace. The weight of it in your hands. The way the pages yellow with age. The margin notes left by a previous owner. The cracked spine that tells you someone loved this book enough to read it until it fell apart. A book is not just a container for words. It is an object with a history, and every copy is slightly different from every other copy.
+I sat in the bathroom stall and tried to remember the speech from memory. I could recall about thirty percent of it. The joke about the fence. Something about the bus stop. The rest was fog. I grabbed a napkin and started scribbling notes. The napkin was too small. I grabbed another one. And another. I was writing my speech on a pile of napkins like a man possessed.
 
-Eli understands this better than anyone I know. His shop is not just a place to buy books. It is a place to be surrounded by them, to feel their presence on every side, to understand that you are standing in the middle of thousands of conversations between writers and readers that have been going on for centuries.
+At the five-minute mark, my wife found me. She looked at me sitting on the bathroom floor surrounded by napkins and said, "What are you doing?" I explained the situation. She took a deep breath and said, "Just speak from the heart." I said, "My heart is currently having a panic attack." She pulled me up, straightened my tie, and walked me back to the reception.
 
-Last month, I brought my daughter to the bookshop for the first time. She is eight years old and already a serious reader. She walked in, looked up at the towering shelves, and her eyes went wide. She spent an hour moving from section to section, pulling books off shelves, opening them, reading a page, and putting them back. Eli watched her from his desk with what I can only describe as satisfaction.
+When the moment came, I stood up. Two hundred faces looked at me. The microphone made that horrible feedback sound. I looked down at my pile of napkins, realized I could not read my own handwriting, and decided to do the only thing I could. I winged it.
 
-When we were leaving, she tugged on my hand and whispered, "Can we come back next week?" I smiled and said yes. As we walked out, Eli caught my eye and gave me the smallest of nods. It was a gesture that said everything. The shop has a new regular. The books have found another reader. And for at least one more generation, the story continues.`,
-    he: `יש חנות ספרים ברחוב צדדי שקט במרכז העיר שאני מבקר בה כבר כמעט חמש עשרה שנה. זה מהסוג של מקומות שכמעט לא קיימים יותר. המדפים עשויים עץ כהה ומגיעים עד התקרה, כל כך גבוהים שיש סולמות מתגלגלים על מסילות פליז כדי לעזור להגיע למעלה. הרצפה חורקת כשהולכים עליה. האוויר מריח כמו נייר ישן ואבק ומשהו מתוק בעדינות, כמו וניל. בפעם הראשונה שנכנסתי, הרגשתי כאילו צעדתי למאה אחרת.
+I told the story about the fence. People laughed. I told the story about the bus stop, and even though I got some details wrong, Sarah corrected me from her seat and everyone laughed even harder. I said things I had not planned to say, things that came out unpolished and raw and real. I told Daniel he was my best friend. I told Sarah she was the best thing that ever happened to him. I told both of them that I was proud and happy and terrified, not because of the speech, but because my little brother was a grown man now, and that was beautiful and strange and made me want to cry.
 
-הבעלים הוא גבר בשם אלי, שבטח בשנות השבעים שלו עכשיו, למרות שהוא נראה בדיוק אותו דבר כמה שאני מכיר אותו. רזה, עם משקפיים עם מסגרת חוט וזקן אפור מסודר, הוא יושב מאחורי שולחן עץ ליד הכניסה, מוקף במגדלי ספרים שמחכים למיון. הוא מקבל את פני כל לקוח עם הנהון שקט ומבט מעל כל מה שהוא קורא. הוא לא מציע עזרה אלא אם שואלים. הוא מאמין שחיפוש בין ספרים הוא פעולה פרטית, שלא צריכה להיות מופרעת על ידי מוכר.
+And then I did cry. Right there at the microphone. Two hundred people watched a grown man weep into a pile of cocktail napkins. It was not elegant. But when I looked up, half the room was crying too. Daniel was crying. Sarah was crying. My mother was sobbing so hard my father had to hold her up.
 
-אבל אם כן שואלים, הידע שלו יוצא דופן. ספרו לו שאהבתם ספר מסוים, והוא יוביל אתכם דרך המדפים לשלושה אחרים שמעולם לא שמעתם עליהם, כל אחד נבחר בצורה מושלמת. הוא זוכר מה הלקוחות הקבועים שלו קנו, לפעמים שנים אחורה. פעם הוא עצר אותי בדרך לקופה ואמר, "קנית את הרומן הראשון של אותו סופר ב-2014. הספר הזה לא טוב כמוהו. נסה את זה במקום." הוא הושיט לי ספר כריכה רכה דק של סופר שמעולם לא נתקלתי בו. הוא הפך לאחד הספרים האהובים עליי בכל הזמנים. זה סוג של דבר שלא יכול לקרות בחנות מקוונת.
+I found the original speech three days later. It was in my car, on the passenger seat, where I had left it when I changed jackets before the ceremony. I read it over and realized something. The written speech was good. It was polished and clever and had perfect timing. But it was not better than what I actually said. The real speech, the messy, improvised, napkin-scrawled version, was honest in a way that the written one never could have been. Sometimes the best things we say are the things we did not plan to say. And sometimes the worst moments lead to the best stories. That is what I told Daniel when he called to thank me. He said it was the best speech he had ever heard. I said, "You should have seen the napkin version." He laughed. I laughed. And somewhere, in a landfill, a pile of cocktail napkins holds the greatest speech never officially written.`,
+    he: `תנו לי לספר לכם על הדבר הכי מפחיד שעשיתי אי פעם. זה לא היה צניחה חופשית, שמעולם לא עשיתי ולעולם לא אעשה. זה לא היה דיבור בפני קהל, למרות שהסיפור כולל גם את זה. זה היה נאום השושבין בחתונה של אחי, מול מאתיים אנשים, אחרי שאיבדתי את הפתקים בשירותים חמש עשרה דקות לפני שהייתי אמור לעלות.
 
-חנות הספרים מאורגנת לפי מערכת שרק אלי מבין לגמרי. ספרות היא בערך אלפביתית, אבל סופרים מסוימים מקובצים יחד לפי מה שהוא קורא "מזג" ולא שם משפחה. אפשר למצוא רומן של סופר יפני על המדף ליד משורר ארגנטינאי, כי אלי מאמין שיש להם תחושת מלנכוליה דומה. זה נשמע כאוטי, אבל אחרי זמן מה, זה מתחיל להיות הגיוני בצורה מוזרה. הקטגוריות שלו לא על מאיפה סופרים באים. הן על לאן המילים שלהם לוקחות אותך.
+אחי דניאל התחתן ביוני שעבר. הוא ביקש ממני להיות השושבין, מה שהיה כבוד, וגם קללה, כי להיות שושבין אומר שצריך לתת נאום, ולתת נאום אומר שצריך לעמוד מול חדר מלא אנשים ולהיות בו זמנית מצחיק, מרגש, וקצר, מה שבעצם בלתי אפשרי. קומיקאים מקבלים אלפים על להיות מצחיקים. משוררים מבלים שנים להיות מרגשים. ואף אחד בהיסטוריה של חתונות מעולם לא היה קצר. אני הייתי אמור לעשות את כל השלושה בחמש דקות.
 
-בחלק האחורי של החנות יש פינת קריאה קטנה עם שתי כורסאות עור שחוקות ומנורה שנותנת אור ענבר חם. אין שלט שאומר שמותר לשבת ולקרוא, אבל אלי מעולם לא עצר אף אחד מלעשות זאת. באחר הצהריים גשומים, ביליתי שעות בפינה הזו, שקוע בספר, בזמן שצליל הגשם על החלון התערבב עם דפדוף עדין של עמודים מאנשים אחרים בסביבה.
+ביליתי חודשיים בכתיבת הנאום. חודשיים. כתבתי טיוטות, שכתבתי אותן, קראתי לאשתי, שכתבתי שוב, תרגלתי במקלחת, תרגלתי במכונית, ותרגלתי מול הכלב שנראה תומך אבל גם נרדם. הגרסה הסופית הייתה מושלמת. הייתה בה בדיחה על הפעם שדניאל תקע את הראש בגדר כשהיה בן שבע. היה חלק מתוק על איך הוא פגש את אשתו, שרה, בתחנת אוטובוס בגשם. הייתה שורת סיום שהייתי בטוח שתגרום לכולם לבכות. הדפסתי, קיפלתי בזהירות, ושמתי בכיס הז'קט.
 
-צפיתי בעולם משתנה סביב חנות הספרים הזו. כשרשתות הגדולות הגיעו בסוף שנות התשעים, אנשים חזו שמקומות כמו של אלי יעלמו. אז הגיע האינטרנט, והתחזיות התחזקו. אז הגיעו הקוראים האלקטרוניים, וכולם היו בטוחים שספרים פיזיים נגמרו. דרך כל זה, חנות הספרים נשארה. היא לא התרחבה. היא לא התחדשה. היא לא התחילה למכור קפה או לארח אירועים או להעלות עמוד אינסטגרם. היא פשוט המשיכה להיות חנות ספרים, בשקט ובעקשנות, באותה דרך שתמיד הייתה.
+יום החתונה הגיע, והכל היה יפה. הטקס היה בגינה. הפרחים היו לבנים וסגולים. שרה נראתה מהממת. דניאל בכה, מה שהוא יכחיש אבל יש לי הוכחות צילומיות. ישבתי בשורה הראשונה, הנאום בביטחה בכיס, מרגיש רגוע ומוכן. שרה שרה שיר שמח, ואני הייתי עומד לשיר את נאום השושבין של המאה.
 
-שאלתי את אלי פעם אם הוא דואג לגבי עתיד העסק. הוא הסתכל עליי מעל המשקפיים ואמר, "אנשים חוזים את מותם של ספרים כמה שאני חי. ספרים עדיין כאן. גם אני." ואז הוא חזר לקרוא.
+אז ארוחת הערב התחילה, והתחלתי להתעצבן. האוכל היה מדהים, אבל לא יכולתי לאכול. הבטן שלי עשתה דברים שבטנים לא צריכות לעשות. התנצלתי והלכתי לשירותים. כאן האסון התחיל. שטפתי ידיים, בדקתי את השיער, והכנסתי יד לכיס לחפש את הנאום. הוא לא היה שם. בדקתי כיס שני. גם לא שם. בדקתי כל כיס שיש לי. בדקתי כיסים שאין לי. הנאום נעלם.
 
-יש משהו בספר פיזי שמסך לא יכול להחליף. המשקל שלו בידיים. הדרך שהעמודים מצהיבים עם הזמן. הערות השוליים שבעלים קודם השאיר. השדרה הסדוקה שאומרת שמישהו אהב את הספר הזה מספיק כדי לקרוא אותו עד שהוא התפרק. ספר הוא לא רק מכל למילים. הוא חפץ עם היסטוריה, וכל עותק שונה מעט מכל עותק אחר.
+חזרתי על צעדי בפאניקה. חזרתי למקום. בדקתי מתחת לשולחן. בדקתי את חדר המעילים. חיפשתי במקומות שפתק מקופל לא יכול להיות שם, כמו בתוך עציץ ומאחורי רמקול. כלום. הנאום, חודשיים של עבודה, הבדיחות המלוטשות והאנקדוטות המרגשות, נעלמו באוויר.
 
-אלי מבין את זה יותר טוב מכל אחד שאני מכיר. החנות שלו היא לא רק מקום לקנות ספרים. היא מקום להיות מוקף בהם, להרגיש את הנוכחות שלהם מכל צד, להבין שאתה עומד באמצע אלפי שיחות בין סופרים וקוראים שמתנהלות כבר מאות שנים.
+גנן גידל דגן בגן, אבל הדגן שגידלתי היה פאניקה. וההבנה שפגעה בי הייתה מרה. נשארו לי חמש עשרה דקות לפני שהייתי אמור לעמוד ליד המיקרופון, ולא היה לי כלום. אפס. מוח ריק וכפות ידיים מזיעות והוודאות הגוברת שאני עומד להרוס את החתונה של אחי.
 
-בחודש שעבר, לקחתי את הבת שלי לחנות הספרים בפעם הראשונה. היא בת שמונה וכבר קוראת רצינית. היא נכנסה, הסתכלה למעלה על המדפים המתנשאים, והעיניים שלה נפערו. היא בילתה שעה בתנועה ממדור למדור, שולפת ספרים מהמדפים, פותחת אותם, קוראת עמוד, ומחזירה. אלי צפה בה מהשולחן שלו במה שאני יכול לתאר רק כסיפוק.
+ישבתי בתא בשירותים וניסיתי להיזכר בנאום מזיכרון. הצלחתי להיזכר בערך בשלושים אחוז. הבדיחה על הגדר. משהו על תחנת האוטובוס. השאר היה ערפל. תפסתי מפית והתחלתי לשרבט הערות. המפית הייתה קטנה מדי. תפסתי עוד אחת. ועוד אחת. כתבתי את הנאום על ערימת מפיות כמו אדם אחוז טירוף.
 
-כשיצאנו, היא משכה לי ביד ולחשה, "אפשר לחזור בשבוע הבא?" חייכתי ואמרתי כן. כשיצאנו החוצה, אלי תפס את המבט שלי ונתן לי את ההנהון הכי קטן. זה היה מחווה שאמרה הכל. לחנות יש לקוחה קבועה חדשה. הספרים מצאו עוד קוראת. ולפחות לדור אחד נוסף, הסיפור ממשיך.`
+בסימן חמש הדקות, אשתי מצאה אותי. היא הסתכלה עליי יושב על רצפת השירותים מוקף במפיות ואמרה, "מה אתה עושה?" הסברתי את המצב. היא לקחה נשימה עמוקה ואמרה, "פשוט דבר מהלב." אמרתי, "הלב שלי כרגע עובר התקף פאניקה." היא משכה אותי למעלה, יישרה לי את העניבה, והובילה אותי בחזרה לקבלת הפנים.
+
+כשהרגע הגיע, קמתי. מאתיים פנים הסתכלו עליי. המיקרופון השמיע את צליל הפידבק הנורא. הסתכלתי למטה על ערימת המפיות, הבנתי שאני לא יכול לקרוא את כתב היד שלי, והחלטתי לעשות את הדבר היחיד שיכולתי. אילתרתי.
+
+סיפרתי את הסיפור על הגדר. אנשים צחקו. סיפרתי את הסיפור על תחנת האוטובוס, ולמרות שטעיתי בכמה פרטים, שרה תיקנה אותי מהמקום שלה וכולם צחקו אפילו יותר חזק. אמרתי דברים שלא תכננתי, דברים שיצאו לא מלוטשים וגולמיים ואמיתיים. אמרתי לדניאל שהוא החבר הכי טוב שלי. אמרתי לשרה שהיא הדבר הכי טוב שקרה לו. אמרתי לשניהם שאני גאה ושמח ומפוחד, לא בגלל הנאום, אלא כי האח הקטן שלי הוא גבר בוגר עכשיו, וזה יפה ומוזר וגרם לי לרצות לבכות.
+
+ואז בכיתי. ממש שם ליד המיקרופון. מאתיים אנשים צפו בגבר בוגר בוכה לתוך ערימת מפיות קוקטייל. זה לא היה אלגנטי. אבל כשהסתכלתי למעלה, חצי מהחדר גם בכה. דניאל בכה. שרה בכתה. אמא שלי יבבה כל כך חזק שאבא היה צריך להחזיק אותה.
+
+מצאתי את הנאום המקורי שלושה ימים אחר כך. הוא היה במכונית, על מושב הנוסע, איפה שהשארתי אותו כשהחלפתי ז'קטים לפני הטקס. קראתי אותו והבנתי משהו. הנאום הכתוב היה טוב. הוא היה מלוטש וחכם עם תזמון מושלם. אבל הוא לא היה יותר טוב ממה שבאמת אמרתי. הנאום האמיתי, הגרסה המבולגנת, המאולתרת, המשורבטת על מפיות, היה כנה בצורה שהגרסה הכתובה לעולם לא הייתה יכולה להיות. לפעמים הדברים הכי טובים שאנחנו אומרים הם הדברים שלא תכננו לומר. ולפעמים הרגעים הגרועים ביותר מובילים לסיפורים הטובים ביותר. זה מה שאמרתי לדניאל כשהתקשר להודות. הוא אמר שזה היה הנאום הכי טוב ששמע. אמרתי, "היית צריך לראות את גרסת המפיות." הוא צחק. צחקתי. ואיפשהו, במזבלה, ערימת מפיות קוקטייל מחזיקה את הנאום הגדול ביותר שמעולם לא נכתב רשמית.`
   },
   difficulty: 'easy' as const,
   targetWPM: 90,
-  wordCount: 908,
+  wordCount: 1010,
 },
 {
   id: 'timed-long-2',
-  title: { en: 'The Train Journey', he: 'המסע ברכבת' },
+  title: { en: 'My Year of Terrible Home Repairs', he: 'השנה של התיקונים הנוראיים שלי' },
   text: {
-    en: `I took the slow train north last autumn, not because it was the fastest way to get there, but because I wanted to see the country move past my window at a pace I could actually absorb. The fast train covers the same distance in two hours. The slow one takes six. Six hours of farmland, small towns, river crossings, and sky. It was exactly what I needed.
+    en: `I bought a house two years ago. It was described by the real estate agent as a "charming fixer-upper with character." What it actually was, I now understand, is a building that is slowly trying to fall apart while I desperately try to hold it together with tools I do not know how to use and a level of confidence that is completely unjustified.
 
-I arrived at the station early, bought a coffee from the kiosk on the platform, and found my seat by the window. The car was mostly empty. A few older passengers settled into their spots with newspapers and bags of food. A young woman across the aisle put on headphones and closed her eyes before the train even started moving. There is something peaceful about a slow train. People do not fidget or check their watches. They know the journey will take a while, and they accept it.
+The first thing that went wrong was the kitchen faucet. It started dripping on a Sunday night. Not a dramatic drip, just a quiet, patient, one-drop-every-three-seconds kind of drip that slowly drove me insane. I watched a video online about how to fix a dripping faucet. The man in the video made it look easy. He smiled the entire time. I should have known right then that he was not to be trusted. I turned off the water supply, unscrewed the handle, and a piece I did not recognize fell out and rolled under the refrigerator. I spent forty-five minutes trying to reach it with a coat hanger. When I finally retrieved it, I could not figure out where it went. I called a plumber. He fixed it in ten minutes and charged me more than the faucet was worth. She sells seashells by the seashore, but the plumber sells his services by the emergency, and every visit costs a small fortune.
 
-The train pulled out of the city slowly, passing through the industrial outskirts where warehouses and repair shops line the tracks. Graffiti covered every wall. Weeds grew between the rails in the empty sidings. It was not beautiful, but it was real, the parts of a city that most people never see because they are always in a hurry to get past them.
+The second project was the bathroom door, which had stopped closing properly. It scraped against the floor and made a sound like a wounded animal every time you tried to shut it. I decided to shave the bottom of the door with a hand plane. I had never used a hand plane before, but how hard could it be? Very hard, it turns out. I shaved too much off one side, and now the door closes but has a gap at the bottom wide enough for my cat to slide her paw through. She does this while I am in the shower. It is very unsettling.
 
-Within twenty minutes, the buildings thinned and gave way to open fields. The land was flat and wide, with rows of crops stretching to the horizon in neat green lines. Here and there, a farmhouse stood alone, surrounded by trees that had been planted decades ago for shade. Cattle grazed near fences. A tractor moved slowly along a dirt road, trailing a cloud of dust behind it. The scale of it was enormous. From the window of a train, you realize how much empty space there is between the places where people gather.
+Red lorry, yellow lorry, red lorry, yellow lorry. That is what the paint cans looked like in my garage when I decided to repaint the bedroom. I bought three different shades of blue because I could not decide which one I liked. My wife said they all looked the same. They did not look the same. One was "Ocean Mist." One was "Harbor Breeze." One was "Twilight Calm." These are clearly different colors. I painted a test strip of each on the wall. My wife said they all looked the same. I painted the room in Ocean Mist. It looked exactly like Harbor Breeze. I will never admit this.
 
-The first stop was a small town I had never heard of. The platform was short, barely long enough for the train. A few people got off and a few got on. An old man in a flat cap carried a cardboard box under his arm. A mother held the hand of a small child who was waving goodbye to someone still on the platform. The train paused for two minutes, then moved on. That is all the time a small town gets. Two minutes, and then the world keeps going.
+The painting itself was a disaster. I did not tape the edges properly, so there are blue streaks on the ceiling that I tell guests are "an artistic choice." I dripped paint on the floor, on the curtains, on the dog, and somehow on the inside of a closed drawer in the next room. I do not understand how that happened. The laws of physics do not explain it. I have accepted it as one of life's mysteries.
 
-As we moved further north, the landscape began to change. The flat fields gave way to rolling hills covered in forest. The trees were turning color, orange and red and deep gold against a pale blue sky. The light was different here, softer and more diffused, as though the sun was shining through gauze. Every few minutes, the train would pass through a tunnel carved into a hillside, and the world would go dark for a few seconds before opening up again into another valley, another vista.
+The most ambitious project was the deck in the backyard. It was old, and several boards were rotting. I decided to replace them myself. How much wood would a woodchuck chuck if a woodchuck could chuck wood? I do not know, but I chucked approximately forty boards into a pile in my yard before realizing I had ordered the wrong size replacements. The new boards were two inches wider than the old ones. They did not fit. I had to return them, order the correct size, and wait two weeks for delivery, during which time my backyard looked like a lumber yard.
 
-I ate lunch from the small paper bag I had packed that morning. A sandwich, an apple, and a piece of chocolate. Simple food tastes better on a train. Everything does. The coffee was lukewarm by then, but I drank it anyway, watching a river appear beside the tracks and follow us for miles, winding through the hills like a silver ribbon.
+When the right boards finally arrived, I measured everything three times, cut carefully with a borrowed saw, and installed them one by one. It took an entire weekend. When I finished, I stood back and admired my work. The new boards were a different color than the old ones, making the deck look like it was wearing a patchwork quilt. My neighbor leaned over the fence and said, "That's interesting." The word "interesting" has haunted me since the cooking class. I know what it means. It means "bad."
 
-In the early afternoon, the train stopped at a larger town for a ten-minute break. I stepped onto the platform and stretched my legs. The air was cooler here, with a sharpness that hinted at the approaching winter. A vendor on the platform sold roasted chestnuts from a cart, and I bought a small bag. They were hot and sweet and perfect. I stood there eating them, watching pigeons strut along the edge of the platform, and felt a kind of contentment that I rarely feel in my daily life.
+I have also attempted to fix a leaking pipe under the sink, which resulted in a small flood. I tried to install a new light fixture, which blew a fuse and left us in darkness for two hours. I attempted to build a shelf in the closet, which fell off the wall the first time someone hung a coat on it. Each project teaches me a valuable lesson, which is that I should not be doing these projects.
 
-Back on the train, the afternoon light slanted through the windows, casting long golden rectangles across the seats and the floor. The car had filled up a bit. A group of teenagers sat in the back, talking and laughing quietly. An older couple across from me shared a thermos of tea, pouring carefully into small cups and handing them back and forth. The young woman with the headphones was now awake and reading a thick novel, turning pages with quiet concentration.
+My wife has suggested we hire professionals for future repairs. She says this gently, in the same tone you would use with a child who has just tried to make breakfast and set the toaster on fire. She is right, of course. She is always right. But there is something stubbornly satisfying about fixing things yourself, even badly. When I look at the blue streaks on the ceiling, the gap under the bathroom door, and the patchwork deck, I see evidence that I tried. I failed, but I tried. And next weekend, I am going to try to fix the squeaky stair. My wife has already saved the plumber's number. She knows me well.`,
+    he: `קניתי בית לפני שנתיים. סוכן הנדל"ן תיאר אותו כ"בית מקסים לשיפוץ עם אופי." מה שהוא באמת היה, אני מבין עכשיו, הוא בניין שמנסה לאט לאט להתפרק בזמן שאני בנואשות מנסה להחזיק אותו ביחד עם כלים שאני לא יודע להשתמש בהם ורמת ביטחון שלגמרי לא מוצדקת.
 
-The last hour of the journey was the most beautiful. The hills grew steeper and the valleys deeper. The train wound along the edge of a gorge, with the river far below, white and churning where it hit the rocks. Pine trees covered the slopes, dark green and dense, their tops catching the last of the afternoon sun. Through a gap in the hills, I caught a glimpse of the distant mountains, their peaks dusted with the first snow of the season. It took my breath away.
+הדבר הראשון שהשתבש היה הברז במטבח. הוא התחיל לטפטף בלילה של יום ראשון. לא טפטוף דרמטי, סתם טפטוף שקט, סבלני, טיפה כל שלוש שניות שלאט לאט שיגע אותי. צפיתי בסרטון ברשת על איך לתקן ברז מטפטף. הגבר בסרטון גרם לזה להיראות קל. הוא חייך כל הזמן. הייתי צריך לדעת כבר אז שאי אפשר לסמוך עליו. סגרתי את אספקת המים, שחררתי את הידית, וחלק שלא זיהיתי נפל והתגלגל מתחת למקרר. ביליתי ארבעים וחמש דקות מנסה להגיע אליו עם קולב. כשסוף סוף שלפתי אותו, לא הצלחתי להבין לאן הוא שייך. התקשרתי לאינסטלטור. הוא תיקן בעשר דקות וגבה ממני יותר ממה שהברז שווה. שרה שרה שיר שמח, אבל האינסטלטור שר שיר שמח אפילו יותר כי כל ביקור חירום עולה הון קטן.
 
-When the train finally pulled into the station at the end of the line, it was late afternoon. The platform was small and quiet. A cold wind came down from the hills, carrying the scent of pine and wood smoke. I stepped off the train, slung my bag over my shoulder, and stood there for a moment, just breathing.
+הפרויקט השני היה דלת האמבטיה, שהפסיקה להיסגר כמו שצריך. היא גרדה את הרצפה והשמיעה צליל כמו חיה פצועה כל פעם שניסיתם לסגור. החלטתי לגרד את תחתית הדלת עם מקצוע. מעולם לא השתמשתי במקצוע, אבל כמה קשה זה יכול להיות? מאוד קשה, כפי שמתברר. גרדתי יותר מדי מצד אחד, ועכשיו הדלת נסגרת אבל יש רווח בתחתית מספיק רחב שהחתולה שלי משחילה את הכף דרכו. היא עושה את זה כשאני במקלחת. זה מאוד מטריד.
 
-Six hours on a slow train. Some people would call it a waste of time. But I think it was one of the best uses of time I have ever found. In a world that moves too fast, the slow train reminds you that the journey itself is the point. The views out the window, the strangers sharing the car with you, the quiet rhythm of the wheels on the track. You do not need to arrive to have traveled. Sometimes, the traveling is everything.`,
-    he: `לקחתי את הרכבת האיטית צפונה בסתיו שעבר, לא כי זו הדרך המהירה ביותר להגיע לשם, אלא כי רציתי לראות את הארץ חולפת ליד החלון שלי בקצב שאוכל באמת לספוג. הרכבת המהירה מכסה את אותו מרחק בשעתיים. האיטית לוקחת שש. שש שעות של שטחים חקלאיים, עיירות קטנות, מעברי נהרות, ושמיים. זה היה בדיוק מה שהייתי צריך.
+נחש נשך נחש, נחש נשך נחש. ככה נראו פחיות הצבע במוסך שלי כשהחלטתי לצבוע מחדש את חדר השינה. קניתי שלושה גוונים שונים של כחול כי לא יכולתי להחליט איזה אני אוהב. אשתי אמרה שכולם נראים אותו דבר. הם לא נראו אותו דבר. אחד היה "ערפל ים." אחד היה "משב נמל." אחד היה "שלוות דמדומים." אלה בבירור צבעים שונים. צבעתי רצועת בדיקה של כל אחד על הקיר. אשתי אמרה שכולם נראים אותו דבר. צבעתי את החדר בערפל ים. הוא נראה בדיוק כמו משב נמל. לעולם לא אודה בזה.
 
-הגעתי לתחנה מוקדם, קניתי קפה מהקיוסק ברציף, ומצאתי את המושב שלי ליד החלון. הקרון היה כמעט ריק. כמה נוסעים מבוגרים התיישבו במקומות שלהם עם עיתונים ושקיות אוכל. אישה צעירה מעבר למעבר שמה אוזניות ועצמה עיניים לפני שהרכבת בכלל התחילה לנוע. יש משהו שקט ברכבת איטית. אנשים לא מתעסקים או בודקים שעון. הם יודעים שהנסיעה תיקח זמן, והם מקבלים את זה.
+הצביעה עצמה הייתה אסון. לא הדבקתי את הקצוות כמו שצריך, אז יש פסי כחול על התקרה שאני אומר לאורחים שזו "בחירה אמנותית." טפטפתי צבע על הרצפה, על הווילונות, על הכלב, ואיכשהו על תוך מגירה סגורה בחדר הבא. אני לא מבין איך זה קרה. חוקי הפיזיקה לא מסבירים את זה. קיבלתי את זה כאחד מהתעלומות של החיים.
 
-הרכבת יצאה מהעיר לאט, עוברת דרך הפרברים התעשייתיים שבהם מחסנים ומוסכים לאורך הפסים. גרפיטי כיסה כל קיר. עשבים צמחו בין הפסים בסטיות הריקות. זה לא היה יפה, אבל זה היה אמיתי, החלקים של עיר שרוב האנשים לעולם לא רואים כי הם תמיד ממהרים לעבור אותם.
+הפרויקט השאפתני ביותר היה הדק בחצר האחורית. הוא היה ישן, וכמה קרשים היו רקובים. החלטתי להחליף אותם בעצמי. גנן גידל דגן בגן, גנן גדול גידל דגן גדול בגן. אני לא יודע כמה עץ חולדת עצים הייתה זורקת, אבל זרקתי בערך ארבעים קרשים לערימה בחצר לפני שהבנתי שהזמנתי תחליפים בגודל הלא נכון. הקרשים החדשים היו רחבים בחמש סנטימטרים מהישנים. הם לא התאימו. הייתי צריך להחזיר, להזמין את הגודל הנכון, ולחכות שבועיים למשלוח, שבמהלכם החצר נראתה כמו מחסן עצים.
 
-תוך עשרים דקות, הבניינים הידלדלו ופינו את מקומם לשדות פתוחים. האדמה הייתה שטוחה ורחבה, עם שורות יבולים שנמתחו לאופק בקווים ירוקים מסודרים. פה ושם, בית חווה עמד לבדו, מוקף בעצים שנשתלו עשרות שנים קודם לצל. בקר רעה ליד גדרות. טרקטור נע לאט על דרך עפר, מותיר ענן אבק מאחוריו. הקנה מידה היה עצום. מחלון רכבת, מבינים כמה מרחב ריק יש בין המקומות שבהם אנשים מתקבצים.
+כשהקרשים הנכונים סוף סוף הגיעו, מדדתי הכל שלוש פעמים, חתכתי בזהירות עם מסור שאול, והתקנתי אחד אחד. זה לקח סוף שבוע שלם. כשסיימתי, עמדתי מרחוק והתפעלתי מהעבודה. הקרשים החדשים היו בצבע שונה מהישנים, מה שגרם לדק להיראות כמו שמיכת טלאים. השכן נשען מעל הגדר ואמר, "זה מעניין." המילה "מעניין" רודפת אותי מאז שיעור הבישול. אני יודע מה זה אומר. זה אומר "רע."
 
-התחנה הראשונה הייתה עיירה קטנה שמעולם לא שמעתי עליה. הרציף היה קצר, בקושי מספיק ארוך לרכבת. כמה אנשים ירדו וכמה עלו. גבר מבוגר עם כובע שטוח נשא קופסת קרטון מתחת לזרוע. אמא החזיקה ביד של ילד קטן שנופף לשלום למישהו שעדיין על הרציף. הרכבת עצרה לשתי דקות, ואז המשיכה. זה כל הזמן שעיירה קטנה מקבלת. שתי דקות, ואז העולם ממשיך.
+גם ניסיתי לתקן צינור דולף מתחת לכיור, מה שהביא לשיטפון קטן. ניסיתי להתקין גוף תאורה חדש, מה שפוצץ נתיך והשאיר אותנו בחושך שעתיים. ניסיתי לבנות מדף בארון, שנפל מהקיר בפעם הראשונה שמישהו תלה עליו מעיל. כל פרויקט מלמד אותי שיעור חשוב, שהוא שאני לא צריך לעשות את הפרויקטים האלה.
 
-ככל שנעו צפונה, הנוף התחיל להשתנות. השדות השטוחים פינו מקום לגבעות מתגלגלות מכוסות יער. העצים שינו צבע, כתום ואדום וזהב עמוק על רקע שמיים כחולים בהירים. האור היה שונה כאן, רך ומפוזר יותר, כאילו השמש מאירה דרך בד. כל כמה דקות, הרכבת עברה דרך מנהרה חצובה בצלע גבעה, והעולם נהיה חשוך לכמה שניות לפני שנפתח שוב לעוד עמק, עוד נוף.
-
-אכלתי צהריים מהשקית הקטנה שארזתי באותו בוקר. כריך, תפוח, וחתיכת שוקולד. אוכל פשוט טעים יותר ברכבת. הכל כן. הקפה היה פושר עד אז, אבל שתיתי אותו בכל זאת, מסתכל על נהר שהופיע ליד הפסים וליווה אותנו קילומטרים, מתפתל דרך הגבעות כמו סרט כסוף.
-
-אחר הצהריים המוקדמים, הרכבת עצרה בעיירה גדולה יותר להפסקה של עשר דקות. ירדתי לרציף ומתחתי רגליים. האוויר היה קריר יותר כאן, עם חדות שרמזה על החורף המתקרב. מוכר על הרציף מכר ערמונים צלויים מעגלה, וקניתי שקית קטנה. הם היו חמים ומתוקים ומושלמים. עמדתי שם אוכל אותם, מסתכל על יונים שצועדות לאורך קצה הרציף, והרגשתי סוג של שביעות רצון שלעיתים רחוקות מרגיש בחיי היומיום.
-
-חזרה לרכבת, אור אחר הצהריים חדר דרך החלונות באלכסון, מטיל מלבנים זהובים ארוכים על המושבים והרצפה. הקרון התמלא קצת. קבוצת בני נוער ישבה מאחור, מדברים וצוחקים בשקט. זוג מבוגר מולי חלק תרמוס תה, מוזגים בזהירות לכוסות קטנות ומעבירים הלוך ושוב. האישה הצעירה עם האוזניות הייתה עכשיו ערה וקוראת רומן עבה, הופכת עמודים בריכוז שקט.
-
-השעה האחרונה של הנסיעה הייתה היפה ביותר. הגבעות נהיו תלולות יותר והעמקים עמוקים יותר. הרכבת התפתלה לאורך קצה של קניון, עם הנהר רחוק למטה, לבן וגועש איפה שפגע בסלעים. עצי אורן כיסו את המדרונות, ירוקים כהים וצפופים, צמרותיהם תופסות את אור השמש האחרון. דרך פער בגבעות, תפסתי מבט חטוף על ההרים הרחוקים, פסגותיהם מאובקות בשלג הראשון של העונה. זה עצר לי את הנשימה.
-
-כשהרכבת סוף סוף נכנסה לתחנה בסוף הקו, היה אחר הצהריים מאוחר. הרציף היה קטן ושקט. רוח קרה ירדה מהגבעות, נושאת ריח של אורנים ועשן עצים. ירדתי מהרכבת, זרקתי את התיק על הכתף, ועמדתי שם רגע, פשוט נושם.
-
-שש שעות ברכבת איטית. יש שיקראו לזה בזבוז זמן. אבל אני חושב שזה אחד השימושים הטובים ביותר בזמן שמצאתי אי פעם. בעולם שנע מהר מדי, הרכבת האיטית מזכירה לך שהמסע עצמו הוא העניין. הנופים מהחלון, הזרים שחולקים את הקרון איתך, הקצב השקט של הגלגלים על הפסים. לא צריך להגיע כדי לנסוע. לפעמים, הנסיעה היא הכל.`
+אשתי הציעה שנשכור אנשי מקצוע לתיקונים עתידיים. היא אומרת את זה בעדינות, באותו טון שמשתמשים עם ילד שזה עתה ניסה להכין ארוחת בוקר והצית את הטוסטר. היא צודקת, כמובן. היא תמיד צודקת. אבל יש משהו עקשני ומספק בלתקן דברים בעצמך, אפילו רע. כשאני מסתכל על פסי הכחול על התקרה, הרווח מתחת לדלת האמבטיה, והדק הטלאי, אני רואה הוכחה שניסיתי. נכשלתי, אבל ניסיתי. ובסוף השבוע הבא, אני הולך לנסות לתקן את המדרגה החורקת. אשתי כבר שמרה את המספר של האינסטלטור. היא מכירה אותי טוב.`
   },
   difficulty: 'medium' as const,
   targetWPM: 100,
-  wordCount: 954,
+  wordCount: 975,
 },
 {
   id: 'timed-long-3',
-  title: { en: 'Seasons of the Neighborhood', he: 'עונות השכונה' },
+  title: { en: 'The Great Pet Chaos of Our Household', he: 'הכאוס הגדול של חיות המחמד שלנו' },
   text: {
     en: `I have lived in the same neighborhood for twelve years now, long enough to know its rhythms the way you know the breathing of someone sleeping beside you. Each season transforms this collection of streets and houses into something slightly different, and each transformation reveals a part of the place that the other seasons hide. If you live somewhere long enough, you stop seeing it as a fixed thing. You see it as something alive, constantly shifting, always becoming.
 

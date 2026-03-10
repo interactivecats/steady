@@ -93,10 +93,9 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
   const handleFreeSpeechComplete = useCallback(
     (wpm: number, duration: number) => {
       const freeSpeechTarget = 130;
-      addExercise('free-speech', wpm, duration, freeSpeechTarget);
       setLastResult({ type: 'free-speech', wpm, targetWPM: freeSpeechTarget, duration });
 
-      // Calculate avg and save
+      // Calculate avg and save (also adds the exercise)
       setSessionData((prev) => {
         const allExercises = [...prev.exercises, { type: 'free-speech' as const, wpm, targetWPM: freeSpeechTarget, duration }];
         const speechExercises = allExercises.filter((e) => e.wpm && e.wpm > 0);
@@ -137,11 +136,11 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
     <div className="min-h-dvh" dir={dir}>
       {/* Progress bar */}
       {showProgressBar && (
-        <div className="sticky top-0 z-10 px-4 py-3" style={{ background: 'var(--bg-primary)' }}>
+        <nav aria-label={lang === 'en' ? 'Session progress' : 'התקדמות האימון'} className="sticky top-0 z-10 px-4 py-3" style={{ background: 'var(--bg-primary)' }}>
           <div className="max-w-lg mx-auto">
             <div className="flex items-center gap-2 mb-2">
               {progressSteps.map((step, i) => (
-                <div key={step} className="flex-1 flex flex-col items-center gap-1">
+                <div key={step} className="flex-1 flex flex-col items-center gap-1" {...(i === currentStepIndex ? { 'aria-current': 'step' as const } : {})}>
                   <div
                     className="w-full h-1 rounded-full transition-all duration-500"
                     style={{
@@ -149,9 +148,9 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
                     }}
                   />
                   <span
-                    className="text-[10px] tracking-wide transition-opacity"
+                    className="text-xs tracking-wide"
                     style={{
-                      opacity: i === currentStepIndex ? 0.8 : 0.3,
+                      color: i === currentStepIndex ? 'var(--color-text-muted)' : 'var(--color-text-faint)',
                       fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)',
                     }}
                   >
@@ -161,11 +160,12 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
               ))}
             </div>
           </div>
-        </div>
+        </nav>
       )}
 
       {/* Step content */}
-      <div className="max-w-2xl mx-auto py-4">
+      <main>
+      <div className="max-w-lg mx-auto py-4">
         {currentStep === 'time-select' && (
           <div className="flex flex-col items-center min-h-[70vh] gap-6 animate-fade-in px-4" dir={dir}>
             <div className="text-center mb-4">
@@ -176,16 +176,18 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
                 {timeSelectLabels[lang].title}
               </h2>
               <p
-                className="opacity-50 text-sm"
-                style={{ fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}
+                className="text-sm"
+                style={{ color: 'var(--color-text-muted)', fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}
               >
                 {timeSelectLabels[lang].subtitle}
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-3 max-w-sm w-full">
+            <div className="grid grid-cols-3 gap-3 max-w-sm w-full" role="radiogroup" aria-label={timeSelectLabels[lang].title}>
               {timeOptions.map((m) => (
                 <button
                   key={m}
+                  role="radio"
+                  aria-checked={selectedTime === m}
                   onClick={() => handleTimeSelect(m)}
                   className="flex flex-col items-center justify-center rounded-2xl p-5 transition-all hover:scale-105 active:scale-95 cursor-pointer"
                   style={{
@@ -200,8 +202,8 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
                     {m}
                   </span>
                   <span
-                    className="text-xs opacity-50 mt-1"
-                    style={{ fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}
+                    className="text-xs mt-1"
+                    style={{ color: 'var(--color-text-muted)', fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}
                   >
                     {timeSelectLabels[lang].unit}
                   </span>
@@ -252,6 +254,7 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
           />
         )}
       </div>
+      </main>
     </div>
   );
 }

@@ -14,7 +14,7 @@ const labels = {
   en: {
     title: 'Free Speech',
     subtitle: 'Speak naturally about the topic below',
-    tapToStart: 'Tap the microphone to begin',
+    tapToStart: 'Press the microphone to begin',
     listening: 'Listening...',
     done: 'Finish',
     hint: 'Tip',
@@ -77,15 +77,18 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
 
   return (
     <div className="flex flex-col items-center min-h-[70vh] gap-6 animate-fade-in px-4" dir={dir}>
+      <div aria-live="assertive" aria-atomic="true" className="sr-only">
+        {isListening ? (lang === 'en' ? 'Recording started' : 'ההקלטה התחילה') : ''}
+      </div>
       <div className="text-center mb-2">
         <h2 className="text-2xl md:text-3xl mb-2" style={{ fontFamily: 'var(--font-display)' }}>
           {l.title}
         </h2>
-        <p className="opacity-50 text-sm">{l.subtitle}</p>
+        <p className="text-sm" style={{ color: 'var(--color-text-muted)' }}>{l.subtitle}</p>
       </div>
 
       {!isSupported && (
-        <div className="p-4 rounded-xl text-center max-w-md" style={{ background: 'var(--color-terra-100)', color: 'var(--color-terra-500)' }}>
+        <div role="alert" className="p-4 rounded-xl text-center max-w-md" style={{ background: 'var(--color-terra-100)', color: 'var(--color-terra-500)' }}>
           {l.noMic}
         </div>
       )}
@@ -93,6 +96,7 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
       {/* Prompt card */}
       <div
         className="max-w-lg w-full rounded-2xl p-6 text-center"
+        aria-label={lang === 'en' ? 'Speaking prompt' : 'נושא לדיבור'}
         style={{
           background: 'var(--bg-card, white)',
           border: '1px solid var(--border-color, #E8E0D8)',
@@ -101,7 +105,7 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
         <p className="text-lg md:text-xl font-medium mb-3" style={{ fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}>
           {prompt.prompt[lang]}
         </p>
-        <p className="text-sm opacity-50" style={{ fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}>
+        <p className="text-sm" style={{ color: 'var(--color-text-muted)', fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)' }}>
           <span className="font-medium">{l.hint}:</span> {prompt.hint[lang]}
         </p>
       </div>
@@ -109,7 +113,7 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
       {/* Live transcript */}
       {started && transcript && (
         <div className="max-w-lg w-full animate-fade-in">
-          <div className="text-xs uppercase tracking-wider opacity-40 mb-2">{l.transcript}</div>
+          <div className="text-xs uppercase tracking-wider mb-2" style={{ color: 'var(--color-text-muted)' }}>{l.transcript}</div>
           <div
             className="rounded-xl p-4 text-sm leading-relaxed max-h-32 overflow-y-auto"
             style={{
@@ -126,13 +130,13 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
       {/* Timer */}
       {started && (
         <div className="text-center animate-fade-in">
-          <div className="text-3xl font-light tabular-nums" style={{ fontFamily: 'var(--font-body)' }}>
+          <div role="timer" className="text-3xl font-light tabular-nums" style={{ fontFamily: 'var(--font-body)' }}>
             {remaining !== null
               ? `${Math.floor(remaining / 60)}:${String(Math.floor(remaining % 60)).padStart(2, '0')}`
               : `${Math.floor(elapsed / 60)}:${String(Math.floor(elapsed % 60)).padStart(2, '0')}`}
           </div>
           {!canFinish && (
-            <p className="text-xs opacity-40 mt-1">{l.minTime}</p>
+            <p className="text-xs mt-1" style={{ color: 'var(--color-text-muted)' }}>{l.minTime}</p>
           )}
         </div>
       )}
@@ -146,7 +150,7 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
             className="group flex items-center gap-3 px-6 py-3 rounded-full text-white font-medium transition-all hover:scale-105 active:scale-95 disabled:opacity-30 cursor-pointer"
             style={{ background: 'var(--color-sage-500)' }}
           >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
               <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
               <line x1="12" x2="12" y1="19" y2="22" />
@@ -162,7 +166,7 @@ export function FreeSpeechExercise({ prompt, lang, maxDuration, minDuration, onC
             <button
               onClick={handleFinish}
               disabled={!canFinish}
-              className="px-5 py-2 rounded-full text-white text-sm font-medium transition-all hover:scale-105 active:scale-95 disabled:opacity-30 cursor-pointer"
+              className="px-5 py-3 rounded-full text-white text-sm font-medium transition-all hover:scale-105 active:scale-95 disabled:opacity-30 cursor-pointer"
               style={{ background: canFinish ? 'var(--color-terra-400)' : 'var(--color-sand-400)' }}
             >
               {l.done}

@@ -1,28 +1,15 @@
 import { useState, useCallback, useEffect } from 'react';
 import { Dashboard } from './components/Dashboard';
 import { SessionFlow } from './components/SessionFlow';
+import { Terms } from './components/Terms';
 import { loadProgress, saveProgress } from './utils/storage';
 import type { UserProgress } from './utils/storage';
 
-type View = 'dashboard' | 'session';
+type View = 'dashboard' | 'session' | 'terms';
 
 function App() {
   const [view, setView] = useState<View>('dashboard');
   const [progress, setProgress] = useState<UserProgress>(loadProgress);
-
-  // Apply dark mode
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', progress.darkMode);
-  }, [progress.darkMode]);
-
-  // Apply background color based on theme
-  useEffect(() => {
-    const root = document.getElementById('root');
-    if (root) {
-      root.style.background = progress.darkMode ? '#141618' : '#FAF8F5';
-      root.style.color = progress.darkMode ? '#F5F0EB' : '#2D2926';
-    }
-  }, [progress.darkMode]);
 
   const handleStartSession = useCallback(() => {
     setView('session');
@@ -41,29 +28,40 @@ function App() {
     });
   }, []);
 
-  const handleToggleDark = useCallback(() => {
-    setProgress((prev) => {
-      const updated = { ...prev, darkMode: !prev.darkMode };
-      saveProgress(updated);
-      return updated;
-    });
+  useEffect(() => {
+    document.documentElement.lang = progress.preferredLang === 'he' ? 'he' : 'en';
+    document.documentElement.dir = progress.preferredLang === 'he' ? 'rtl' : 'ltr';
+  }, [progress.preferredLang]);
+
+  const handleShowTerms = useCallback(() => {
+    setView('terms');
+  }, []);
+
+  const handleBackToDashboard = useCallback(() => {
+    setView('dashboard');
   }, []);
 
   return (
-    <div className="noise-bg">
+    <div className="noise-bg overflow-x-hidden">
       {view === 'dashboard' && (
         <Dashboard
           progress={progress}
           lang={progress.preferredLang}
           onStartSession={handleStartSession}
           onToggleLang={handleToggleLang}
-          onToggleDark={handleToggleDark}
+          onShowTerms={handleShowTerms}
         />
       )}
       {view === 'session' && (
         <SessionFlow
           lang={progress.preferredLang}
           onFinish={handleFinishSession}
+        />
+      )}
+      {view === 'terms' && (
+        <Terms
+          lang={progress.preferredLang}
+          onBack={handleBackToDashboard}
         />
       )}
     </div>

@@ -12,7 +12,7 @@ const labels = {
   en: {
     title: 'Read Along',
     subtitle: 'Read the passage at a steady, comfortable pace',
-    tapToStart: 'Tap to start reading',
+    tapToStart: 'Press to start reading',
     waitingForMic: 'Setting up microphone...',
     scrollAndRead: 'Scroll down and follow the highlighted words',
     listening: 'Reading...',
@@ -130,18 +130,24 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
 
   return (
     <div className="flex flex-col items-center min-h-[70vh] gap-6 animate-fade-in px-4" dir={dir}>
+      <div aria-live="assertive" aria-atomic="true" className="sr-only">
+        {isListening ? (lang === 'en' ? 'Recording started' : 'ההקלטה התחילה') : ''}
+      </div>
+      <div aria-live="polite" aria-atomic="true" className="sr-only">
+        {phase === 'reading' && words[currentWordIndex]}
+      </div>
       <div className="text-center mb-2">
         <h2 className="text-2xl md:text-3xl mb-2" style={{ fontFamily: 'var(--font-display)' }}>
           {l.title}
         </h2>
-        <p className="opacity-50 text-sm">{l.subtitle}</p>
-        <div className="mt-2 text-xs opacity-40">
+        <p className="text-sm" style={{ color: 'var(--color-text-muted)' }}>{l.subtitle}</p>
+        <div className="mt-2 text-xs" style={{ color: 'var(--color-text-muted)' }}>
           {l.target}: {targetWPM} WPM / {passage.title[lang]}
         </div>
       </div>
 
       {!isSupported && (
-        <div className="p-4 rounded-xl text-center max-w-md" style={{ background: 'var(--color-terra-100)', color: 'var(--color-terra-500)' }}>
+        <div role="alert" className="p-4 rounded-xl text-center max-w-md" style={{ background: 'var(--color-terra-100)', color: 'var(--color-terra-500)' }}>
           {l.noMic}
         </div>
       )}
@@ -155,7 +161,7 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
             className="group flex items-center gap-3 px-6 py-3 rounded-full text-white font-medium transition-all hover:scale-105 active:scale-95 disabled:opacity-30 cursor-pointer shadow-lg"
             style={{ background: 'var(--color-sage-500)' }}
           >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
               <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
               <line x1="12" x2="12" y1="19" y2="22" />
@@ -165,7 +171,7 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
         )}
 
         {phase === 'waiting-mic' && (
-          <div className="flex items-center gap-3 px-6 py-3 rounded-full font-medium animate-pulse"
+          <div role="status" className="flex items-center gap-3 px-6 py-3 rounded-full font-medium animate-pulse"
             style={{ background: 'var(--color-sage-100)', color: 'var(--color-sage-600)' }}
           >
             <div className="w-3 h-3 rounded-full animate-ping" style={{ background: 'var(--color-sage-500)' }} />
@@ -181,7 +187,7 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
             </div>
             <button
               onClick={handleFinish}
-              className="px-5 py-2 rounded-full text-white text-sm font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer"
+              className="px-5 py-3 rounded-full text-white text-sm font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer"
               style={{ background: 'var(--color-terra-400)' }}
             >
               {l.done}
@@ -191,11 +197,11 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
       </div>
 
       {phase === 'reading' && (
-        <p className="text-xs opacity-40 -mt-3">{l.scrollAndRead}</p>
+        <p className="text-xs -mt-3" style={{ color: 'var(--color-text-muted)' }}>{l.scrollAndRead}</p>
       )}
 
       {/* The passage text */}
-      <div
+      <article
         ref={textRef}
         className="max-w-2xl w-full rounded-2xl p-6 md:p-8 leading-relaxed text-lg md:text-xl"
         style={{
@@ -223,7 +229,7 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
             </span>
           );
         })}
-      </div>
+      </article>
     </div>
   );
 }

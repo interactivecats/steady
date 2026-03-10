@@ -110,7 +110,7 @@ export function BreathingExercise({ duration = 60, lang, onComplete }: Breathing
         <h2 className="text-2xl md:text-3xl mb-2" style={{ fontFamily: 'var(--font-display)' }}>
           {l.title}
         </h2>
-        <p className="opacity-50 text-sm md:text-base">{l.subtitle}</p>
+        <p className="text-sm md:text-base" style={{ color: 'var(--color-text-muted)' }}>{l.subtitle}</p>
       </div>
 
       {/* Breathing circle */}
@@ -153,9 +153,23 @@ export function BreathingExercise({ duration = 60, lang, onComplete }: Breathing
         </div>
       </div>
 
+      <div aria-live="polite" aria-atomic="true" className="sr-only">
+        {phase === 'inhale' ? (lang === 'en' ? 'Breathe in' : 'שאפו') :
+         phase === 'hold' ? (lang === 'en' ? 'Hold' : 'החזיקו') :
+         phase === 'exhale' ? (lang === 'en' ? 'Breathe out' : 'נשפו') : ''}
+      </div>
+
       {/* Progress bar */}
       <div className="w-full max-w-xs">
-        <div className="h-1 rounded-full overflow-hidden" style={{ background: 'var(--color-sand-200)' }}>
+        <div
+          className="h-1 rounded-full overflow-hidden"
+          style={{ background: 'var(--color-sand-200)' }}
+          role="progressbar"
+          aria-valuenow={Math.round(progress * 100)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-label={lang === 'en' ? 'Breathing exercise progress' : 'התקדמות תרגיל נשימה'}
+        >
           <div
             className="h-full rounded-full transition-all duration-500"
             style={{
@@ -164,7 +178,7 @@ export function BreathingExercise({ duration = 60, lang, onComplete }: Breathing
             }}
           />
         </div>
-        <div className="flex justify-between mt-2 text-xs opacity-40">
+        <div className="flex justify-between mt-2 text-xs" style={{ color: 'var(--color-text-muted)' }}>
           <span>{Math.floor(elapsed)}s</span>
           <span>{duration}s</span>
         </div>
@@ -172,7 +186,8 @@ export function BreathingExercise({ duration = 60, lang, onComplete }: Breathing
 
       <button
         onClick={onComplete}
-        className="text-sm opacity-40 hover:opacity-70 transition-opacity underline underline-offset-4 cursor-pointer"
+        className="text-sm hover:opacity-70 transition-opacity underline underline-offset-4 cursor-pointer px-4 py-3 min-h-[44px]"
+        style={{ color: 'var(--color-text-muted)' }}
       >
         {l.skip}
       </button>

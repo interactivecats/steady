@@ -77,8 +77,8 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
     <div className="flex flex-col items-center min-h-[70vh] gap-6 animate-slide-up px-4 py-8" dir={dir}>
       {/* Celebration */}
       <div className="text-center">
-        <div className="text-5xl mb-4 animate-float">
-          {stats.avgWPM <= 150 ? '🌿' : stats.avgWPM <= 180 ? '🌤' : '💨'}
+        <div className="text-5xl mb-4">
+          <span aria-hidden="true">{stats.avgWPM <= 150 ? '🌿' : stats.avgWPM <= 180 ? '🌤' : '💨'}</span>
         </div>
         <h2 className="text-3xl md:text-4xl mb-2" style={{ fontFamily: 'var(--font-display)' }}>
           {l.title}
@@ -102,12 +102,13 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
               background: 'var(--bg-card, white)',
               border: '1px solid var(--border-color, #E8E0D8)',
             }}
+            aria-label={`${stat.value} ${stat.unit} ${stat.label}`}
           >
             <div className="text-2xl md:text-3xl font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
               {stat.value}
             </div>
-            <div className="text-[10px] uppercase tracking-wider opacity-40 mt-1">{stat.unit}</div>
-            <div className="text-xs opacity-60 mt-1">{stat.label}</div>
+            <div className="text-xs uppercase tracking-wider mt-1" style={{ color: 'var(--color-text-muted)' }}>{stat.unit}</div>
+            <div className="text-xs mt-1" style={{ color: 'var(--color-text-muted)' }}>{stat.label}</div>
           </div>
         ))}
       </div>
@@ -120,8 +121,8 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
           border: '1px solid var(--border-color, #E8E0D8)',
         }}
       >
-        <div className="text-xs uppercase tracking-wider opacity-40 mb-3">{l.highlights}</div>
-        <div className="space-y-4">
+        <div className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--color-text-muted)' }}>{l.highlights}</div>
+        <ul className="space-y-4 list-none">
           {session.exercises.map((ex, i) => {
             const hasWPM = ex.wpm && ex.wpm > 0;
             const target = ex.targetWPM || 0;
@@ -133,7 +134,7 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
             const feedbackColor = isOnTarget ? 'var(--color-sage-500)' : isSlightlyFast ? 'var(--color-terra-400)' : 'var(--color-coral-400)';
 
             return (
-              <div key={i}>
+              <li key={i}>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div
@@ -143,7 +144,7 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
                         color: ex.type === 'breathing' ? 'var(--color-sage-600)' : ex.type === 'read-along' ? 'var(--color-terra-500)' : 'var(--color-sand-500)',
                       }}
                     >
-                      {ex.type === 'breathing' ? '🌬' : ex.type === 'read-along' ? '📖' : '🎙'}
+                      <span aria-hidden="true">{ex.type === 'breathing' ? '🌬' : ex.type === 'read-along' ? '📖' : '🎙'}</span>
                     </div>
                     <span className="text-sm">
                       {ex.type === 'breathing' ? l.breathing : ex.type === 'read-along' ? l.readAlong : l.freeSpeech}
@@ -164,7 +165,7 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
                         }}
                       />
                     </div>
-                    <span className="text-[10px] opacity-40 tabular-nums whitespace-nowrap">
+                    <span className="text-xs tabular-nums whitespace-nowrap" style={{ color: 'var(--color-text-muted)' }}>
                       {l.targetLabel}: {target}
                     </span>
                   </div>
@@ -174,15 +175,15 @@ export function SessionSummary({ session, streak, lang, onClose }: SessionSummar
                     {feedbackText}
                   </p>
                 )}
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </div>
 
       <button
         onClick={onClose}
-        className="px-8 py-3 rounded-full text-white font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer mt-2"
+        className="w-full sm:w-auto px-8 py-3 rounded-full text-white font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer mt-2"
         style={{ background: 'var(--color-sage-500)' }}
       >
         {l.done}

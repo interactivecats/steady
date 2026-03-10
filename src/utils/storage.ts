@@ -15,7 +15,6 @@ export interface UserProgress {
   totalSessions: number;
   sessions: SessionRecord[];
   preferredLang: 'en' | 'he';
-  darkMode: boolean;
 }
 
 const STORAGE_KEY = 'steady_progress';
@@ -26,7 +25,6 @@ const defaultProgress: UserProgress = {
   totalSessions: 0,
   sessions: [],
   preferredLang: 'en',
-  darkMode: false,
 };
 
 export function loadProgress(): UserProgress {

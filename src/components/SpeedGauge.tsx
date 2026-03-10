@@ -34,7 +34,10 @@ export function SpeedGauge({ wpm, targetWPM = 100, size = 200, showLabel = true 
         <svg
           viewBox="0 0 100 65"
           className="w-full h-full"
+          role="img"
+          aria-label={`${wpm} words per minute`}
         >
+          <title>{wpm} WPM</title>
           {/* Target zone arc */}
           <path
             d={describeArc(50, 55, 45, 180, 180 + (targetWPM / maxWPM) * 180)}
@@ -74,8 +77,8 @@ export function SpeedGauge({ wpm, targetWPM = 100, size = 200, showLabel = true 
           </g>
 
           {/* Labels on the arc */}
-          <text x="8" y="63" fill="currentColor" fontSize="4" opacity="0.4" fontFamily="var(--font-body)">0</text>
-          <text x="85" y="63" fill="currentColor" fontSize="4" opacity="0.4" fontFamily="var(--font-body)">{maxWPM}</text>
+          <text x="8" y="63" fill="var(--color-text-muted, #8B7E74)" fontSize="4" opacity="0.7" fontFamily="var(--font-body)">0</text>
+          <text x="85" y="63" fill="var(--color-text-muted, #8B7E74)" fontSize="4" opacity="0.7" fontFamily="var(--font-body)">{maxWPM}</text>
         </svg>
 
         {/* Center number */}
@@ -86,7 +89,7 @@ export function SpeedGauge({ wpm, targetWPM = 100, size = 200, showLabel = true 
           >
             {wpm}
           </div>
-          <div className="text-xs mt-0.5 opacity-50 tracking-wide uppercase" style={{ fontFamily: 'var(--font-body)' }}>
+          <div className="text-xs mt-0.5 tracking-wide uppercase" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-text-muted)' }}>
             WPM
           </div>
         </div>
