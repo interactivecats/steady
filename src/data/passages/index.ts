@@ -17,6 +17,7 @@ import { medium4 } from "./medium4";
 import { medium5 } from "./medium5";
 import { medlong1 } from "./medlong1";
 import { medlong2 } from "./medlong2";
+import { medlong4 } from "./medlong4";
 import { medlong5 } from "./medlong5";
 
 export const newPassages: Passage[] = [
@@ -37,5 +38,6 @@ export const newPassages: Passage[] = [
   ...medium5,
   ...medlong1,
   ...medlong2,
+  ...medlong4,
   ...medlong5,
 ];

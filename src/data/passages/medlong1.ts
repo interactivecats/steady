@@ -247,4 +247,172 @@ The wedding itself was perfect. Everything went smoothly. The venue was gorgeous
   targetWPM: 115,
   wordCount: 688,
 },
+{
+  id: 'ml1-07',
+  title: { en: 'My First and Possibly Last 5K', he: 'ה-5K הראשון והאחרון שלי כנראה' },
+  text: {
+    en: `I am not a runner. I want to make that very clear from the start. I do not run unless something is chasing me, and even then I would probably negotiate first. But my coworker Mitch signed us both up for a 5K charity run without asking me, and by the time I found out, he had already told the entire office and posted about it online. So there I was, committed to running five whole kilometers in public, on purpose, at eight in the morning on a Saturday.
+
+I had six weeks to train. Mitch sent me a training schedule that started with "easy one-mile jog" on day one. I put on my sneakers, walked to the end of my block, jogged for approximately ninety seconds, and then bent over with my hands on my knees wondering if this was how I was going to die. My neighbor saw me from her porch and asked if I needed medical assistance. I told her I was training for a race. She did not try to hide her surprise.
+
+By week three, I could run a full mile without stopping. I felt like a champion. I told everyone. I told people at work. I told the cashier at the grocery store. I told my dentist during a cleaning, which was difficult because his hands were in my mouth. Nobody was as impressed as I wanted them to be, but that did not stop me from feeling like an elite athlete. She sells seashells by the seashore, and I sell exaggerated stories about my running progress by the water cooler.
+
+Race day arrived and I immediately felt outclassed. Everyone at the starting line looked like they actually exercised regularly. They had proper running gear. Moisture-wicking shirts. Compression socks. GPS watches. I was wearing old basketball shorts and a promotional t-shirt from a mattress store grand opening. Mitch, that traitor, showed up in a matching outfit with his running club friends. He told me to just have fun. I told him I would try not to have a heart attack.
+
+The starting horn blew and everyone surged forward. I surged forward for about twenty seconds and then settled into what I would generously call a pace. Elderly walkers began passing me. A woman pushing a double stroller passed me. At one point, a man who appeared to be at least seventy years old passed me while having a full phone conversation. He was not even breathing hard. I was breathing like a broken accordion.
+
+Peter Piper picked a peck of pickled peppers, and I picked up a stitch in my side at the two-kilometer mark that felt like someone had inserted a hot fork between my ribs. I slowed to a walk. Then I started jogging again because a group of spectators were cheering and I did not want to look weak. Then I started walking again because my body did not care about my pride.
+
+The water station at the halfway point was a lifeline. I grabbed a cup, tried to drink while moving, and poured water directly up my nose. I coughed for a solid thirty seconds. A volunteer asked if I wanted to stop. I said no. She looked skeptical. Red lorry, yellow lorry, red lorry, yellow lorry. That is what the aid station signs looked like as they blurred past my oxygen-deprived eyes.
+
+The last kilometer was pure willpower and nothing else. My legs felt like they were filled with sand. My lungs were staging a formal protest. I could see the finish line in the distance, getting closer at an agonizingly slow rate. A kid on the sidewalk yelled "You can do it!" and honestly that child's faith in me was the only thing that kept me moving. How can a clam cram in a clean cream can? How can a man with no cardio training cram himself across a finish line? Sheer stubbornness.
+
+I crossed the finish line in forty-one minutes. The winner had finished in sixteen. Mitch finished in twenty-two and was already eating a banana when I stumbled past the timing mat. They handed me a participation medal. I held it like it was Olympic gold. I sat on the curb for twenty minutes, unable to stand, drinking water and questioning my life choices. Mitch asked if I wanted to sign up for a 10K next month. I told him our friendship was under review. I still have the medal. It hangs on my refrigerator. I have not run since.`,
+    he: `אני לא רץ. אני רוצה להבהיר את זה מההתחלה. אני לא רץ אלא אם משהו רודף אחריי, וגם אז כנראה הייתי מנסה לנהל משא ומתן קודם. אבל הקולגה שלי מיטש רשם אותנו שנינו למרוץ צדקה של 5K בלי לשאול אותי, ועד שגיליתי, הוא כבר סיפר לכל המשרד ופרסם על זה באינטרנט. אז הנה אני, מחויב לרוץ חמישה קילומטרים שלמים בציבור, בכוונה, בשמונה בבוקר בשבת.
+
+היו לי שישה שבועות להתאמן. מיטש שלח לי לוח אימונים שהתחיל ב"ריצה קלה של קילומטר וחצי" ביום ראשון. שמתי את הנעליים, הלכתי לקצה הבלוק, רצתי בערך תשעים שניות, ואז התכופפתי עם הידיים על הברכיים ותהיתי אם ככה אני הולך למות. השכנה שלי ראתה אותי מהמרפסת ושאלה אם אני צריך עזרה רפואית. אמרתי לה שאני מתאמן למרוץ. היא לא ניסתה להסתיר את ההפתעה שלה.
+
+עד שבוע שלוש, יכולתי לרוץ קילומטר וחצי שלם בלי לעצור. הרגשתי כמו אלוף. סיפרתי לכולם. סיפרתי לאנשים בעבודה. סיפרתי לקופאית בסופר. סיפרתי לרופא שיניים שלי במהלך ניקוי, מה שהיה קשה כי הידיים שלו היו בפה שלי. אף אחד לא היה מרשים כמו שרציתי שיהיו, אבל זה לא עצר אותי מלהרגיש כמו ספורטאי עילית. שרה שרה שיר שמח, ואני שרתי סיפורים מוגזמים על ההתקדמות שלי בריצה ליד המקרר במשרד.
+
+יום המרוץ הגיע ומיד הרגשתי נחות. כולם בקו ההתחלה נראו כאילו הם באמת מתאמנים באופן קבוע. היה להם ציוד ריצה מקצועי. חולצות מנדפות זיעה. גרבי לחץ. שעוני GPS. אני לבשתי מכנסי כדורסל ישנים וחולצת טריקו פרסומית מפתיחה גדולה של חנות מזרנים. מיטש, אותו בוגד, הופיע בתלבושת תואמת עם חברים ממועדון הריצה שלו. הוא אמר לי פשוט ליהנות. אמרתי לו שאני אנסה לא לקבל התקף לב.
+
+צופר ההתחלה נשמע וכולם זינקו קדימה. אני זינקתי קדימה בערך עשרים שניות ואז התיישבתי למה שהייתי מכנה בנדיבות קצב. הולכים מבוגרים התחילו לעקוף אותי. אישה שדוחפת עגלה כפולה עקפה אותי. בנקודה מסוימת, גבר שנראה בן לפחות שבעים עקף אותי תוך כדי שיחת טלפון מלאה. הוא אפילו לא נשם בכבדות. אני נשמתי כמו אקורדיון שבור.
+
+גנן גידל דגן בגן, ואני גידלתי דקירה בצד בסימן שני הקילומטרים שהרגישה כאילו מישהו הכניס מזלג חם בין הצלעות. האטתי להליכה. אז התחלתי לרוץ שוב כי קבוצת צופים עודדו ולא רציתי להיראות חלש. אז התחלתי ללכת שוב כי לגוף לא היה אכפת מהגאווה שלי.
+
+תחנת המים באמצע הייתה הצלה. תפסתי כוס, ניסיתי לשתות תוך כדי תנועה, ושפכתי מים ישר לתוך האף. השתעלתי שלושים שניות שלמות. מתנדבת שאלה אם אני רוצה לעצור. אמרתי לא. היא נראתה ספקנית. קרקר קרקר קרקר, קרקר קרקר בקרקס. ככה נראו שלטי תחנת העזרה כשהם טשטשו ליד העיניים חסרות החמצן שלי.
+
+הקילומטר האחרון היה כוח רצון טהור ותו לא. הרגליים הרגישו כאילו מלאות חול. הריאות ערכו מחאה רשמית. יכולתי לראות את קו הסיום במרחק, מתקרב בקצב איטי מייסר. ילד על המדרכה צעק "אתה יכול!" ובכנות האמונה של הילד הזה בי הייתה הדבר היחיד ששמר אותי בתנועה. נחש נשך נחש כי נחש נחש שנחש נשך נחש. איך אדם בלי אימון אירובי יכול לדחוף את עצמו מעבר לקו סיום? עקשנות טהורה.
+
+חציתי את קו הסיום בארבעים ואחת דקות. המנצח סיים בשש עשרה. מיטש סיים בעשרים ושתיים וכבר אכל בננה כשמעדתי מעבר למשטח הזמן. הם נתנו לי מדליית השתתפות. החזקתי אותה כאילו היא זהב אולימפי. ישבתי על השפה עשרים דקות, לא מסוגל לעמוד, שותה מים ומפקפק בבחירות החיים שלי. מיטש שאל אם אני רוצה להירשם ל-10K בחודש הבא. אמרתי לו שהחברות שלנו נמצאת בבדיקה. עדיין יש לי את המדליה. היא תלויה על המקרר. לא רצתי מאז.`
+  },
+  difficulty: 'medium' as const,
+  targetWPM: 100,
+  wordCount: 680,
+},
+{
+  id: 'ml1-08',
+  title: { en: 'The Renovation Next Door', he: 'השיפוץ של השכנים' },
+  text: {
+    en: `My neighbors are renovating their house. They have been renovating their house for four months. Four months of drilling, hammering, sawing, and a mysterious banging sound that happens every morning at seven fifteen and sounds like someone dropping a piano down a staircase. I have not slept properly since November. My left eye has developed a twitch. I have started talking to myself. The other day I had a full conversation with a houseplant about noise ordinances. The plant did not have helpful advice.
+
+It started with what they called "a small kitchen update." They were going to replace the countertops and maybe add a new backsplash. Simple. Quick. Two weeks, tops. That was in October. Since then, the project has expanded to include a new bathroom, a converted attic, a rebuilt deck, and something involving their basement that requires a jackhammer at dawn. Their small kitchen update has become a complete home transformation, and my sanity has become collateral damage.
+
+The construction crew arrives every morning at seven sharp. I know this because I can hear their truck, which has a backup alarm that sounds like a robot screaming. Then the radio comes on. The foreman likes classic rock played at a volume that suggests he believes the entire neighborhood wants to listen. I now know every word to songs I never wanted to learn. She sells seashells by the seashore, and the construction crew sells headaches by the decibel level, and business is excellent.
+
+I tried earplugs. The drilling went through them like they were not there. I tried a white noise machine. The hammering overpowered it within seconds. I tried noise-canceling headphones, the expensive kind, the ones that are supposed to block jet engines. They reduced the jackhammer to a dull roar, which is like saying they turned the volume of a rock concert down from eleven to nine. Still too loud to sleep. Still too loud to think. Still too loud to have a phone conversation without the other person asking if I was calling from a war zone.
+
+I went over to talk to my neighbors about it. They were very nice. They apologized. They offered me a cookie. The cookie was from a bakery that was apparently very fancy because it came in a little box with tissue paper. I ate the cookie. It was delicious. Then the jackhammer started again and the cookie meant nothing. You cannot buy my silence with baked goods, though I admit it was a solid attempt.
+
+How much wood would a woodchuck chuck if a woodchuck could chuck wood? I know exactly how much because I can hear every single piece of wood being chucked, cut, nailed, and installed next door. I have become an unwilling expert in construction sounds. I can tell the difference between a circular saw and a table saw by sound alone. I know when they switch from the small drill to the big drill. I know when it is tile-cutting day because tile-cutting day sounds like the end of the world.
+
+The weekends are the worst because that is when I am supposed to rest. Saturday mornings used to be peaceful. Coffee, a book, silence. Now Saturday mornings sound like a demolition derby crossed with a woodworking class. I sit in my kitchen, drinking coffee that I need desperately because I have not slept, listening to what I am fairly certain is someone using a sledgehammer on the other side of the wall that separates our properties.
+
+Peter Piper picked a peck of pickled peppers, and the construction crew picked apart my neighbor's entire house, one earsplitting project at a time. I have called the city about noise complaints. The city said they are within permitted hours. I asked what the permitted hours were. They said seven AM to seven PM. That is twelve hours of legal noise. Twelve hours. Red lorry, yellow lorry, red lorry, yellow lorry. That is the sound of construction trucks coming and going from dawn to dusk on my formerly quiet street.
+
+My neighbor told me last week that they are almost done. Just a few more weeks. He said the same thing two months ago. At this point, I have accepted my new reality. I sleep with three pillows over my head. I work from a coffee shop. I have memorized the construction crew's lunch schedule because that thirty-minute window of silence at noon is the most peaceful part of my day. They say it will all be worth it when it is finished. I am sure their house will be beautiful. I just hope I still have my hearing left to enjoy the quiet when it finally comes.`,
+    he: `השכנים שלי משפצים את הבית. הם משפצים את הבית כבר ארבעה חודשים. ארבעה חודשים של קידוח, פטישות, ניסור, וצליל חבטות מסתורי שקורה כל בוקר בשבע וחמש עשרה ונשמע כמו מישהו שמפיל פסנתר במדרגות. לא ישנתי כמו שצריך מאז נובמבר. העין השמאלית שלי פיתחה טיק. התחלתי לדבר עם עצמי. שלשום ניהלתי שיחה מלאה עם צמח בית על תקנות רעש. לצמח לא הייתה עצה מועילה.
+
+זה התחיל עם מה שהם קראו לו "עדכון קטן למטבח." הם התכוונו להחליף את השיש ואולי להוסיף חיפוי חדש. פשוט. מהיר. שבועיים, מקסימום. זה היה באוקטובר. מאז, הפרויקט התרחב לכלול חדר אמבטיה חדש, עליית גג מוסבת, מרפסת שנבנתה מחדש, ומשהו שכולל מרתף שדורש פטיש אוויר בשחר. העדכון הקטן למטבח שלהם הפך לשינוי מוחלט של הבית, והשפיות שלי הפכה לנזק נלווה.
+
+צוות הבנייה מגיע כל בוקר בשבע בדיוק. אני יודע את זה כי אני יכול לשמוע את המשאית שלהם, שיש לה אזעקת נסיעה לאחור שנשמעת כמו רובוט צורח. אז הרדיו נדלק. המנהל אוהב רוק קלאסי שמושמע בווליום שמרמז שהוא מאמין שכל השכונה רוצה להקשיב. אני עכשיו יודע כל מילה בשירים שמעולם לא רציתי ללמוד. שרה שרה שיר שמח, וצוות הבנייה שר שירי כאבי ראש ברמת דציבלים, והעסק משגשג.
+
+ניסיתי אטמי אוזניים. הקידוח עבר דרכם כאילו הם לא שם. ניסיתי מכונת רעש לבן. הפטישות גברו עליה תוך שניות. ניסיתי אוזניות מבטלות רעש, מהסוג היקר, אלה שאמורות לחסום מנועי סילון. הן הורידו את פטיש האוויר לשאגה עמומה, שזה כמו לומר שהורידו את הווליום של הופעת רוק מאחד עשר לתשע. עדיין חזק מדי לישון. עדיין חזק מדי לחשוב. עדיין חזק מדי לנהל שיחת טלפון בלי שהאדם השני שואל אם אני מתקשר מאזור מלחמה.
+
+הלכתי לדבר עם השכנים על זה. הם היו מאוד נחמדים. הם התנצלו. הם הציעו לי עוגייה. העוגייה הייתה ממאפייה שכנראה הייתה מאוד מפוארת כי היא הגיעה בקופסה קטנה עם נייר משי. אכלתי את העוגייה. היא הייתה טעימה. אז פטיש האוויר התחיל שוב והעוגייה לא אומרת כלום. אי אפשר לקנות את השתיקה שלי עם מאפים, אם כי אני מודה שזה היה ניסיון מוצק.
+
+נחש נשך נחש כי נחש נחש שנחש נשך נחש. אני יודע בדיוק כמה כי אני יכול לשמוע כל חתיכת עץ שנזרקת, נחתכת, נמסמרת ומותקנת בבית הסמוך. הפכתי למומחה בעל כורחי בצלילי בנייה. אני יכול להבדיל בין מסור עגול למסור שולחני לפי הצליל בלבד. אני יודע מתי הם עוברים מהמקדחה הקטנה למקדחה הגדולה. אני יודע מתי זה יום חיתוך אריחים כי יום חיתוך אריחים נשמע כמו סוף העולם.
+
+סופי השבוע הם הכי גרועים כי אז אני אמור לנוח. שבת בבוקר נהגה להיות שלווה. קפה, ספר, שקט. עכשיו שבת בבוקר נשמעת כמו דרבי הריסות שהוצלב עם חוג נגרות. אני יושב במטבח, שותה קפה שאני צריך נואשות כי לא ישנתי, מקשיב למה שאני די בטוח שזה מישהו שמשתמש בפטיש הריסות בצד השני של הקיר שמפריד בין הנכסים שלנו.
+
+גנן גידל דגן בגן, וצוות הבנייה גידל את הבית של השכן מחדש, פרויקט מחריש אוזניים אחד בכל פעם. התקשרתי לעירייה על תלונות רעש. העירייה אמרה שהם בתוך השעות המותרות. שאלתי מה השעות המותרות. הם אמרו שבע בבוקר עד שבע בערב. זה שתים עשרה שעות של רעש חוקי. שתים עשרה שעות. קרקר קרקר קרקר, קרקר קרקר בקרקס. זה הצליל של משאיות בנייה שבאות והולכות מעלות השחר עד רדת החשכה ברחוב השקט לשעבר שלי.
+
+השכן שלי אמר לי בשבוע שעבר שהם כמעט סיימו. רק עוד כמה שבועות. הוא אמר את אותו דבר לפני חודשיים. בנקודה הזו, קיבלתי את המציאות החדשה שלי. אני ישן עם שלוש כריות על הראש. אני עובד מבית קפה. שיננתי את לוח הזמנים של ארוחות הצהריים של צוות הבנייה כי חלון השקט בן שלושים הדקות בצהריים הוא החלק הכי שלו ביום שלי. הם אומרים שזה יהיה שווה את זה כשזה ייגמר. אני בטוח שהבית שלהם יהיה יפה. אני רק מקווה שעדיין תהיה לי השמיעה ליהנות מהשקט כשהוא סוף סוף יגיע.`
+  },
+  difficulty: 'easy' as const,
+  targetWPM: 95,
+  wordCount: 676,
+},
+{
+  id: 'ml1-09',
+  title: { en: 'Teaching My Teenager to Drive', he: 'מלמד את הנער שלי לנהוג' },
+  text: {
+    en: `My son turned sixteen last month and got his learner's permit. This means I am now legally required to sit in the passenger seat while he operates a two-ton vehicle on public roads. I have done many brave things in my life. I have gone skydiving. I have eaten gas station sushi. But nothing, absolutely nothing, has tested my courage like being a passenger while my teenage son learns to drive a car.
+
+The first lesson was in an empty parking lot on a Sunday morning. I figured we would start simple. Forward, stop, turn, park. Basic stuff. My son got behind the wheel with the confidence of a Formula One driver, which was concerning because he had never driven anything more powerful than a go-kart. He adjusted the mirrors, put on his seatbelt, and then pressed the gas pedal like he was trying to launch us into orbit. We shot forward across the parking lot at a speed I was not prepared for. I grabbed the handle above the door, which I now understand exists specifically for parents teaching their teenagers to drive. It should be called the survival handle.
+
+He eventually learned to ease onto the gas. He learned to brake without giving me whiplash. He even managed a few smooth turns. I was starting to relax. That was my mistake. She sells seashells by the seashore, and my son sells years off my lifespan every time he merges into traffic without checking his blind spot. We moved to real roads on day three, and real roads have other cars on them, which was a detail my son seemed surprised by.
+
+The first intersection was an adventure. He stopped at the red light. Good. The light turned green. He did not move. Cars behind us started honking. He panicked. He stalled the car. I told him we were in an automatic and it was physically impossible to stall it. He had simply forgotten to take his foot off the brake. The honking intensified. My son looked at me with wide eyes and said, "They are all looking at me." I said, "They are. Please drive." He drove. We survived. Barely.
+
+Parallel parking was a chapter I will never forget. I set up two trash cans in front of our house to simulate other cars. I explained the steps. Turn the wheel this way. Now the other way. Now straighten out. Simple. He turned the wheel the wrong way and drove over one of the trash cans. The trash can was not damaged but it did roll dramatically into the street, where it sat as a monument to my failure as a driving instructor. Peter Piper picked a peck of pickled peppers, and my son picked off a trash can like a bowling pin on his first parallel parking attempt.
+
+Highway driving was supposed to happen in week four. I was not ready. He was not ready. Nobody was ready. But the driving manual said we needed highway experience, so we pulled onto the on-ramp during what I thought was a low-traffic time. It was not a low-traffic time. Trucks everywhere. My son merged into the middle lane at forty miles per hour while the speed limit was sixty-five. I aged approximately fifteen years in thirty seconds. A truck honked. My son swerved slightly. I made a sound that was half scream, half prayer.
+
+How much wood would a woodchuck chuck if a woodchuck could chuck wood? I do not care. I care about how much distance there is between my son's car and the truck in front of us, and the answer is never enough. I have become the most anxious person in any vehicle. I brake with an imaginary pedal on the passenger side. I gasp at things that turn out to be nothing. My son tells me I am being dramatic. He is wrong.
+
+Red lorry, yellow lorry, red lorry, yellow lorry. That is what the traffic looks like from the passenger seat when your sixteen-year-old is driving and you are gripping your seatbelt with both hands. After six weeks of practice, my son can now drive competently in most conditions. He signals before turning. He checks his mirrors. He maintains a safe following distance most of the time. I am proud of him. I am also considering therapy. The gray hairs I have developed since this process started are not going away. But he is learning. He is growing up. And I am sitting in the passenger seat, white-knuckled, trying to let him.`,
+    he: `הבן שלי מלא שש עשרה בחודש שעבר וקיבל היתר נהיגה. זה אומר שאני עכשיו מחויב חוקית לשבת במושב הנוסע בזמן שהוא מפעיל כלי רכב של שני טון על כבישים ציבוריים. עשיתי דברים אמיצים רבים בחיים. קפצתי מצניחה. אכלתי סושי מתחנת דלק. אבל שום דבר, ממש שום דבר, לא בחן את האומץ שלי כמו להיות נוסע בזמן שהבן המתבגר שלי לומד לנהוג.
+
+השיעור הראשון היה בחניון ריק ביום ראשון בבוקר. חשבתי שנתחיל בפשוט. קדימה, עצור, פנה, חנה. דברים בסיסיים. הבן שלי התיישב מאחורי ההגה עם הביטחון של נהג פורמולה 1, מה שהיה מדאיג כי הוא מעולם לא נהג על משהו חזק יותר מקארטינג. הוא כיוון את המראות, חגר חגורה, ואז לחץ על דוושת הגז כאילו ניסה לשגר אותנו למסלול. נסענו קדימה דרך החניון במהירות שלא הייתי מוכן לה. תפסתי את הידית מעל הדלת, שעכשיו אני מבין שקיימת ספציפית בשביל הורים שמלמדים מתבגרים לנהוג. צריך לקרוא לה ידית הישרדות.
+
+בסופו של דבר הוא למד ללחוץ בעדינות על הגז. הוא למד לבלום בלי לגרום לי לצליפת שוט. הוא אפילו הצליח כמה פניות חלקות. התחלתי להירגע. זו הייתה הטעות שלי. שרה שרה שיר שמח, והבן שלי שר שנים מתוחלת החיים שלי כל פעם שהוא מתמזג לתנועה בלי לבדוק את הנקודה העיוורת. עברנו לכבישים אמיתיים ביום שלוש, ובכבישים אמיתיים יש מכוניות אחרות, מה שהיה פרט שהבן שלי נראה מופתע ממנו.
+
+הצומת הראשון היה הרפתקה. הוא עצר באדום. טוב. האור הפך לירוק. הוא לא זז. מכוניות מאחורינו התחילו לצפור. הוא נכנס לפאניקה. הוא עצר את המנוע. אמרתי לו שאנחנו באוטומטי ושזה פיזית בלתי אפשרי לכבות את המנוע. הוא פשוט שכח להוריד את הרגל מהבלם. הצפירות התגברו. הבן שלי הסתכל עליי עם עיניים רחבות ואמר, "כולם מסתכלים עליי." אמרתי, "נכון. בבקשה סע." הוא נסע. שרדנו. בקושי.
+
+חנייה מקבילה הייתה פרק שלעולם לא אשכח. שמתי שני פחי אשפה מול הבית כדי לדמות מכוניות אחרות. הסברתי את הצעדים. סובב את ההגה ככה. עכשיו לצד השני. עכשיו ישר. פשוט. הוא סובב את ההגה לצד הלא נכון ונסע על אחד מפחי האשפה. הפח לא ניזוק אבל הוא התגלגל בצורה דרמטית לרחוב, שם הוא ישב כאנדרטה לכישלון שלי כמורה לנהיגה. גנן גידל דגן בגן, והבן שלי גידל הרס כמו כדור באולינג בניסיון החנייה המקבילה הראשון שלו.
+
+נהיגה בכביש מהיר הייתה אמורה לקרות בשבוע ארבע. אני לא הייתי מוכן. הוא לא היה מוכן. אף אחד לא היה מוכן. אבל מדריך הנהיגה אמר שאנחנו צריכים ניסיון בכביש מהיר, אז נכנסנו לרמפה במה שחשבתי שזה זמן דל תנועה. זה לא היה זמן דל תנועה. משאיות בכל מקום. הבן שלי התמזג לנתיב האמצעי בארבעים קמש בעוד מגבלת המהירות הייתה מאה. הזדקנתי בערך חמש עשרה שנה בשלושים שניות. משאית צפרה. הבן שלי סטה קלות. הוצאתי צליל שהיה חצי צרחה חצי תפילה.
+
+נחש נשך נחש כי נחש נחש שנחש נשך נחש. לא אכפת לי. אכפת לי כמה מרחק יש בין האוטו של הבן שלי למשאית שלפנינו, והתשובה היא אף פעם לא מספיק. הפכתי לאדם הכי חרד בכל רכב. אני בולם עם דוושה דמיונית בצד הנוסע. אני נאנח על דברים שמתבררים כלא כלום. הבן שלי אומר לי שאני דרמטי. הוא טועה.
+
+קרקר קרקר קרקר, קרקר קרקר בקרקס. ככה נראית התנועה ממושב הנוסע כשבן שש עשרה נוהג ואתה אוחז בחגורת הבטיחות בשתי ידיים. אחרי שישה שבועות של תרגול, הבן שלי יכול עכשיו לנהוג בצורה מוכשרת ברוב התנאים. הוא מאותת לפני פנייה. הוא בודק מראות. הוא שומר מרחק בטיחותי רוב הזמן. אני גאה בו. אני גם שוקל טיפול. השיער הלבן שפיתחתי מאז שהתהליך הזה התחיל לא הולך לשום מקום. אבל הוא לומד. הוא גדל. ואני יושב במושב הנוסע, עם אצבעות לבנות, מנסה לתת לו.`
+  },
+  difficulty: 'medium' as const,
+  targetWPM: 110,
+  wordCount: 672,
+},
+{
+  id: 'ml1-10',
+  title: { en: 'The Hotel Stay From Nightmare Lane', he: 'השהייה במלון מרחוב הסיוטים' },
+  text: {
+    en: `I want to tell you about the worst hotel stay of my life. And I want to be clear, I have stayed in some questionable places. I once slept in a hostel where the shower was in the kitchen. I have stayed at a motel where the key to my room also opened two other rooms. But this hotel, this specific hotel on a business trip last March, broke new ground in the field of terrible hospitality.
+
+It started at check-in. The front desk clerk looked at his computer for a very long time after I gave him my name. He typed. He frowned. He typed again. He picked up the phone, spoke quietly to someone, hung up, and then smiled at me in a way that did not feel genuine. He said they had my reservation but there had been a small issue with my room. When a hotel says there has been a small issue, prepare for a large issue. He handed me a key card for room 714 and told me the elevator was broken but the stairs were "a great workout." Seven flights. With luggage.
+
+I arrived at room 714 sweating and out of breath. I opened the door and immediately noticed two things. First, the room was very small. Not cozy small. Prison cell small. I could stand in the center and touch both walls if I stretched. Second, it smelled like someone had been cooking fish in it recently. Not good fish. Not restaurant fish. Microwave fish. The kind of fish smell that becomes part of the walls.
+
+She sells seashells by the seashore, but someone had apparently been selling fish dinners by the bedside, and the evidence was everywhere. I opened the window. The window opened approximately three inches and then stopped, held in place by a safety latch that was clearly designed to prevent exactly this kind of desperate fresh air situation. I called the front desk. They said they would send air freshener. They did not send air freshener.
+
+The bed was the next surprise. It looked normal from a distance. Up close, it had a dip in the middle so deep that once I lay down, I could not get back up without rolling to the edge first. I felt like I was sleeping in a hammock, except a hammock is supposed to be fun. The pillow was simultaneously too flat and too lumpy, which I did not think was physically possible. I rearranged the blankets and discovered a stain that I chose not to investigate further. Some mysteries are better left unsolved.
+
+The bathroom deserves its own paragraph. The faucet dripped. Not occasionally. Constantly. A rhythmic drip, drip, drip that sounded like a tiny drummer keeping time for the world's worst band. Peter Piper picked a peck of pickled peppers, and the bathroom faucet dripped a peck of drips per minute with the precision of a metronome. The shower had two temperatures, ice cold and surface of the sun. There was no middle ground. I took the fastest shower of my life, alternating between gasping from cold and yelping from heat.
+
+At midnight, I discovered the walls were paper thin. The couple in the next room was watching an action movie at full volume. Explosions. Car chases. A soundtrack that seemed to consist entirely of bass. I could follow the entire plot through the wall. I knocked on their door and asked if they could turn it down. They did. For ten minutes. Then a different movie started. This one had more explosions.
+
+How much wood would a woodchuck chuck if a woodchuck could chuck wood? I thought about this at three in the morning while lying in my bed crater, listening to explosions through the wall, smelling fish, and watching the ceiling fan wobble in a way that suggested it might detach at any moment. The ceiling fan made a clicking sound with every rotation. Click, wobble, click, wobble. Red lorry, yellow lorry, red lorry, yellow lorry. That is what the ceiling looked like spinning above me as sleep deprivation set in.
+
+I checked out at six AM. The front desk clerk, a different one from the night before, asked how my stay was. I told her it was an experience I would never forget. She said, "We love hearing that!" I did not correct her. I walked to my car, sat in the driver's seat, and just breathed clean air for five minutes. I wrote a review online. It was four paragraphs long. The hotel responded with "We are sorry to hear about your experience and hope to welcome you back soon." They will not. They absolutely will not.`,
+    he: `אני רוצה לספר לכם על השהייה הכי גרועה שלי במלון אי פעם. ואני רוצה להבהיר, ישנתי במקומות מפוקפקים. פעם ישנתי בהוסטל שהמקלחת הייתה במטבח. ישנתי במוטל שהמפתח לחדר שלי פתח גם שני חדרים אחרים. אבל המלון הזה, המלון הספציפי הזה בנסיעת עסקים במרץ שעבר, פרץ גבולות חדשים בתחום האירוח הנורא.
+
+זה התחיל בקבלה. פקיד הקבלה הסתכל על המחשב שלו הרבה זמן אחרי שנתתי לו את השם שלי. הוא הקליד. הוא הזעיף פנים. הוא הקליד שוב. הוא הרים טלפון, דיבר בשקט עם מישהו, סגר, ואז חייך אליי בצורה שלא הרגישה אמיתית. הוא אמר שיש להם את ההזמנה שלי אבל הייתה בעיה קטנה עם החדר. כשמלון אומר שהייתה בעיה קטנה, תתכוננו לבעיה גדולה. הוא נתן לי כרטיס מפתח לחדר 714 ואמר שהמעלית מקולקלת אבל המדרגות הן "אימון מעולה." שבע קומות. עם מזוודות.
+
+הגעתי לחדר 714 מזיע וחסר נשימה. פתחתי את הדלת ומיד שמתי לב לשני דברים. ראשית, החדר היה מאוד קטן. לא קטן נעים. קטן כמו תא כלא. יכולתי לעמוד במרכז ולגעת בשני הקירות אם הייתי נמתח. שנית, הוא הריח כאילו מישהו בישל דגים בו לאחרונה. לא דג טוב. לא דג מסעדה. דג מיקרוגל. סוג הריח של דג שהופך לחלק מהקירות.
+
+שרה שרה שיר שמח, אבל מישהו כנראה שר שירי ארוחות דגים ליד המיטה, והעדויות היו בכל מקום. פתחתי את החלון. החלון נפתח בערך שלושה סנטימטרים ואז נעצר, מוחזק במקום על ידי תפס בטיחות שתוכנן בבירור למנוע בדיוק את מצב האוויר הצח הנואש הזה. התקשרתי לקבלה. הם אמרו שישלחו מרענן אוויר. הם לא שלחו מרענן אוויר.
+
+המיטה הייתה ההפתעה הבאה. היא נראתה רגילה ממרחק. מקרוב, היה לה שקע באמצע כל כך עמוק שברגע ששכבתי, לא יכולתי לקום בלי להתגלגל לקצה קודם. הרגשתי כאילו אני ישן בערסל, חוץ מזה שערסל אמור להיות כיף. הכרית הייתה בו זמנית שטוחה מדי וגושית מדי, מה שלא חשבתי שפיזית אפשרי. סידרתי מחדש את השמיכות וגיליתי כתם שבחרתי לא לחקור יותר. יש תעלומות שעדיף שישארו לא פתורות.
+
+חדר האמבטיה ראוי לפסקה משלו. הברז טפטף. לא מדי פעם. כל הזמן. טפטוף קצבי, טיף, טיף, טיף, שנשמע כמו מתופף זעיר ששומר על הקצב של הלהקה הכי גרועה בעולם. גנן גידל דגן בגן, וברז האמבטיה טפטף טפטופים בדקה בדיוק של מטרונום. למקלחת היו שני טמפרטורות, קרח ופני השמש. לא היה אמצע. לקחתי את המקלחת הכי מהירה בחיים שלי, מתחלף בין התנשפות מקור ליללה מחום.
+
+בחצות, גיליתי שהקירות דקים כנייר. הזוג בחדר הסמוך צפה בסרט פעולה בווליום מלא. פיצוצים. מרדפי מכוניות. פסקול שנראה שמורכב כולו מבאס. יכולתי לעקוב אחרי כל העלילה דרך הקיר. דפקתי על הדלת שלהם וביקשתי להנמיך. הם הנמיכו. לעשר דקות. אז סרט אחר התחיל. לזה היו יותר פיצוצים.
+
+נחש נשך נחש כי נחש נחש שנחש נשך נחש. חשבתי על זה בשלוש בלילה בזמן ששכבתי במכתש המיטה שלי, מקשיב לפיצוצים דרך הקיר, מריח דג, וצופה במאוורר התקרה מתנדנד בצורה שמרמזת שהוא עלול להתנתק בכל רגע. מאוורר התקרה עשה צליל קליק עם כל סיבוב. קליק, נדנוד, קליק, נדנוד. קרקר קרקר קרקר, קרקר קרקר בקרקס. ככה נראתה התקרה מסתובבת מעליי כשחוסר השינה הגיע.
+
+עשיתי צ'ק-אאוט בשש בבוקר. פקידת הקבלה, אחרת מבערב, שאלה איך הייתה השהייה. אמרתי לה שזה היה חוויה שלעולם לא אשכח. היא אמרה, "אנחנו אוהבים לשמוע את זה!" לא תיקנתי אותה. הלכתי לאוטו, ישבתי במושב הנהג, ופשוט נשמתי אוויר נקי חמש דקות. כתבתי ביקורת באינטרנט. היא הייתה ארבע פסקאות. המלון ענה עם "אנחנו מצטערים לשמוע על החוויה שלך ומקווים לארח אותך שוב בקרוב." הם לא יארחו. הם בהחלט לא יארחו.`
+  },
+  difficulty: 'hard' as const,
+  targetWPM: 120,
+  wordCount: 686,
+},
 ];
