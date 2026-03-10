@@ -75,6 +75,9 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
   const lastTranscriptRef = useRef('');
   // Track when each finalized word was spoken
   const finalWordTimesRef = useRef<number[]>([]);
+  // Track which result indices have already been counted as final
+  // (Android Chrome can re-deliver finalized results, causing double-counting)
+  const countedFinalIndicesRef = useRef(new Set<number>());
 
   const isSupported = !!SpeechRecognitionAPI;
 
@@ -115,7 +118,8 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
 
         for (let i = event.resultIndex; i < event.results.length; i++) {
           const result = event.results[i];
-          if (result.isFinal) {
+          if (result.isFinal && !countedFinalIndicesRef.current.has(i)) {
+            countedFinalIndicesRef.current.add(i);
             const text = result[0].transcript;
             finalTranscript += text + ' ';
             finalTranscriptRef.current = finalTranscript;
@@ -159,6 +163,7 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
 
       recognition.onend = () => {
         if (recognitionRef.current) {
+          countedFinalIndicesRef.current.clear();
           try {
             recognition.start();
           } catch {
@@ -172,6 +177,7 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
       finalWordCountRef.current = 0;
       finalTranscriptRef.current = '';
       lastTranscriptRef.current = '';
+      countedFinalIndicesRef.current.clear();
 
       try {
         recognition.start();
@@ -221,6 +227,7 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
     finalWordCountRef.current = 0;
     finalTranscriptRef.current = '';
     lastTranscriptRef.current = '';
+    countedFinalIndicesRef.current.clear();
   }, [stop]);
 
   useEffect(() => {
