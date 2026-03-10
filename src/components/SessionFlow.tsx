@@ -39,7 +39,8 @@ interface SessionFlowProps {
   onFinish: () => void;
 }
 
-const progressSteps: Step[] = ['breathing', 'read-along', 'free-speech'];
+type ProgressStep = 'breathing' | 'read-along' | 'free-speech';
+const progressSteps: ProgressStep[] = ['breathing', 'read-along', 'free-speech'];
 const stepLabels = {
   en: { breathing: 'Breathe', 'read-along': 'Read', 'free-speech': 'Speak' },
   he: { breathing: 'נשימה', 'read-along': 'קריאה', 'free-speech': 'דיבור' },
@@ -143,7 +144,7 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
 
   const showProgressBar = !['time-select', 'summary', 'read-along-result', 'free-speech-result'].includes(currentStep);
   const currentStepIndex = progressSteps.indexOf(
-    currentStep === 'read-along-result' ? 'read-along' : currentStep === 'free-speech-result' ? 'free-speech' : currentStep
+    (currentStep === 'read-along-result' ? 'read-along' : currentStep === 'free-speech-result' ? 'free-speech' : currentStep) as ProgressStep
   );
 
   return (
