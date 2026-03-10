@@ -10,10 +10,12 @@ export default defineConfig({
     {
       name: 'inject-analytics',
       transformIndexHtml(html, ctx) {
-        if (!ctx.server) {
+        const analyticsUrl = process.env.VITE_ANALYTICS_URL;
+        const websiteId = process.env.VITE_ANALYTICS_WEBSITE_ID;
+        if (!ctx.server && analyticsUrl && websiteId) {
           return html.replace(
             '</head>',
-            '    <script defer src="ANALYTICS_URL_REDACTED" data-website-id="WEBSITE_ID_REDACTED"></script>\n  </head>'
+            `    <script defer src="${analyticsUrl}" data-website-id="${websiteId}"></script>\n  </head>`
           );
         }
         return html;
