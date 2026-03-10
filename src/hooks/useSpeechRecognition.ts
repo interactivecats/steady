@@ -62,6 +62,8 @@ const SpeechRecognitionAPI =
     ? window.SpeechRecognition || window.webkitSpeechRecognition || null
     : null;
 
+const isAndroid = typeof navigator !== 'undefined' && /android/i.test(navigator.userAgent);
+
 export function useSpeechRecognition(): SpeechRecognitionResult {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
@@ -109,7 +111,9 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
     if (!SpeechRecognitionAPI) return null;
 
     const recognition = new SpeechRecognitionAPI();
-    recognition.continuous = true;
+    // Android Chrome doesn't support continuous mode properly — it causes
+    // duplicate/repeated words. Use non-continuous mode and restart in onend.
+    recognition.continuous = !isAndroid;
     recognition.interimResults = true;
     recognition.lang = lang;
 
