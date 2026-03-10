@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#5E8A6A"/>
+  <g transform="translate(256,256)">
+    <!-- Sound wave arcs -->
+    <path d="M20,-80 Q80,-80 80,0 Q80,80 20,80" fill="none" stroke="#FAF8F5" stroke-width="28" stroke-linecap="round"/>
+    <path d="M20,-130 Q130,-130 130,0 Q130,130 20,130" fill="none" stroke="#FAF8F5" stroke-width="28" stroke-linecap="round" opacity="0.7"/>
+    <path d="M20,-180 Q180,-180 180,0 Q180,180 20,180" fill="none" stroke="#FAF8F5" stroke-width="28" stroke-linecap="round" opacity="0.4"/>
+    <!-- Vertical line -->
+    <line x1="20" y1="-180" x2="20" y2="180" stroke="#FAF8F5" stroke-width="28" stroke-linecap="round"/>
+  </g>
+</svg>

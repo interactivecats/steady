@@ -57,6 +57,11 @@ function getAdjustedElapsed(times: number[], fromIdx: number, toTime: number): n
   return elapsed;
 }
 
+const SpeechRecognitionAPI =
+  typeof window !== 'undefined'
+    ? window.SpeechRecognition || window.webkitSpeechRecognition || null
+    : null;
+
 export function useSpeechRecognition(): SpeechRecognitionResult {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
@@ -70,11 +75,6 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
   const lastTranscriptRef = useRef('');
   // Track when each finalized word was spoken
   const finalWordTimesRef = useRef<number[]>([]);
-
-  const SpeechRecognitionAPI =
-    typeof window !== 'undefined'
-      ? window.SpeechRecognition || window.webkitSpeechRecognition
-      : null;
 
   const isSupported = !!SpeechRecognitionAPI;
 
@@ -179,7 +179,7 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
         console.error('Failed to start recognition:', e);
       }
     },
-    [SpeechRecognitionAPI]
+    []
   );
 
   const stop = useCallback((): number => {

@@ -1,4 +1,5 @@
 import { useMemo } from 'react';
+import { getDateStr } from '../utils/storage';
 import type { UserProgress } from '../utils/storage';
 
 interface DashboardProps {
@@ -68,7 +69,7 @@ export function Dashboard({ progress, lang, onStartSession, onToggleLang, onShow
   const l = labels[lang];
   const dir = lang === 'he' ? 'rtl' : 'ltr';
   const isFirstTime = progress.totalSessions === 0;
-  const todayDone = progress.lastSessionDate === new Date().toISOString().split('T')[0];
+  const todayDone = progress.lastSessionDate === getDateStr(new Date());
 
   const tipIndex = new Date().getDate() % l.tips.length;
   const tip = l.tips[tipIndex];

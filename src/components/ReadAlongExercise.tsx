@@ -5,6 +5,7 @@ import type { Passage } from '../data/exercises';
 interface ReadAlongExerciseProps {
   passage: Passage;
   lang: 'en' | 'he';
+  paceMultiplier?: number;
   onComplete: (wpm: number, duration: number) => void;
 }
 
@@ -33,7 +34,7 @@ const labels = {
   },
 };
 
-export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerciseProps) {
+export function ReadAlongExercise({ passage, lang, paceMultiplier = 1, onComplete }: ReadAlongExerciseProps) {
   const [phase, setPhase] = useState<'ready' | 'waiting-mic' | 'reading'>('ready');
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const startTimeRef = useRef(0);
@@ -44,7 +45,7 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
 
   const text = passage.text[lang];
   const words = text.split(/\s+/);
-  const targetWPM = passage.targetWPM;
+  const targetWPM = Math.round(passage.targetWPM * paceMultiplier);
   const msPerWord = 60000 / targetWPM;
 
   const scheduleNextWord = useCallback((index: number) => {
@@ -97,7 +98,7 @@ export function ReadAlongExercise({ passage, lang, onComplete }: ReadAlongExerci
     if (pacingIntervalRef.current) {
       clearTimeout(pacingIntervalRef.current);
     }
-    const duration = (Date.now() - startTimeRef.current) / 1000;
+    const duration = startTimeRef.current > 0 ? (Date.now() - startTimeRef.current) / 1000 : 0;
     onComplete(finalWPM, duration);
   }, [stop, onComplete]);
 

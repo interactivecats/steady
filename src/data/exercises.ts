@@ -15,7 +15,7 @@ export interface Prompt {
 
 export const passages: Passage[] = [
   {
-    id: 'p1',
+    id: 'core-p1',
     title: { en: 'The Morning Walk', he: 'הליכת הבוקר' },
     text: {
       en: 'The sun rises slowly over the quiet hills. Birds begin to sing their morning songs. A gentle breeze moves through the tall green trees. The air is fresh and cool against my face.',
@@ -26,7 +26,7 @@ export const passages: Passage[] = [
     wordCount: 33,
   },
   {
-    id: 'p2',
+    id: 'core-p2',
     title: { en: 'The Kitchen', he: 'המטבח' },
     text: {
       en: 'I walk into the kitchen and open the fridge. There is milk, some eggs, and fresh bread on the counter. I decide to make a simple breakfast. The coffee machine hums quietly as I wait for my cup to fill.',
@@ -37,7 +37,7 @@ export const passages: Passage[] = [
     wordCount: 40,
   },
   {
-    id: 'p3',
+    id: 'core-p3',
     title: { en: 'City Sounds', he: 'צלילי העיר' },
     text: {
       en: 'The city wakes up with a rhythm of its own. Car horns blend with the chatter of people walking to work. Street vendors call out their prices while buses rumble past. There is a music to this chaos, a pattern beneath the noise that only those who listen carefully can hear.',
@@ -48,7 +48,7 @@ export const passages: Passage[] = [
     wordCount: 51,
   },
   {
-    id: 'p4',
+    id: 'core-p4',
     title: { en: 'The Old Library', he: 'הספרייה הישנה' },
     text: {
       en: 'Behind the heavy wooden doors lies a world of silence and stories. Shelves stretch from floor to ceiling, filled with books whose spines have faded with time. The smell of old paper fills the room. Each book holds a universe waiting to be explored, a door to another time and place that opens the moment you turn the first page.',
@@ -59,7 +59,7 @@ export const passages: Passage[] = [
     wordCount: 60,
   },
   {
-    id: 'p5',
+    id: 'core-p5',
     title: { en: 'Ocean Reflections', he: 'השתקפויות האוקיינוס' },
     text: {
       en: 'Standing at the edge of the ocean, I realize how small we really are. The waves have been crashing against these rocks for thousands of years, long before any of us were born, and they will continue long after we are gone. There is something deeply humbling about watching the water meet the shore. It teaches patience. It shows us that even the hardest stone can be shaped by something as soft as water, given enough time.',
@@ -70,7 +70,7 @@ export const passages: Passage[] = [
     wordCount: 77,
   },
   {
-    id: 'p6',
+    id: 'core-p6',
     title: { en: 'The Art of Cooking', he: 'אומנות הבישול' },
     text: {
       en: 'Cooking is more than following a recipe. It is about understanding how flavors come together, how heat transforms raw ingredients into something entirely new. A pinch of salt can elevate a dish from ordinary to extraordinary. The best cooks trust their senses. They taste, they adjust, they experiment. Every meal is an opportunity to create something that brings people together around a table, sharing not just food but conversation and connection.',
@@ -170,6 +170,7 @@ export const freePrompts: Prompt[] = [
 
 import { allPassages } from './allPassages';
 import { newPassages } from './passages/index';
+import { getDateStr } from '../utils/storage';
 
 // Combine original short passages with all collections
 const allAvailablePassages = [...passages, ...allPassages, ...newPassages];
@@ -177,7 +178,7 @@ const allAvailablePassages = [...passages, ...allPassages, ...newPassages];
 export function getTodayExercises(lang: 'en' | 'he', targetWordCount?: number) {
   // Use a hash of the full date to get better distribution across passages
   const today = new Date();
-  const dateStr = today.toISOString().split('T')[0];
+  const dateStr = getDateStr(today);
   const hash = dateStr.split('').reduce((acc, c) => acc * 31 + c.charCodeAt(0), 0);
   const twisterIndex = today.getDate() % tongueTwisters[lang].length;
   const promptIndex = Math.abs(hash + 7) % freePrompts.length;

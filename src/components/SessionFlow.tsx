@@ -1,11 +1,11 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import { BreathingExercise } from './BreathingExercise';
 import { ReadAlongExercise } from './ReadAlongExercise';
 import { FreeSpeechExercise } from './FreeSpeechExercise';
 import { ExerciseResult } from './ExerciseResult';
 import { SessionSummary } from './SessionSummary';
 import { getTodayExercises } from '../data/exercises';
-import { recordSession, getDateStr } from '../utils/storage';
+import { recordSession, getDateStr, loadPaceSpeed, savePaceSpeed } from '../utils/storage';
 import type { SessionRecord } from '../utils/storage';
 
 type Step = 'time-select' | 'breathing' | 'read-along' | 'read-along-result' | 'free-speech' | 'free-speech-result' | 'summary';
@@ -23,9 +23,16 @@ const timeBudgets: Record<TimeBudgetMinutes, { breathing: number; readAlongWords
 const timeOptions: TimeBudgetMinutes[] = [3, 5, 10, 15, 20];
 
 const timeSelectLabels = {
-  en: { title: 'How much time do you have?', subtitle: 'Pick a session length', unit: 'min' },
-  he: { title: 'כמה זמן יש לך?', subtitle: 'בחרו אורך אימון', unit: 'דק׳' },
+  en: { title: 'How much time do you have?', subtitle: 'Pick a session length', unit: 'min', paceTitle: 'Reading pace', paceSub: 'How fast words highlight' },
+  he: { title: 'כמה זמן יש לך?', subtitle: 'בחרו אורך אימון', unit: 'דק׳', paceTitle: 'קצב קריאה', paceSub: 'מהירות הדגשת המילים' },
 };
+
+const paceOptions = [
+  { en: 'Slower', he: 'איטי מאוד', multiplier: 0.7 },
+  { en: 'Slow', he: 'איטי', multiplier: 0.85 },
+  { en: 'Normal', he: 'רגיל', multiplier: 1.0 },
+  { en: 'Fast', he: 'מהיר', multiplier: 1.2 },
+];
 
 interface SessionFlowProps {
   lang: 'en' | 'he';
@@ -48,6 +55,12 @@ interface LastResult {
 export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
   const [currentStep, setCurrentStep] = useState<Step>('time-select');
   const [selectedTime, setSelectedTime] = useState<TimeBudgetMinutes | null>(null);
+  const [paceSpeed, setPaceSpeed] = useState(loadPaceSpeed);
+
+  const handlePaceChange = useCallback((multiplier: number) => {
+    setPaceSpeed(multiplier);
+    savePaceSpeed(multiplier);
+  }, []);
   const [sessionData, setSessionData] = useState<SessionRecord>({
     date: getDateStr(new Date()),
     avgWPM: 0,
@@ -95,7 +108,6 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
       const freeSpeechTarget = 130;
       setLastResult({ type: 'free-speech', wpm, targetWPM: freeSpeechTarget, duration });
 
-      // Calculate avg and save (also adds the exercise)
       setSessionData((prev) => {
         const allExercises = [...prev.exercises, { type: 'free-speech' as const, wpm, targetWPM: freeSpeechTarget, duration }];
         const speechExercises = allExercises.filter((e) => e.wpm && e.wpm > 0);
@@ -103,20 +115,12 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
         const speechDuration = speechExercises.reduce((sum, e) => sum + e.duration, 0);
         const avgWPM = speechDuration > 0 ? Math.round(totalWeightedWPM / speechDuration) : 0;
 
-        const finalSession: SessionRecord = {
-          ...prev,
-          avgWPM,
-          exercises: allExercises,
-        };
-
-        const updatedProgress = recordSession(finalSession);
-        setSavedStreak(updatedProgress.streak);
-        return finalSession;
+        return { ...prev, avgWPM, exercises: allExercises };
       });
 
       setCurrentStep('free-speech-result');
     },
-    [addExercise]
+    []
   );
 
   const handleResultContinue = useCallback(() => {
@@ -126,6 +130,16 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
       setCurrentStep('summary');
     }
   }, [currentStep]);
+
+  // Record the session to localStorage once when entering 'summary'
+  const hasRecordedRef = useRef(false);
+  useEffect(() => {
+    if (currentStep === 'summary' && !hasRecordedRef.current) {
+      hasRecordedRef.current = true;
+      const updatedProgress = recordSession(sessionData);
+      setSavedStreak(updatedProgress.streak);
+    }
+  }, [currentStep, sessionData]);
 
   const showProgressBar = !['time-select', 'summary', 'read-along-result', 'free-speech-result'].includes(currentStep);
   const currentStepIndex = progressSteps.indexOf(
@@ -210,6 +224,40 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
                 </button>
               ))}
             </div>
+
+            {/* Pace speed selector */}
+            <div className="max-w-sm w-full mt-4">
+              <div className="text-center mb-3">
+                <div className="text-xs uppercase tracking-wider" style={{ color: 'var(--color-text-muted)' }}>
+                  {timeSelectLabels[lang].paceTitle}
+                </div>
+                <div className="text-xs mt-0.5" style={{ color: 'var(--color-text-faint)' }}>
+                  {timeSelectLabels[lang].paceSub}
+                </div>
+              </div>
+              <div className="flex gap-2" role="radiogroup" aria-label={timeSelectLabels[lang].paceTitle}>
+                {paceOptions.map((opt) => {
+                  const isSelected = paceSpeed === opt.multiplier;
+                  return (
+                    <button
+                      key={opt.multiplier}
+                      role="radio"
+                      aria-checked={isSelected}
+                      onClick={() => handlePaceChange(opt.multiplier)}
+                      className="flex-1 py-2.5 rounded-xl text-sm font-medium transition-all hover:scale-105 active:scale-95 cursor-pointer"
+                      style={{
+                        background: isSelected ? 'var(--color-sage-500)' : 'var(--bg-card, white)',
+                        color: isSelected ? 'white' : 'var(--color-text-muted)',
+                        border: isSelected ? '1px solid var(--color-sage-500)' : '1px solid var(--border-color, #E8E0D8)',
+                        fontFamily: lang === 'he' ? 'var(--font-hebrew)' : 'var(--font-body)',
+                      }}
+                    >
+                      {opt[lang]}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         )}
         {currentStep === 'breathing' && (
@@ -223,6 +271,7 @@ export function SessionFlow({ lang, onFinish }: SessionFlowProps) {
           <ReadAlongExercise
             passage={exercises.passage}
             lang={lang}
+            paceMultiplier={paceSpeed}
             onComplete={handleReadAlongComplete}
           />
         )}

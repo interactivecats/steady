@@ -27,7 +27,11 @@ const content = {
       },
       {
         heading: 'Your Privacy',
-        body: 'Steady does not collect, transmit, or store any of your data on external servers. All your progress, settings, and session data are stored locally in your browser using localStorage. We have no analytics, no tracking, and no accounts. Your data stays on your device.',
+        body: 'All your progress, settings, and session data are stored locally in your browser using localStorage. We have no analytics, no tracking, and no accounts. Your data stays on your device.',
+      },
+      {
+        heading: 'Speech Recognition',
+        body: 'Steady uses your browser\'s built-in Web Speech API to measure your speaking pace. On Chrome and Edge, your voice audio is sent to Google\'s servers for processing — this is handled by the browser itself, not by Steady. On Safari, speech recognition is processed on-device by Apple. Steady does not store or transmit any audio recordings. If you are not comfortable with this, you can still use the read-along and breathing exercises, which do not use the microphone.',
       },
       {
         heading: 'Open Source',
@@ -58,7 +62,11 @@ const content = {
       },
       {
         heading: 'הפרטיות שלכם',
-        body: 'Steady לא אוסף, משדר או מאחסן נתונים בשרתים חיצוניים. כל ההתקדמות, ההגדרות ונתוני האימונים שלכם מאוחסנים באופן מקומי בדפדפן באמצעות localStorage. אין לנו אנליטיקה, אין מעקב, ואין חשבונות משתמש. הנתונים שלכם נשארים במכשיר שלכם.',
+        body: 'כל ההתקדמות, ההגדרות ונתוני האימונים שלכם מאוחסנים באופן מקומי בדפדפן באמצעות localStorage. אין לנו אנליטיקה, אין מעקב, ואין חשבונות משתמש. הנתונים שלכם נשארים במכשיר שלכם.',
+      },
+      {
+        heading: 'זיהוי דיבור',
+        body: 'Steady משתמש בממשק זיהוי הדיבור המובנה בדפדפן (Web Speech API) כדי למדוד את קצב הדיבור שלכם. בדפדפני Chrome ו-Edge, הקול שלכם נשלח לשרתי Google לעיבוד — זה מתבצע על ידי הדפדפן עצמו, לא על ידי Steady. בדפדפן Safari, זיהוי הדיבור מעובד מקומית על ידי Apple. Steady לא מאחסן או משדר הקלטות שמע. אם אתם לא מרגישים בנוח עם זה, אתם עדיין יכולים להשתמש בתרגילי הקריאה והנשימה שלא דורשים שימוש במיקרופון.',
       },
       {
         heading: 'קוד פתוח',
